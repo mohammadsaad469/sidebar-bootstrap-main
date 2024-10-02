@@ -1,0 +1,1517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar With Bootstrap</title>
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- reSPOSIVE BELOW 375 -->
+
+    <div class="header-res-op">
+
+        <div class="user">
+
+            <div class="icon">
+                <button class="btn  canvas_optional" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <i class="lni lni-grid-alt"></i>
+                </button>
+            </div>
+            <div class="">
+                <img src="profile.png" alt="User Profile" class="user-profile">
+                <div class="user-name">XYZ</div>
+                <div class="admin-res">Admin</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" style="color:#fff !important;"
+                data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <!--  -->
+            <ul class="sidebar-nav">
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>Account</h6>
+                    </div>
+                </div>
+
+                <li class="sidebar-item">
+                    <a href="./index.html" class="sidebar-link">
+
+                        <i class="fa-solid fa-cubes"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <span>Account Opening</span>
+                    </a>
+                    <ul id="auth" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="./newcustomer.html" class="sidebar-link">New Customer</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./share-opening.html" class="sidebar-link">Share Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./deposite.html" class="sidebar-link">Deposite Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nominal Member</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Investment & Security</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
+                        <i class="fa-solid fa-money-bill-1-wave"></i>
+                        <span>Transaction</span>
+                    </a>
+                    <ul id="multi" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Cash Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Transfer Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSD Quick Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">RD Quick Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Didvidend Payment</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Passing Transection</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSd Passing</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">RD Passing</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-house-lock"></i>
+                        <span>Account Closing</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth01" aria-expanded="false" aria-controls="auth01">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                        <span>Account Renewal</span>
+                    </a>
+                    <ul id="auth01" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">New Customer</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Share Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Deposite Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nominal Member</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Investment & Security</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth02" aria-expanded="false" aria-controls="auth02">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <span>Small Saving/Pigmy</span>
+                    </a>
+                    <ul id="auth02" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSD/Oigmy Opening</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Ocount Linking</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Loan A/C Linking</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Pigmy Unit Interface</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Pigmy Mobile App</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Agrnt Comission</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-cog"></i>
+                        <span>System</span>
+                    </a>
+                </li>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth04" aria-expanded="false" aria-controls="auth04">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <span>Utility</span>
+                    </a>
+                    <ul id="auth04" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                    data-bs-parent="#sidebar">
+                    <li class="sidebar-item">
+                        <a href="utility1.html" class="sidebar-link">Add / Manage Religion</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./utility2.html" class="sidebar-link">Add / Manage Country</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./AddManageGroupType.html" class="sidebar-link">Add / Manage Sate</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./AddManageGroupType (1).html" class="sidebar-link">Add / Manage City</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./GeneralLedgerMaster.html" class="sidebar-link">General Ledger Master</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./ScheduleMaster.html" class="sidebar-link">Schdule Master</a>
+                    </li>
+                </ul>
+                </li>
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>INTEREST</h6>
+                    </div>
+                </div>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth05" aria-expanded="false" aria-controls="auth05">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <span>Daily Reports</span>
+                    </a>
+                    <ul id="auth05" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Cash Book</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Day Book</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Other Reports</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Agent Reports</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-users"></i>
+                        <span>Account</span>
+                    </a>
+                </li>
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>ALL THINGS</h6>
+                    </div>
+                </div>
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-piggy-bank"></i>
+                        <span>Small Savings</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-regular fa-clipboard"></i>
+                        <span>NPA & Others</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                        <span>Investment</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-regular fa-newspaper"></i>
+                        <span>Final Reports</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-paste"></i> <span>Statement</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-file-lines"></i>
+                        <span>AR/DDR Reports</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <span>Notice</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-print"></i>
+                        <span>Printing</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-regular fa-folder-closed"></i>
+                        <span>Graphical Report</span>
+                    </a>
+                </li>
+
+
+
+
+            </ul>
+            <div class="sidebar-footer">
+                <a href="#" class="sidebar-link">
+                    <i class="lni lni-exit"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- reSPOSIVE BELOW 375 -->
+
+    <div class="wrapper">
+        <aside id="sidebar">
+            <div class="d-flex logo-ad">
+                <div class="sidebar-logo">
+                    <a href="#">Logo</a>
+                </div>
+                <button class="toggle-btn" type="button">
+                    <i class="lni lni-grid-alt"></i>
+                </button>
+
+            </div>
+            <ul class="sidebar-nav">
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>Account</h6>
+                    </div>
+                </div>
+
+                <li class="sidebar-item">
+                    <a href="./index.html" class="sidebar-link">
+
+                        <i class="fa-solid fa-cubes"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <span>Account Opening</span>
+                    </a>
+                    <ul id="auth" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="./newcustomer.html" class="sidebar-link">New Customer</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./share-opening.html" class="sidebar-link">Share Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./deposite.html" class="sidebar-link">Deposite Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nominal Member</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Investment & Security</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
+                        <i class="fa-solid fa-money-bill-1-wave"></i>
+                        <span>Transaction</span>
+                    </a>
+                    <ul id="multi" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Cash Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Transfer Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSD Quick Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">RD Quick Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Didvidend Payment</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Passing Transection</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSd Passing</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">RD Passing</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-house-lock"></i>
+                        <span>Account Closing</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth01" aria-expanded="false" aria-controls="auth01">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                        <span>Account Renewal</span>
+                    </a>
+                    <ul id="auth01" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">New Customer</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Share Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Deposite Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nominal Member</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Investment & Security</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth02" aria-expanded="false" aria-controls="auth02">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <span>Small Saving/Pigmy</span>
+                    </a>
+                    <ul id="auth02" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSD/Oigmy Opening</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Ocount Linking</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Loan A/C Linking</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Pigmy Unit Interface</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Pigmy Mobile App</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Agrnt Comission</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-cog"></i>
+                        <span>System</span>
+                    </a>
+                </li>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth04" aria-expanded="false" aria-controls="auth04">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <span>Utility</span>
+                    </a>
+                    <ul id="auth04" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                    data-bs-parent="#sidebar">
+                    <li class="sidebar-item">
+                        <a href="utility1.html" class="sidebar-link">Add / Manage Religion</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./utility2.html" class="sidebar-link">Add / Manage Country</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./AddManageGroupType.html" class="sidebar-link">Add / Manage Sate</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./AddManageGroupType (1).html" class="sidebar-link">Add / Manage City</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./GeneralLedgerMaster.html" class="sidebar-link">General Ledger Master</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./ScheduleMaster.html" class="sidebar-link">Schdule Master</a>
+                    </li>
+                </ul>
+                </li>
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>INTEREST</h6>
+                    </div>
+                </div>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth05" aria-expanded="false" aria-controls="auth05">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <span>Daily Reports</span>
+                    </a>
+                    <ul id="auth05" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Cash Book</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Day Book</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Other Reports</a>
+                        </li>
+                        <li class="sidebar-item"></li>
+                        <a href="#" class="sidebar-link">Agent Reports</a>
+                </li>
+            </ul>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Account</span>
+                </a>
+            </li>
+            <div class="d-flex heading-01">
+                <div class="sidebar-logo-heading ">
+                    <h6>ALL THINGS</h6>
+                </div>
+            </div>
+
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-piggy-bank"></i>
+                    <span>Small Savings</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-regular fa-clipboard"></i>
+                    <span>NPA & Others</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                    <span>Investment</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-regular fa-newspaper"></i>
+                    <span>Final Reports</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-paste"></i> <span>Statement</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-file-lines"></i>
+                    <span>AR/DDR Reports</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span>Notice</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-print"></i>
+                    <span>Printing</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-regular fa-folder-closed"></i>
+                    <span>Graphical Report</span>
+                </a>
+            </li>
+
+
+
+
+            </ul>
+            <div class="sidebar-footer">
+                <a href="#" class="sidebar-link">
+                    <i class="lni lni-exit"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+        </aside>
+        <div class="main p-3">
+            <div class="text-center dashboatrd-cstm">
+                <header>
+                    <div class="logo">
+                        United Rural Credit Co-Op. Society Ltd.
+                    </div>
+                    <div class="user">
+                        <img src="profile.png" alt="User Profile" class="user-profile">
+                        <div class="user-name">XYZ</div>
+                        <div>Admin</div>
+                    </div>
+                </header>
+                <main>
+                    <div class="container-fluid new-cstm">
+                        <div class="col-sm-12">
+                            <div class="card card-body">
+                                <div class="card-header">
+                                    <center>
+                                        <h4 style="color:#7a70ba">New Customer Account Opening</h4>
+                                    </center>
+                                </div>
+                                <form method="POST" action="#" enctype="multipart/form-data">
+
+                                    <div class="row ">
+                                        <!-- Left Side -->
+                                        <div class="col-lg-8 col-md-8 firstblock">
+                                            <div class="firstblock-a"
+                                                style="border-right: 1px solid #ccc;border-right-style: dashed;">
+                                                <div class="form-group form-group-2" style="display:flex !important;">
+                                                    <label class="form-label" for="party-id">PartyId</label>
+
+
+                                                    <input type="text" id="party_id" name="party_id" class="input-field"
+                                                        value="31">
+                                                    <div id="suggestions_id" class="suggestions-box"
+                                                        style="border: 1px solid #ccc; display: none;"></div>
+
+                                                    <label class="is-joint-party" for="is-joint-party">Is Joint
+                                                        Party</label>
+                                                    <select id="is-joint-party" name="is_joint_party"
+                                                        class="input-field">
+                                                        <option value="No">No</option>
+                                                        <option value="Yes">Yes</option>
+                                                    </select>
+                                                </div>
+
+
+
+                                                <div class="form-group form-group-2" style="display:flex !important;">
+                                                    <label class="form-label" for="title-en">Name</label>
+                                                    <select id="title-en" name="title_en" class="input-field">
+                                                        <option value="Mr">Mr.</option>
+                                                        <option value="Mrs">Mrs.</option>
+                                                        <option value="Ms">Ms.</option>
+                                                    </select>
+                                                    <!--<input type="text" id="englishText" oninput="translateText()" name="first_name_en" class="input-field"  required>-->
+                                                    <!--<input type="text" id="middle-name-en" name="middle_name_en" class="input-field" >-->
+                                                    <!--<input type="text" id="surname-en" name="surname_en" class="input-field"  required>-->
+                                                    <input type="text" id="first_name_en"
+                                                        oninput="translateField('first_name_en', 'first_name_hi')"
+                                                        name="first_name_en" class="input-field" required="">
+                                                    <input type="text" id="middle_name_en"
+                                                        oninput="translateField('middle_name_en', 'middle_name_hi')"
+                                                        name="middle_name_en" class="input-field">
+                                                    <input type="text" id="surname_en"
+                                                        oninput="translateField('surname_en', 'surname_hi')"
+                                                        name="surname_en" class="input-field" required="">
+                                                </div>
+                                                <div class="form-group form-group-2" style="display:flex !important;">
+                                                    <label class="form-label" for="title_hi">नाव</label>
+
+                                                    <select id="title-hi" name="title_hi" class="input-field">
+                                                        <option value="श्री.">श्री.</option>
+                                                        <option value="श्रीमती.">श्रीमती.</option>
+                                                        <option value="कु.">कु.</option>
+                                                    </select>
+                                                    <input type="text" id="first_name_hi" name="first_name_hi"
+                                                        class="input-field">
+                                                    <input type="text" id="middle_name_hi" name="middle_name_hi"
+                                                        class="input-field">
+                                                    <input type="text" id="surname_hi" name="surname_hi"
+                                                        class="input-field">
+                                                </div>
+                                                <hr>
+                                                <!--2nd-->
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-md-6 col-6 first-bl-res">
+                                                        <div class="form-group">
+                                                            <label class="form-label">DOB</label>
+                                                            <input type="date" id="dob" name="dob" class="input-field">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-6 first-bl-res">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Age</label>
+                                                            <input type="number" id="age" name="age"
+                                                                class="input-field">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-6 first-bl-res">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Gender</label>
+                                                            <select id="gender" name="gender" class="input-field">
+                                                                <option value=" ">---Select---</option>
+                                                                <option value="Male">Male</option>
+                                                                <option value="Female">Female</option>
+                                                                <option value="Other">Other</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-6 first-bl-res">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Religion</label>
+                                                            <select id="religion" name="religion" class="input-field"
+                                                                style="">
+                                                                <option value=" ">---Select---</option>
+                                                                <option value="Hindu">Hindu</option>
+                                                                <option value="Christian">Christian</option>
+                                                                <option value="Jain">Jain</option>
+                                                                <option value="Budhha">Budhha</option>
+                                                                <option value="Parsi">Parsi</option>
+                                                                <option value="Sikh">Sikh</option>
+                                                                <option value="Other">Other</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-6 first-bl-res">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Category</label>
+                                                            <select id="category" name="category" class="input-field "
+                                                                style="">
+                                                                <option value=" ">---Select---</option>
+
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-6 first-bl-res">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Sub Cast</label>
+                                                            <select id="sub_cast" name="sub_cast" class="input-field "
+                                                                style="">
+
+                                                                <option value=" ">---Select---</option>
+
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-6 first-bl-res">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Education</label>
+                                                            <select id="education" name="education" class="input-field"
+                                                                style="">
+                                                                <option value=" ">---Select---</option>
+                                                                <option value="NoFormalEducation">No Formal Education
+                                                                </option>
+                                                                <option value="PrimarySchool">Primary School</option>
+                                                                <option value="SecondarySchool">Secondary School
+                                                                </option>
+                                                                <option value="HighSchool">High School</option>
+                                                                <option value="Diploma">Diploma</option>
+                                                                <option value="BachelorDegree">Bachelor's Degree
+                                                                </option>
+                                                                <option value="MasterDegree">Master's Degree</option>
+                                                                <option value="Doctorate">Doctorate (Ph.D.)</option>
+                                                                <option value="Vocational">Vocational Training</option>
+                                                                <option value="Technical">Technical Certification
+                                                                </option>
+                                                                <option value="Other">Other</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-6 first-bl-res">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Occupation</label>
+                                                            <select id="occupation" name="occupation"
+                                                                class=" form-select input-field " style="">
+                                                                <option value=" ">---Select---</option>
+                                                                <option value="Student">Student</option>
+                                                                <option value="Employed">Employed</option>
+                                                                <option value="Unemployed">Unemployed</option>
+                                                                <option value="SelfEmployed">Self-Employed</option>
+                                                                <option value="Homemaker">Homemaker</option>
+                                                                <option value="Retired">Retired</option>
+                                                                <option value="Freelancer">Freelancer</option>
+                                                                <option value="Entrepreneur">Entrepreneur</option>
+                                                                <option value="BusinessOwner">Business Owner</option>
+                                                                <option value="Professional">Professional (e.g., Lawyer,
+                                                                    Doctor)</option>
+                                                                <option value="GovernmentEmployee">Government Employee
+                                                                </option>
+                                                                <option value="Teacher">Teacher</option>
+                                                                <option value="Artist">Artist</option>
+                                                                <option value="Engineer">Engineer</option>
+                                                                <option value="ITProfessional">IT Professional</option>
+                                                                <option value="Sales">Sales</option>
+                                                                <option value="Marketing">Marketing</option>
+                                                                <option value="Finance">Finance</option>
+                                                                <option value="Healthcare">Healthcare</option>
+                                                                <option value="Consultant">Consultant</option>
+                                                                <option value="Other">Other</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-6 first-bl-res">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Pan No</label>
+                                                            <input type="text" id="pan" name="pan" class="input-field">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-8 col-md-8 col-6 first-bl-res">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Adhar No</label>
+                                                            <input type="number" id="adhar" name="adhar"
+                                                                class="input-field">
+                                                        </div>
+                                                    </div>
+                                                    <!--  <div class="col-lg-4 col-md-6 col-6">-->
+                                                    <!--</div>-->
+                                                </div>
+                                                <hr>
+                                                <div data-lastpass-icon-root=""
+                                                    style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+                                                </div>
+                                                <div data-lastpass-icon-root=""
+                                                    style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Right Side -->
+                                        <div class="col-lg-4 col-md-4 firstblock firstblock-adj"
+                                            style="padding-left: 0px !important;">
+                                            <div class="row px-1">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 photo-up-res">
+                                                    <label class="form-label">Photo</label>
+                                                    <input type="file" class="input-field1" name="photo" id="fileInput1"
+                                                        style="display: none;">
+                                                    <div class="preview-container" id="previewContainer1">
+                                                        <img id="imagePreview1" alt="Image Preview"
+                                                            style="display: none;">
+                                                        <span class="remove-btn" id="removeBtn1"
+                                                            style="display: none;">X</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 photo-up-res">
+                                                    <label class="form-label">Sign</label>
+                                                    <input type="file" class="input-field1" name="sign" id="fileInput2"
+                                                        style="display: none;">
+                                                    <div class="preview-container" id="previewContainer2">
+                                                        <img id="imagePreview2" alt="Image Preview"
+                                                            style="display: none;">
+                                                        <span class="remove-btn" id="removeBtn2"
+                                                            style="display: none;">X</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <hr>
+                                            <div class="row som-section">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 first-bl-res first-bl-sms">
+                                                    <div class="form-group">
+                                                        <label class="form-label form-label-sms" style=" width: 100%;max-width: 110px;
+                                                 ">Send SMS</label>
+                                                        <select id="sms" name="sms" class="input-field">
+                                                            <option value="No">No</option>
+                                                            <option value="Yes">Yes</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 first-bl-res first-bl-date">
+                                                    <div class="form-group first-bl-date-master" style="display:flex !important ;">
+                                                        <div class="opening_date-re"
+                                                            style="display: flex; justify-content: center; align-items: center;">
+                                                            <label class="form-label form-label-res"
+                                                                style="width: 100%;max-width: 110px;"
+                                                                for="party-id">Opening Date</label>
+                                                            <input type="date" id="opening_date" name="opening_date"
+                                                                class="input-field" value="2024-09-19">
+                                                        </div>
+                                                        <div style="display: flex; justify-content: center; align-items: center;"
+                                                            class="first-bl-date2">
+                                                            <input type="checkbox" id="senior_citizen"
+                                                                name="senior_citizen" class="checkbox"
+                                                                style="width: 12px;margin: 5px 0px 0px;">
+                                                            <label for="senior" class="mt-1"
+                                                                style="font-weight:500;width:-webkit-fill-available;font-size: 13px; margin-left: 6px; ">Senior
+                                                                Citizen</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 first-bl-res first-bl-date">
+                                                    <div class="form-group first-bl-date-master02" style="display:flex !important ;">
+                                                        <div class="opening_date-re"
+                                                            style="display: flex; justify-content: center; align-items: center;">
+                                                            <label class="form-label for    .first-bl-date-master {
+                                                                "
+                                                                style="width: 100%;max-width: 110px;"
+                                                                for="party-id">Manual Code</label>
+                                                            <input type="text" id="Manual Code" name="Manual Code"
+                                                                class="input-field">
+                                                        </div>
+                                                        <div style="display: flex; justify-content: center; align-items: center;"
+                                                            class="first-bl-date3">
+                                                            <input type="checkbox" id="active"
+                                                                name="active" class="checkbox"
+                                                                style="width: 12px;margin: 5px 0px 0px;">
+                                                            <label for="active" class="mt-1"
+                                                                style="font-weight:500;width:-webkit-fill-available;font-size: 13px; margin-left: 6px; ">active</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+
+                                        </div> <!--Last-->
+                                        <div class="col-xxl-12" style="margin-top: -2%;">
+                                            <div class="">
+                                                <div class="card-body">
+                                                    <div class="bg-navbar arrow-tabs">
+                                                        <ul class="nav nav-pills mb-3 details-buttons"
+                                                            id="pills-bg-tab2" role="tablist">
+                                                            <li class="nav-item" role="presentation"><a
+                                                                    class="nav-link active" id="address-details"
+                                                                    data-bs-toggle="pill" href="#address" role="tab"
+                                                                    aria-controls="address" aria-selected="true">Address
+                                                                    Details</a></li>
+
+                                                            <li class="nav-item" role="presentation"><a class="nav-link"
+                                                                    id="kyc-details" data-bs-toggle="pill" href="#kyc"
+                                                                    role="tab" aria-controls="kyc" aria-selected="false"
+                                                                    tabindex="-1">KYC Details</a></li>
+                                                            <li class="nav-item" role="presentation"><a class="nav-link"
+                                                                    id="bank-details" data-bs-toggle="pill" href="#bank"
+                                                                    role="tab" aria-controls="bank"
+                                                                    aria-selected="false" tabindex="-1">Bank Details</a>
+                                                            </li>
+
+                                                        </ul>
+                                                        <div class="tab-content" id="pills-bg-tabContent2">
+                                                            <div class="tab-pane fade show active" id="address"
+                                                                role="tabpanel" aria-labelledby="address-details">
+                                                                <div class="row g-3">
+                                                                    <div class="col-lg-6 col-md-6 "
+                                                                        style="border-right: 1px solid #ccc;border-right-style: dashed;">
+                                                                        <div class="row">
+                                                                            <div
+                                                                                class="col-lg-12 col-md-12 col-6 first-bl-res">
+                                                                                <div class="form-group">
+                                                                                    <label class="form-label"
+                                                                                        for="title-en">Address</label>
+                                                                                    <input type="text" id="address_en"
+                                                                                        oninput="translateField('address_en', 'address_hi')"
+                                                                                        name="address"
+                                                                                        class="input-field">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-lg-12 col-md-12 col-6 first-bl-res">
+                                                                                <div class="form-group">
+                                                                                    <label class="form-label"
+                                                                                        for="title-en">Office
+                                                                                        Address</label>
+                                                                                    <input type="text" id="office_en"
+                                                                                        oninput="translateField('office_en', 'office_hi')"
+                                                                                        name="office_address"
+                                                                                        class="input-field">
+                                                                                    <div data-lastpass-icon-root=""
+                                                                                        style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-lg-6 col-md-6 col-6 first-bl-res">
+                                                                                <div class="form-group">
+                                                                                    <label class="form-label"
+                                                                                        for="title-en">Phone No</label>
+                                                                                    <input type="text" id="phone_en"
+                                                                                        name="phone_no"
+                                                                                        class="input-field"
+                                                                                        oninput="translateNumber('phone_en', 'phone_hi')">
+                                                                                        
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-6 col-md-6 col-6 first-bl-res">
+                                                                                <div class="form-group">
+                                                                                    <label class="form-label" for="mobile_en">Mobile No</label>
+                                                                                    <input type="text" id="mobile_en" name="mobile_no" class="input-field" oninput="translateNumber('mobile_en', 'mobile_hi')">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-lg-6 col-md-6 col-6 first-bl-res">
+                                                                                <div class="form-group">
+                                                                                    <label class="form-label"
+                                                                                        for="title-en">Village</label>
+                                                                                    <input type="text" id="village_en"
+                                                                                        oninput="translateField('village_en', 'village_hi')"
+                                                                                        name="village"
+                                                                                        class="input-field">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-lg-6 col-md-6 col-6 first-bl-res">
+                                                                                <div class="form-group">
+                                                                                    <label
+                                                                                        class="form-label">Country</label>
+                                                                                    <select id="country_en"
+                                                                                        oninput="translateField('country_en', 'country_hi')"
+                                                                                        name="country"
+                                                                                        class="input-field">
+                                                                                        <option value=" ">---Select---
+                                                                                        </option>
+                                                                                        <option value="India">India
+                                                                                        </option>
+                                                                                        <option value="USA">USA</option>
+
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div
+                                                                                class="col-lg-6 col-md-6 col-6 first-bl-res">
+                                                                                <div class="form-group">
+                                                                                    <label class="form-label form-lbl" ">State</label>
+                                                                                    <select id=" state_en"
+                                                                                        oninput="translateField('state_en', 'state_hi')"
+                                                                                        name="state"
+                                                                                        class="input-field">
+                                                                                        <option value=" ">---Select---
+                                                                                        </option>
+
+                                                                                        </select>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-lg-6 col-md-6 col-6 first-bl-res">
+                                                                                <div class="form-group">
+
+                                                                                    <label class="form-label" ">City</label>
+                                                                                    <select id=" city_en"
+                                                                                        oninput="translateField('city_en', 'city_hi')"
+                                                                                        name="city" class="input-field">
+                                                                                        <option value=" ">---Select---
+                                                                                        </option>
+
+                                                                                        </select>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div
+                                                                                class="col-lg-12 col-md-12 col-12 first-bl-res">
+                                                                                <div class="form-group">
+                                                                                    <label class="form-label"
+                                                                                        for="title-en">Email Id</label>
+                                                                                    <input type="email" id="email_en"
+                                                                                    oninput="translateField('email_en', 'email_hi')"
+                                                                                        name="email"
+                                                                                        class="input-field">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-lg-12 col-md-12 col-12 first-bl-res">
+                                                                                <div class="form-group">
+                                                                                    <label class="form-label"
+                                                                                        for="title-en">Pin No</label>
+                                                                                    <input type="text" id="pin_en"
+                                                                                        name="pin_no"
+                                                                                        class="input-field"
+                                                                                        oninput="translateNumber('pin_en', 'pin_hi')">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6 col-md-6">
+                                                                        <div class="row">
+                                                                            <div
+                                                                                class="col-lg-12 col-md-12 col-6 first-bl-res">
+                                                                                <div class="form-group">
+                                                                                    <label class="form-label"
+                                                                                        for="title-en">पत्ता </label>
+                                                                                    <input type="text" id="address_hi"
+                                                                                        name="address_hi"
+                                                                                        class="input-field">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-lg-12 col-md-12 col-6 first-bl-res">
+
+                                                                                <div class="form-group">
+                                                                                    <label class="form-label"
+                                                                                        for="title-en">कार्यालयाचा पत्ता
+                                                                                    </label>
+                                                                                    <input type="text" id="office_hi"
+                                                                                        name="office_address_hi"
+                                                                                        class="input-field">
+                                                                                    <div data-lastpass-icon-root=""
+                                                                                        style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-lg-6 col-md-6 col-6 first-bl-res">
+                                                                                <div class="form-group">
+                                                                                    <label class="form-label"
+                                                                                        for="title-en">फ़ोन न. </label>
+                                                                                    <input type="text" id="phone_hi"
+                                                                                        name="phone_no_hi"
+                                                                                        class="input-field">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-6 col-md-6 col-6 first-bl-res">
+                                                                                <div class="form-group">
+                                                                                    <label class="form-label" for="mobile_hi">मोबाइल न.</label>
+                                                                                    <input type="text" id="mobile_hi" name="mobile_no_hi" class="input-field" readonly>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-lg-6 col-md-6 col-6 first-bl-res">
+                                                                                <div class="form-group">
+                                                                                    <label class="form-label"
+                                                                                        for="title-en">गाव </label>
+                                                                                    <input type="text" id="village_hi"
+                                                                                        name="village_hi"
+                                                                                        class="input-field">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-lg-6 col-md-6 col-6 first-bl-res">
+                                                                                <div class="form-group">
+                                                                                    <label class="form-label" ">देश
+                                                                                    </label>
+
+                                                                                    <input type=" text" id="country_hi"
+                                                                                        name="country_hi"
+                                                                                        class="input-field">
+
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-lg-6 col-md-6 col-6 first-bl-res">
+                                                                                <div class="form-group">
+                                                                                    <label
+                                                                                        class="form-label form-lbl">राज्य</label>
+
+                                                                                    <input type="text" id="state_hi"
+                                                                                        name="state_hi"
+                                                                                        class="input-field">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-lg-6 col-md-6 col-6 first-bl-res">
+                                                                                <div class="form-group">
+                                                                                    <label
+                                                                                        class="form-label">शहर</label>
+
+                                                                                    <input type="text" id="city_hi"
+                                                                                        name="city_hi"
+                                                                                        class="input-field">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-12 col-md-12 col-12">
+                                                                                <div class="form-group">
+                                                                                    <label class="form-label"
+                                                                                        for="title-en">ईमेल</label>
+                                                                                    <input type="email" id="email_hi"
+                                                                                        name="email_hi"
+                                                                                        class="input-field">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-12 col-md-12 col-12">
+                                                                                <div class="form-group">
+                                                                                    <label class="form-label"
+                                                                                        for="title-en">पिन कोड</label>
+                                                                                    <input type="text" id="pin_hi"
+                                                                                        name="pin_no_hi"
+                                                                                        class="input-field">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tab-pane fade" id="kyc" role="tabpanel"
+                                                                aria-labelledby="kyc-details">
+                                                                <div class="row">
+                                                                    <!-- Add Proof Section -->
+                                                                    <div class="col-lg-3 col-md-3 col-12">
+                                                                        <center><label class="form-label">Add
+                                                                                Proof</label></center>
+                                                                        <input type="file" class="input-field-add-proof"
+                                                                            name="address_proof_image"
+                                                                            id="fileInputAddProof"
+                                                                            style="display: none;">
+                                                                        <div class="preview-container-add-proof"
+                                                                            id="previewContainerAddProof">
+                                                                            <img id="imagePreviewAddProof"
+                                                                                alt="Image Preview"
+                                                                                style="display: none;">
+                                                                            <span class="remove-btn-add-proof"
+                                                                                id="removeBtnAddProof"
+                                                                                style="display: none;">X</span>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <!-- Middle Section (address and ID proof dropdowns and inputs) -->
+                                                                    <div class="col-lg-6 col-md-6 col-12">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                                <div class="row">
+                                                                                    <div
+                                                                                        class="col-lg-12 col-md-12 col-sm-12">
+                                                                                        <div class="form-group"
+                                                                                            style="display: block !important;">
+                                                                                            <label class="form-label"
+                                                                                                style="margin-right: unset;width: -webkit-fill-available; text-align: center !important;">Select
+                                                                                                Address Proof</label>
+                                                                                            <br>
+                                                                                            <center>
+                                                                                                <select
+                                                                                                    id="address_proof"
+                                                                                                    name="address_proof"
+                                                                                                    class="input-field text-center">
+                                                                                                    <option value=" ">
+                                                                                                        ---Select---
+                                                                                                    </option>
+                                                                                                    <option
+                                                                                                        value="Passport">
+                                                                                                        Passport
+                                                                                                    </option>
+                                                                                                    <option
+                                                                                                        value="Driving License">
+                                                                                                        Driving License
+                                                                                                    </option>
+                                                                                                    <option
+                                                                                                        value="Voter Id">
+                                                                                                        Voter ID
+                                                                                                    </option>
+                                                                                                    <option
+                                                                                                        value="Aadhaar Card">
+                                                                                                        Aadhaar Card
+                                                                                                    </option>
+                                                                                                    <option
+                                                                                                        value="Utility Bill">
+                                                                                                        Utility Bill
+                                                                                                    </option>
+                                                                                                    <option
+                                                                                                        value="Rental Agreement">
+                                                                                                        Rental Agreement
+                                                                                                    </option>
+                                                                                                    <option
+                                                                                                        value="Bank Statement">
+                                                                                                        Bank Statement
+                                                                                                    </option>
+                                                                                                    <option
+                                                                                                        value="Government Id">
+                                                                                                        Government ID
+                                                                                                    </option>
+                                                                                                </select>
+                                                                                            </center>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="col-lg-12 col-md-12 col-sm-12">
+                                                                                        <div class="form-group"
+                                                                                            style="display: block !important;text-align: center;">
+                                                                                            <input type="text"
+                                                                                                id="nominee_select_adress_proof_number"
+                                                                                                name="nominee_select_adress_proof_number"
+                                                                                                class="input-field mt-2 text-center"
+                                                                                                placeholder="Please Enter Number">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                                <div class="row">
+                                                                                    <div
+                                                                                        class="col-lg-612 col-md-12 col-sm-12">
+                                                                                        <div class="form-group"
+                                                                                            style="display: block !important;">
+                                                                                            <label class="form-label"
+                                                                                                style="margin-right: unset;width: -webkit-fill-available;text-align: center;">Select
+                                                                                                ID Proof</label>
+                                                                                            <br>
+                                                                                            <select id="id_proof"
+                                                                                                name="id_proof"
+                                                                                                class="input-field text-center">
+                                                                                                <option value=" ">
+                                                                                                    ---Select---
+                                                                                                </option>
+                                                                                                <option
+                                                                                                    value="passport">
+                                                                                                    Passport</option>
+                                                                                                <option value="aadhar">
+                                                                                                    Aadhaar Card
+                                                                                                </option>
+                                                                                                <option
+                                                                                                    value="driving_license">
+                                                                                                    Driving License
+                                                                                                </option>
+                                                                                                <option
+                                                                                                    value="pan_card">PAN
+                                                                                                    Card</option>
+                                                                                                <option
+                                                                                                    value="voter_id">
+                                                                                                    Voter ID</option>
+                                                                                                <option
+                                                                                                    value="ration_card">
+                                                                                                    Ration Card</option>
+                                                                                                <option
+                                                                                                    value="utility_bill">
+                                                                                                    Utility Bill
+                                                                                                </option>
+                                                                                            </select>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="col-lg-12 col-md-12 col-sm-12">
+                                                                                        <div class="form-group"
+                                                                                            style="display: block !important;">
+                                                                                            <input type="text"
+                                                                                                id="nominee_select_id_proof_number"
+                                                                                                name="nominee_select_id_proof_number"
+                                                                                                class="input-field mt-2 text-center"
+                                                                                                placeholder="Please Enter Number">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <!-- ID Proof Section -->
+                                                                    <div class="col-lg-3 col-md-3 col-12">
+                                                                        <center><label class="form-label">ID
+                                                                                Proof</label></center>
+                                                                        <input type="file" class="input-field-id-proof"
+                                                                            name="id_proof_image"
+                                                                            id="fileInputIDProof_5"
+                                                                            style="display: none;">
+                                                                        <div class="preview-container-id-proof"
+                                                                            id="previewContainerIDProof_5">
+                                                                            <img id="imagePreviewIDProof"
+                                                                                alt="Image Preview"
+                                                                                style="display: none;">
+                                                                            <span class="remove-btn-id-proof"
+                                                                                id="removeBtnIDProof-4"
+                                                                                style="display: none;">X</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                            <div class="tab-pane fade" id="bank" role="tabpanel"
+                                                                aria-labelledby="bank-details">
+                                                                <div id="rows-container">
+                                                                    <div class="row my-row">
+                                                                        <div class="col-lg-12 col-md-12 col-12">
+                                                                            <div class="row" id="nominee-container">
+                                                                                <div class="col-lg-4 col-md-4 col-12">
+                                                                                    <div class="form-group">
+                                                                                        <label class="form-label"
+                                                                                            for="title-en">Bank
+                                                                                            Name</label>
+                                                                                        <input type="text"
+                                                                                            id="bank_name"
+                                                                                            name="bank_name[]"
+                                                                                            class="input-field">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-4 col-md-4 col-12">
+                                                                                    <div class="form-group">
+                                                                                        <label class="form-label"
+                                                                                            for="title-en"
+                                                                                            style="width: auto;">Bank
+                                                                                            Account No</label>
+                                                                                        <input type="number"
+                                                                                            id="account_no"
+                                                                                            name="account_no[]"
+                                                                                            class="input-field">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-3 col-md-3 col-12">
+                                                                                    <div class="form-group">
+                                                                                        <label class="form-label"
+                                                                                            for="title-en">Bank
+                                                                                            IFSC</label>
+                                                                                        <input type="text" id="ifsc"
+                                                                                            name="ifsc[]"
+                                                                                            class="input-field">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-1 col-md-1 col-12">
+                                                                                    <span
+                                                                                        class="btn btn-primary add-row"
+                                                                                        style="float: inline-end;color:white;position: relative;top: 30%; margin: 2px 0;">+</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div id="nominee-container">
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="tab-pane fade" id="joined" role="tabpanel"
+                                                                    aria-labelledby="joined-account">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-12 col-md-12 col-12">
+                                                                            <div class="row">
+                                                                                <div class="col-lg-6 col-md-6 col-12">
+                                                                                    <div class="form-group">
+                                                                                        <label class="form-label"
+                                                                                            for="title-en">Name</label>
+                                                                                        <input type="text" id="name"
+                                                                                            name="name"
+                                                                                            class="input-field">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!--<div class="col-lg-6 col-md-6 col-12">-->
+                                                                                <!--   <div class="form-group">-->
+                                                                                <!--      <label class="form-label" for="title-en" style="width: auto;">Bank Account No</label>-->
+                                                                                <!--      <input type="number" id="account_no" name="account_no" class="input-field" >-->
+                                                                                <!--   </div>-->
+                                                                                <!--</div>-->
+                                                                                <!--<div class="col-lg-6 col-md-6 col-12">-->
+                                                                                <!--   <div class="form-group">-->
+                                                                                <!--      <label class="form-label" for="title-en">Bank IFSC</label>-->
+                                                                                <!--      <input type="text" id="ifsc" name="ifsc" class="input-field" >-->
+                                                                                <!--   </div>-->
+                                                                                <!--</div>-->
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--button-->
+                                        <div class="row mt-4 mb-4 btn-adj" style=" padding: 2% 0 2% 0;">
+
+                                            <div class="col-lg-2 col-md-2" style="margin-bottom:6px"></div>
+                                            <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
+                                                <input type="submit" class="btn btn-success btn-upd-1" value="Save"
+                                                    style="width: -webkit-fill-available;margin: 0 14px;">
+                                            </div>
+                                            <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
+                                                <input type="reset" class="btn btn-danger btn-upd-2" value="Reset"
+                                                    style="width: -webkit-fill-available;margin: 0 14px;">
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
+                                                <a class="btn btn-warning btn-upd-3" id="listButton"
+                                                    data-bs-toggle="modal" data-bs-target="#label-pill-modal" href="#"
+                                                    style="margin: 0 14px;">List</a>
+
+
+                                            </div>
+                                            <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
+                                                <input type="button" class="btn btn-info btn-upd-4" value="Delete"
+                                                    style="width: -webkit-fill-available;margin: 0 14px;">
+                                            </div>
+
+                                        </div>
+                                        <!-- Modal -->
+
+
+                                        <!--</div>-->
+
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </main>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

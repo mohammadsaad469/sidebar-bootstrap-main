@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar With Bootstrap</title>
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+
+
+    <!-- reSPOSIVE BELOW 375 -->
+
+<div class="header-res-op">
+
+    <div class="user">
+
+        <div class="icon">
+    <button class="btn  canvas_optional" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        <i class="lni lni-grid-alt"></i>
+    </button>        </div>
+        <div class="">
+        <img src="profile.png" alt="User Profile" class="user-profile">
+        <div class="user-name">XYZ</div>
+        <div class="admon-re-dn">Admin</div>
+    </div>
+</div>
+</div>
+    
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+                <button type="button" class="btn-close text-reset"style="color:#fff !important;" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+             <!--  -->
+             <ul class="sidebar-nav">
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>Account</h6> 
+                    </div>
+                </div>
+
+                <li class="sidebar-item">
+                    <a href="./index.html" class="sidebar-link">
+                        
+                        <i class="fa-solid fa-cubes"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <span>Account Opening</span>
+                    </a>
+                    <ul id="auth" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="./newcustomer.html" class="sidebar-link">New Customer</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./share-opening.html" class="sidebar-link">Share Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./deposite.html" class="sidebar-link">Deposite Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nominal Member</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Investment & Security</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+            
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
+                        <i class="fa-solid fa-money-bill-1-wave"></i>
+                        <span>Transaction</span>
+                    </a>
+                    <ul id="multi" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Cash Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Transfer Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSD Quick Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">RD Quick Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Didvidend Payment</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Passing Transection</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSd Passing</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">RD Passing</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-house-lock"></i>
+                        <span>Account Closing</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth01" aria-expanded="false" aria-controls="auth01">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                        <span>Account Renewal</span>
+                    </a>
+                    <ul id="auth01" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">New Customer</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Share Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Deposite Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nominal Member</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Investment & Security</a>
+                        </li>
+
+                    </ul>
+                </li>
+                
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth02" aria-expanded="false" aria-controls="auth02">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <span>Small Saving/Pigmy</span>
+                    </a>
+                    <ul id="auth02" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSD/Oigmy Opening</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Ocount Linking</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Loan A/C Linking</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Pigmy Unit Interface</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Pigmy Mobile App</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Agrnt Comission</a>
+                        </li>
+                    </ul>
+                </li>
+            
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="lni lni-cog"></i>
+                    <span>System</span>
+                </a>
+            </li>
+            <li class="sidebar-item ">
+                <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                    data-bs-target="#auth04" aria-expanded="false" aria-controls="auth04">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <span>Utility</span>
+                </a>
+                <ul id="auth04" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                data-bs-parent="#sidebar">
+                <li class="sidebar-item">
+                    <a href="utility1.html" class="sidebar-link">Add / Manage Religion</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="./utility2.html" class="sidebar-link">Add / Manage Country</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="./AddManageGroupType.html" class="sidebar-link">Add / Manage Sate</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="./AddManageGroupType (1).html" class="sidebar-link">Add / Manage City</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="./GeneralLedgerMaster.html" class="sidebar-link">General Ledger Master</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="./ScheduleMaster.html" class="sidebar-link">Schdule Master</a>
+                </li>
+            </ul>
+            </li>
+            <div class="d-flex heading-01">
+                <div class="sidebar-logo-heading ">
+                    <h6>INTEREST</h6> 
+                </div>
+            </div>
+            <li class="sidebar-item ">
+                <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                    data-bs-target="#auth05" aria-expanded="false" aria-controls="auth05">
+                    <i class="fa-solid fa-sack-dollar"></i>
+                    <span>Daily Reports</span>
+                </a>
+                <ul id="auth05" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                    data-bs-parent="#sidebar">
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Cash Book</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Day Book</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Other Reports</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Agent Reports</a>
+                    </li>
+                </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-users"></i>
+                        <span>Account</span>
+                    </a>
+                </li>
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>ALL THINGS</h6> 
+                    </div>
+                </div>
+    
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-piggy-bank"></i>
+                        <span>Small Savings</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-regular fa-clipboard"></i>
+                        <span>NPA & Others</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                        <span>Investment</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-regular fa-newspaper"></i>
+                        <span>Final Reports</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-paste"></i>                    <span>Statement</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-file-lines"></i>
+                        <span>AR/DDR Reports</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <span>Notice</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-print"></i>
+                        <span>Printing</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-regular fa-folder-closed"></i>
+                        <span>Graphical Report</span>
+                    </a>
+                </li>
+    
+               
+               
+    
+                </ul>
+                <div class="sidebar-footer">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-exit"></i>
+                        <span>Logout</span>
+                    </a>
+                </div>
+                 
+    </div>
+      </div>
+
+    <!-- reSPOSIVE BELOW 375 -->
+
+
+    <div class="wrapper">
+        <aside id="sidebar">
+            <div class="d-flex logo-ad">
+                <div class="sidebar-logo">
+                    <a href="#">Logo</a>
+                </div>
+                <button class="toggle-btn" type="button">
+                    <i class="lni lni-grid-alt"></i>
+                </button>
+               
+            </div>
+            <ul class="sidebar-nav">
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>Account</h6> 
+                    </div>
+                </div>
+
+                <li class="sidebar-item">
+                    <a href="./index.html" class="sidebar-link">
+                        
+                        <i class="fa-solid fa-cubes"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <span>Account Opening</span>
+                    </a>
+                    <ul id="auth" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="./newcustomer.html" class="sidebar-link">New Customer</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./share-opening.html" class="sidebar-link">Share Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./deposite.html" class="sidebar-link">Deposite Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nominal Member</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Investment & Security</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+            
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
+                        <i class="fa-solid fa-money-bill-1-wave"></i>
+                        <span>Transaction</span>
+                    </a>
+                    <ul id="multi" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Cash Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Transfer Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSD Quick Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">RD Quick Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Didvidend Payment</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Passing Transection</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSd Passing</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">RD Passing</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-house-lock"></i>
+                        <span>Account Closing</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth01" aria-expanded="false" aria-controls="auth01">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                        <span>Account Renewal</span>
+                    </a>
+                    <ul id="auth01" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">New Customer</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Share Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Deposite Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nominal Member</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Investment & Security</a>
+                        </li>
+
+                    </ul>
+                </li>
+                
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth02" aria-expanded="false" aria-controls="auth02">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <span>Small Saving/Pigmy</span>
+                    </a>
+                    <ul id="auth02" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSD/Oigmy Opening</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Ocount Linking</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Loan A/C Linking</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Pigmy Unit Interface</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Pigmy Mobile App</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Agrnt Comission</a>
+                        </li>
+                    </ul>
+                </li>
+            
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="lni lni-cog"></i>
+                    <span>System</span>
+                </a>
+            </li>
+            <li class="sidebar-item ">
+                <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                    data-bs-target="#auth04" aria-expanded="false" aria-controls="auth04">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <span>Utility</span>
+                </a>
+                <ul id="auth04" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                data-bs-parent="#sidebar">
+                <li class="sidebar-item">
+                    <a href="utility1.html" class="sidebar-link">Add / Manage Religion</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="./utility2.html" class="sidebar-link">Add / Manage Country</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="./AddManageGroupType.html" class="sidebar-link">Add / Manage Sate</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="./AddManageGroupType (1).html" class="sidebar-link">Add / Manage City</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="./GeneralLedgerMaster.html" class="sidebar-link">General Ledger Master</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="./ScheduleMaster.html" class="sidebar-link">Schdule Master</a>
+                </li>
+            </ul>
+            </li>
+            <div class="d-flex heading-01">
+                <div class="sidebar-logo-heading ">
+                    <h6>INTEREST</h6> 
+                </div>
+            </div>
+            <li class="sidebar-item ">
+                <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                    data-bs-target="#auth05" aria-expanded="false" aria-controls="auth05">
+                    <i class="fa-solid fa-sack-dollar"></i>
+                    <span>Daily Reports</span>
+                </a>
+                <ul id="auth05" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                    data-bs-parent="#sidebar">
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Cash Book</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Day Book</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Other Reports</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Agent Reports</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Account</span>
+                </a>
+            </li>
+            <div class="d-flex heading-01">
+                <div class="sidebar-logo-heading ">
+                    <h6>ALL THINGS</h6> 
+                </div>
+            </div>
+
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-piggy-bank"></i>
+                    <span>Small Savings</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-regular fa-clipboard"></i>
+                    <span>NPA & Others</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                    <span>Investment</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-regular fa-newspaper"></i>
+                    <span>Final Reports</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-paste"></i>                    <span>Statement</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-file-lines"></i>
+                    <span>AR/DDR Reports</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span>Notice</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-print"></i>
+                    <span>Printing</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-regular fa-folder-closed"></i>
+                    <span>Graphical Report</span>
+                </a>
+            </li>
+
+           
+           
+
+            </ul>
+            <div class="sidebar-footer">
+                <a href="#" class="sidebar-link">
+                    <i class="lni lni-exit"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+        </aside>
+        <div class="main p-3">
+            <div class="text-center dashboatrd-cstm">
+                <header>
+                    <div class="logo">
+                        United Rural Credit Co-Op. Society Ltd.
+                    </div>
+                    <div class="user">
+                        <img src="profile.png" alt="User Profile" class="user-profile">
+                        <div class="user-name">XYZ</div>
+                        <div class="admin-res">Admin</div>
+                    </div>
+                </header>
+                <main>
+                  
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                
+                
+                            <!-- <div class="card "> -->
+                                <div class="card-header">
+                                    <h4 style="color:#7a70ba;font-size: 20px; font-weight: 600; letter-spacing: 0.6px;" class="text-center">Deposite Account Opening </h4>
+                                </div>
+                                <div class="card-body">
+                                    <form method="POST" action="" enctype="multipart/form-data">
+                
+                                        <div class="row" style="margin-bottom: -11px;">
+                                            <div class="col-lg-6 col-md-6 firstblock" style="border-right: 1px solid #ccc;border-right-style: dashed;">
+                                                <div class="form-group" style="display:flex !important;">
+                                                    <div class="col-lg-3 col-md-3 col-sm-12">
+                                                        <label class="form-label" for="party-id" style="color: #7a70ba; font-size: 15px;">Ledger No</label>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-12">
+                                                        <input type="text" id="party_id" name="party_id" class="input-field" required style="width: 150px;border: 1px solid #ccc;">
+                                                        <div id="suggestions_id" class="suggestions-box" style="border: 1px solid #ccc; display: none;"></div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                                        <input type="text" id="party_text" name="party_text" class="input-field" style="width: 256px; float: left; margin-bottom: 10px;border: 1px solid #ccc;">
+                                                        <div id="suggestions_text" class="suggestions-box" style="border: 1px solid #ccc; display: none;"></div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                                        <div id="suggestions_text" class="suggestions-box" style="border: 1px solid #ccc; display: none;"></div>
+                                                    </div>
+                                                </div>
+                
+                                                <div class="form-group" style="display:flex !important;">
+                                                    <div class="col-lg-3 col-md-8 col-sm-12">
+                                                        <label class="form-label" for="party-id" style="width: max-content;color: #7a70ba; text-align: left; font-size: 15px;">Account No</label>
+                                                    </div>
+                                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                                        <input type="text" id="account_no" name="account_no" class="input-field" style="width: 67%; float: left;border: 1px solid #ccc;">
+                                                        <div id="suggestions_deposite_account_no" class="suggestions-box" style="border: 1px solid #ccc; display: none;"></div>
+                                                       
+                                                    </div>
+                                                </div>
+                
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                            <div class="form-group" style="display:flex !important;">
+                                                <div class="col-lg-3 col-md-3 col-sm-12">
+                                                    <label class="form-label" for="party-id" style="color: #7a70ba; font-size: 15px;">Party Id</label>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-12">
+                                                    <input type="text" id="party_id" name="party_id" class="input-field" required style="width: 150px;border: 1px solid #ccc;">
+                                                    <div id="suggestions_id" class="suggestions-box" style="border: 1px solid #ccc; display: none;"></div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                    <input type="text" id="party_text" name="party_text" class="input-field" style="border: 1px solid #ccc;width: 256px; float: left; margin-bottom: 10px;">
+                                                    <div id="suggestions_text" class="suggestions-box" style="border: 1px solid #ccc; display: none;"></div>
+                                                </div>
+                                            </div>
+                
+                                                <div class="form-group" style="display:flex !important;">
+                                                    <div class="col-lg-3 col-md-3 col-sm-12">
+                                                        <label class="form-label" for="party-id" style="color: #7a70ba;font-size: 15px;">Agent Id</label>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-12">
+                                                        <input type="number" id="agent_id" name="agent_id" class="input-field" style="width: 150px;border: 1px solid #ccc;">
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                                        <input type="text" id="agent_text" name="agent_text" class="input-field" style="width: 256px; float: left;border: 1px solid #ccc;">
+                                                    </div>
+                                                </div>
+                                                <button class="btn" type="submit" style="float: inline-end; width: 20%; margin-right: 47px; margin-top: 10px; background-color: #7a70ba; font-size: 14px;font-weight: 600; color: #fff;">New Party</button>
+                                            </div>
+                                        </div>
+                                        <hr>
+                
+                                        <div>
+                                            <h4 style="font-size: 20px;font-weight: 600;letter-spacing: 0.6px;color:black; text-align: left; margin-left: 30px;">Personal Details </h4>
+                                            <br>
+                                            <div class="row">
+                                                <div class="col-lg-7 col-md-7" style="border-right: 1px solid #ccc;border-right-style: dashed;">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12 col-12">
+                                                            <div class="form-group">
+                                                                <label class="form-label" style="float: left; margin-left: 30px; color: #7a70ba; font-size: 15px;">Name</label>
+                                                              
+                                                                <input type="text" id="name_eng" oninput="translateField('name_eng', 'name_mar')" name="name_eng" class="input-field"  readonly style="border: 1px solid #ccc;width: 80%; margin-bottom: 10px;">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12 col-12">
+                                                            <div class="form-group">
+                                                                <label class="form-label"  style="float: left; margin-left: 32px; color: #7a70ba;font-size: 15px;">नाव</label>
+                                                                <input type="text" id="name_mar" name="name_mar" class="input-field" readonly style="border: 1px solid #ccc;width: 80%;margin-left: 23px;">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-6 col-6">
+                                                            <div class="form-group">
+                                                                <label class="form-label" style="float: left; margin-left: 28px;color: #7a70ba; margin-top: 10px; font-size: 15px;">Age</label>
+                                                                <input type="number" id="age" name="age" class="input-field" readonly style="border: 1px solid #ccc;width: 40%;margin-left: 24px; margin-top: 10px;">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-6 col-6">
+                                                            <div class="form-group">
+                                                                <label class="form-label" style="float: left; margin-left: 28px;color: #7a70ba; margin-top: 10px;font-size: 15px;">Cast</label>
+                                                                <input type="text" id="category" name="cast" class="input-field" readonly style="border: 1px solid #ccc;width: 40%;margin-left: 24px; margin-top: 10px;">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-6 col-6">
+                                                            <div class="form-group">
+                                                                <label class="form-label" style="float: left; margin-left: 28px;color: #7a70ba; margin-top: 10px; font-size: 15px;">Gender</label>
+                                                                <select id="gender" name="gender" class="input-field" readonly style="border: 1px solid #ccc;width: 40%;margin-left: -18px; margin-top: 10px;">
+                                                                    <option value="">---Select---</option>
+                                                                    <option value="Male">Male</option>
+                                                                    <option value="Female">Female</option>
+                                                                    <option value="Other">Other</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-6 col-6">
+                                                            <div class="form-group">
+                                                                <label class="form-label" style="width:max-content;float: left; margin-left: 15px;color: #7a70ba;font-size: 15px; margin-top: 10px;">Occupation</label>
+                                                                <input type="text" id="occupation" name="occupation" class="input-field" readonly style="border: 1px solid #ccc;width: 40%;margin-left: 24px; margin-top: 10px;">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-6 col-6">
+                                                            <div class="form-group">
+                                                                <label class="form-label"style="float: left; margin-left: 28px;color: #7a70ba; margin-top: 10px;font-size: 15px;">Phone No</label>
+                                                                <input type="number" id="phone_no" name="phone_no" class="input-field" readonly style="border: 1px solid #ccc;width: 40%;margin-left: -15px; margin-top: 10px;">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-6 col-6">
+                                                            <div class="form-group">
+                                                                <label class="form-label"style="float: left; margin-left: 15px;color: #7a70ba; margin-top: 10px;font-size: 15px;">Mobile No</label>
+                                                                <input type="number" id="mobile_no" name="mobile_no" class="input-field" readonly style="border: 1px solid #ccc;width: 40%;margin-left: -22px; margin-top: 10px;">
+                                                            </div>
+                                                        </div>
+                
+                                                    </div>
+                
+                
+                                                </div>
+                
+                                                <div class="col-lg-5 col-md-5">
+                
+                                                    <div class="row">
+                
+                                                        <div class="col-lg-12 col-md-12 col-12">
+                                                            <div class="form-group">
+                                                                <label class="form-label" style="float: left; color: #7a70ba;font-size: 15px;">Address</label>
+                                                                <input type="text" id="address" oninput="translateField('address', 'address_hi')" name="address_eng" class="input-field" readonly style="border: 1px solid #ccc; width: 68%; margin-bottom: 10px;">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12 col-12">
+                                                            <div class="form-group">
+                                                                <label class="form-label" style="float: left; color: #7a70ba;font-size: 15px;">पत्ता </label>
+                                                                <input type="text" id="address_hi" name="address_mar" class="input-field" readonly style="border: 1px solid #ccc; width: 68%;margin-left: 38px;margin-bottom: 10px;">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6 col-md-12 col-6">
+                                                            <div class="form-group">
+                                                                <label class="form-label" style="float: left; color: #7a70ba;font-size: 15px;">City </label>
+                                                                <input type="text" id="city" name="city" class="input-field" readonly style="border: 1px solid #ccc; width: 40%;margin-left: 50px; margin-bottom: 10px;">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6 col-md-12 col-6">
+                                                            <div class="form-group">
+                                                                <label class="form-label"style="float: left; color: #7a70ba;font-size: 15px;">State </label>
+                                                                <input type="text" id="state" name="state" class="input-field" readonly style="width: 40%; margin-bottom: 10px;border: 1px solid #ccc;">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-1 col-md-1"></div>
+                                                        <div class="col-lg-5 col-md-5 col-6">
+                                                            <div class="form-group" style="display: block;">
+                                                                <center>
+                                                                    <label class="form-label" style="font-size: 15px;color: #7a70ba; ">Photo</label>
+                                                                </center>
+                                                                <!--<input type="file" class="input-field-add-proof" name="upload_photo" id="fileInputAddProof" readonly>-->
+                                                                <input type="hidden" class="input-field-add-proof" name="upload_photo1" id="fileInputAdd">
+                                                                
+                                                                <div class="preview-container-add-proof" id="previewContainerAddProof">
+                                                                    <span class="preview-text-add-proof" id="previewTextAddProof">Click to upload</span>
+                                                                    <img id="imagePreviewAddProof" alt="Image Preview">
+                                                                    <span class="remove-btn-add-proof" id="removeBtnAddProof">X</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-5 col-md-5 col-6">
+                                                            <div class="form-group" style="display: block;">
+                                                                <center>
+                                                                    <label class="form-label" style="font-size: 15px;color: #7a70ba;">Sign</label>
+                                                                </center>
+                                                                <!--<input type="file" class="input-field-id-proof" name="upload_sign" id="fileInputIDProof" readonly>-->
+                                                                 <input type="hidden" class="input-field-add-proof" name="upload_sign1" id="fileInputID">
+                                                                <div class="preview-container-id-proof" id="previewContainerIDProof">
+                                                                    <span class="preview-text-id-proof" id="previewTextIDProof">Click to upload</span>
+                                                                    <img id="imagePreviewIDProof" alt="Image Preview">
+                                                                    <span class="remove-btn-id-proof" id="removeBtnIDProof">X</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-1 col-md-1"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <hr>
+                
+                                        <div>
+                
+                                        </div>
+                
+                
+                                        <div class="row">
+                
+                                            <div class="col-xxl-12" style="margin-top: -1%;">
+                                                <div class="">
+                                                    <div class="card-body">
+                                                        <div class="bg-navbar arrow-tabs">
+                                                            <ul class="nav nav-pills mb-3" id="pills-bg-tab2" role="tablist" style=" width: 100%; display: flex; flex-direction: row; justify-content: center;">
+                                                                <li class="nav-item"><a class="nav-link active" id="Loan-Detail1" data-bs-toggle="pill" href="#LoanDetail1" role="tab" aria-controls="LoanDetail1" aria-selected="false" style="font-size: 16px;background-color: #7a70ba;color: #fff;">Account Details</a></li>
+                                                                <li class="nav-item"><a class="nav-link " id="Loan-Detail2" data-bs-toggle="pill" href="#LoanDetail2" role="tab" aria-controls="LoanDetail2" aria-selected="false" style="font-size: 16px; background-color: #7a70ba;color: #fff;">Pigmy Details</a></li>
+                                                                <li class="nav-item"><a class="nav-link" id="kyc-details" data-bs-toggle="pill" href="#kycdetails" role="tab" aria-controls="kycdetails" aria-selected="false" style="font-size: 16px;background-color: #7a70ba;color: #fff;">Nominee Details</a></li>
+                                                            </ul>
+                                                            <div class="tab-content" id="pills-bg-tabContent2">
+                                                                <div class="tab-pane fade show active" id="LoanDetail1" role="tabpanel" aria-labelledby="Loan-Detail1">
+                                                                    <div>
+                
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6 col-md-7" style="border-right: 1px solid #ccc;border-right-style: dashed;">
+                                                                                <div class="row">
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width: fit-content;float: left; color: #7a70ba; font-size: 15px;margin-left: 14px;width: 10%;">Opening Date</label>
+                                                                                            <input type="Date" id="opening_date" class="input-field" name="opening_date" tabindex="1" style="width: 48%;padding: 3px;border: 1px solid #ccc;">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width:max-content;float: left; color: #7a70ba; font-size: 15px; margin-top: 5px;">Account Type</label>
+                                                                                            <select id="account_type" name="account_type" class="input-field" tabindex="2" style="width: 48%;padding: 3px;border: 1px solid #ccc;">
+                                                                                                <option value="">---Select---</option>
+                                                                                                <option value="savings">Savings</option>
+                                                                                                <option value="current">Current</option>
+                                                                                                <option value="fixed deposit">Fixed Deposit</option>
+                                                                                                <option value="recurring deposit">Recurring Deposit</option>
+                                                                                                <option value="loan">Loan</option>
+                                                                                                <option value="demat">Demat</option>
+                                                                                            </select>
+                                                                                        </div>
+                                                                                    </div>
+                
+                
+                
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width:max-content;float: left; color: #7a70ba; font-size: 15px; margin-left: 15px; margin-top: 3px;">Balence </label>
+                                                                                            <input type="text" id="balence" name="balence" class="input-field" tabindex="5" style="width: 60%;padding: 3px; border: 1px solid #ccc;">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label"  style=" width:max-content;float: left; color: #7a70ba; font-size: 15px; margin-top: 3px;">Mode of Operation</label>
+                                                                                            <select id="mode_of_operation" name="mode_of_operation" class="input-field" tabindex="6" style="border: 1px solid #ccc; width: 37%;padding: 3px; border: 1px solid #ccc;">
+                                                                                                <option value="">---Select---</option>
+                                                                                                <option value="single">Single</option>
+                                                                                                <option value="joint">Joint</option>
+                                                                                                <option value="either Or Survivor">Either or Survivor</option>
+                                                                                                <option value="anyone Or Survivor">Anyone or Survivor</option>
+                
+                                                                                            </select>
+                                                                                        </div>
+                                                                                    </div>
+                
+                                                                                </div>
+                
+                                                                                <div class="row">
+                                                                                    <div class="col-lg-12 col-md-12 col-12">
+                                                                                        <div class="form-group" style="display:block !important;">
+                                                                                            <div class="row">
+                                                                                                <div class="col-lg-3 col-md-3">
+                                                                                                    <label class="form-label" for="party-id" style="width:max-content;padding:5px; color: #7a70ba; font-size: 15px; margin-top: 3px;">Director Code</label>
+                                                                                                
+                                                                                                </div>
+                                                                                                <div class="col-lg-9 col-md-9 col-12" style="display: contents;">
+                                                                                                    <div class="row px-3">
+                                                                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                                                                            <input type="number" id="director_id" name="director_id" class="input-field" style="width: max-content; width: 150px;border: 1px solid #ccc; margin-top: 10px;" tabindex="9">
+                                                                                                        </div>
+                                                                                                        <div class="col-lg-8 col-md-8 col-6">
+                                                                                                            <input type="text" id="director_text" name="director_text" class="input-field" tabindex="10" style="border: 1px solid #ccc;width: 256px;float: left;margin-top: 10px;">
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                
+                                                                            <div class="col-lg-6 col-md-5">
+                
+                                                                                <div class="row">
+                
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Opening Balence</label>
+                                                                                            <input type="text" id="opening_balence" name="opening_balence" class="input-field" tabindex="3" style="border: 1px solid #ccc; width: 40%;padding: 3px;margin-bottom: 10px; ">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width: fit-content;float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Interest Rate</label>
+                                                                                            <input type="text" id="interest_rate" name="interest_rate" class="input-field" tabindex="4"style="border: 1px solid #ccc; width: 48%;padding: 3px;margin-bottom: 10px ">
+                                                                                        </div>
+                                                                                    </div>
+                
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width:max-content;float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Send SMS</label>
+                                                                                            <select id="sms" name="sms" class="input-field" tabindex="7" style="border: 1px solid #ccc; width: 52%;padding: 3px;margin-bottom: 10px ">
+                                                                                                <option value="">---Select---</option>
+                                                                                                <option value="Yes">Yes</option>
+                                                                                                <option value="No">No</option>
+                
+                                                                                            </select>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width: max-content;float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Doc No.</label>
+                                                                                            <input type="text" id="doc_no" name="doc_no" class="input-field" tabindex="8" style="border: 1px solid #ccc; width: 52%;padding: 3px;margin-bottom: 10px;margin-left: 27px; ">
+                                                                                        </div>
+                                                                                    </div>
+                
+                                                                                    <div class="col-lg-1 col-md-0"></div>
+                                                                                    <div class="col-lg-5 col-md-6 col-6">
+                
+                                                                                        <input class="checkbox_animated" name="close_flag" id="close_flag" type="checkbox" value="on">
+                                                                                        <label class="form-label" for="closeFlag" style="color: #7a70ba;font-size: 15px;">Close Flag </label>
+                                                                                    </div>
+                
+                                                                                    <div class="col-lg-5 col-md-6 col-6">
+                                                                                        <input class="checkbox_animated" name="stop_flag" id="stop_flag" type="checkbox" value="on">
+                                                                                        <label class="form-label" for="closeFlag" style="color: #7a70ba;font-size: 15px;">Stop Flag </label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="tab-pane fade" id="LoanDetail2" role="tabpanel" aria-labelledby="kyc-details">
+                                                                    <div>
+                
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6 col-md-7">
+                                                                                <div class="row">
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width: max-content;float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Installment Type</label>
+                
+                                                                                            <select id="installment_type" name="installment_type" class="input-field" tabindex="1"style="border: 1px solid #ccc; width: 48%;padding: 3px;margin-bottom: 10px; ">
+                                                                                                <option value="">---Select---</option>
+                                                                                                <option value="daily">Daily</option>
+                                                                                                <option value="monthly">Monthly</option>
+                                                                                                <option value="quarterly">Quarterly</option>
+                                                                                                <option value="semi annual">Semi-Annual</option>
+                                                                                                <option value="annual">Annual</option>
+                                                                                                <option value="bi weekly">Bi-Weekly</option>
+                                                                                                <option value="weekly">Weekly</option>
+                                                                                                <option value="lump sum">Lump Sum</option>
+                                                                                            </select>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width:max-content;float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Pigmy Amount</label>
+                                                                                            <input type="text" id="pigmy_amount" name="pigmy_amount" class="input-field" tabindex="2" style="border: 1px solid #ccc; width: 48%;padding: 3px;margin-bottom: 10px; ">
+                                                                                        </div>
+                                                                                    </div>
+                
+                
+                
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width:max-content;float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Interest Amount</label>
+                                                                                            <input type="text" id="interest_amount" name="interest_amount" class="input-field" tabindex="5" style="border: 1px solid #ccc; width: 48%;padding: 3px;margin-bottom: 10px; ">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Open Int. Prov</label>
+                                                                                            <input type="text" id="open_int_prov" name="open_int_prov" class="input-field" tabindex="6" style="border: 1px solid #ccc; width: 48%;padding: 3px;margin-bottom: 10px; margin-left: 6px;">
+                                                                                        </div>
+                                                                                    </div>
+                
+                
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width: max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Installment Paid</label>
+                                                                                            <input type="text" id="installment_paid" name="installment_paid" class="input-field" tabindex="9" style="border: 1px solid #ccc; width: 48%;padding: 3px;margin-bottom: 10px; ">
+                                                                                        </div>
+                                                                                    </div>
+                
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Due Date</label>
+                                                                                            <input type="date" id="due_date" name="due_date" class="input-field" tabindex="10" style="border: 1px solid #ccc; width: 55%;padding: 3px;margin-bottom: 10px;margin-left: 20px;">
+                                                                                        </div>
+                                                                                    </div>
+                
+                
+                
+                                                                                </div>
+                
+                
+                                                                            </div>
+                
+                                                                            <div class="col-lg-6 col-md-5">
+                
+                                                                                <div class="row">
+                
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width:max-content;float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Interest Provision</label>
+                                                                                            <input type="text" id="interest_provision" name="interest_provision" class="input-field" tabindex="3" style="border: 1px solid #ccc; width: 40%;padding: 3px;margin-bottom: 10px;">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width: max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Installment Amount</label>
+                                                                                            <input type="text" id="installment_amount" name="installment_amount" class="input-field" tabindex="4" style="border: 1px solid #ccc; width: 45%;padding: 3px;margin-bottom: 10px;">
+                                                                                        </div>
+                                                                                    </div>
+                
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">No. of Installment</label>
+                                                                                            <select id="no_of_installment" name="no_of_installment" class="input-field" tabindex="7" style="border: 1px solid #ccc; width: 40%;padding: 3px;margin-bottom: 10px;">
+                                                                                                <option value="">---Select---</option>
+                                                                                                <option value="1">1 installment</option>
+                                                                                                <option value="2">2 installments</option>
+                                                                                                <option value="3">3 installments</option>
+                                                                                                <option value="4">4 installments</option>
+                                                                                                <option value="5">5 installments</option>
+                                                                                                <option value="6">6 installments</option>
+                                                                                            </select>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width: max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Payable Amount</label>
+                                                                                            <input type="text" id="payable_amount" name="payable_amount" class="input-field" tabindex="8" style="border: 1px solid #ccc; width: 53%;padding: 3px;margin-bottom: 10px;">
+                                                                                        </div>
+                                                                                    </div>
+                
+                
+                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Close Date</label>
+                                                                                            <input type="date" id="close_date" name="close_date" class="input-field" tabindex="11" style="border: 1px solid #ccc; width: 55%;padding: 3px;margin-bottom: 10px;margin-left: 6px;">
+                                                                                        </div>
+                                                                                    </div>
+                
+                
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                
+                
+                                                                <div class="tab-pane fade" id="kycdetails" role="tabpanel" aria-labelledby="kyc">
+                
+                                                                    <div id="rows-container">
+                                                                        <div class="row my-row">
+                
+                                                                            <div class="col-lg-11 col-md-11 col-12" >
+                                                                             <div class="row" id="nominee-container" >  
+                                                                         
+                                                                             <div class="col-lg-3 col-md-6 col-6">
+                                                                                    <div class="form-group" style="display:block;">
+                                                                                        <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Nominee Name</label>
+                                                                                        <input type="text"  name="nominee_name[]" class="input-field form-control" >
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-2 col-md-6 col-6">
+                                                                                    <div class="form-group" style="display:block;">
+                                                                                        <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Age</label>
+                                                                                        <input type="text"  name="nominee_age[]" class="input-field form-control" >
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-3 col-md-6 col-6">
+                                                                                    <div class="form-group" style="display:block;">
+                                                                                        <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Address</label>
+                                                                                        <input type="text"  name="nominee_address[]" class="input-field form-control" >
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-2 col-md-6 col-6">
+                                                                                    <div class="form-group" style="display:block;">
+                                                                                        <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Gender</label>
+                                                                                        <select  name="nominee_gender[]" class="input-field form-control">
+                                                                                            <option value="">---Select---</option>
+                                                                                            <option value="Male" >Male</option>
+                                                                                            <option value="Female" >Female</option>
+                                                                                            <option value="Other" >Other</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-2 col-md-6 col-6">
+                                                                                    <div class="form-group" style="display:block;">
+                                                                                        <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Relation</label>
+                                                                                        <select  name="nominee_relation[]" class="input-field form-control">
+                                                                                            <option value="">---Select---</option>
+                                                                                            <option value="Mother">Mother</option>
+                                                                                            <option value="Father">Father</option>
+                                                                                            <option value="Brother">Brother</option>
+                                                                                            <option value="Sister">Sister</option>
+                                                                                            <option value="Wife">Wife</option>
+                                                                                            <option value="Daughter">Daughter</option>
+                                                                                            <option value="Son">Son</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                              </div>
+                                                                                <div id="nominee-container"> 
+                                                                              </div>
+                
+                                                                            </div>
+                                                                            <div class="col-lg-1 col-md-6 col-12">
+                                                                                <span class="btn btn-primary add-row" style="color:white;position: relative;top: 100%; margin: 2px 0;background-color: #7a70ba;">+</span>
+                                                                            </div>
+                                                                            <br>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                
+                                        <div class="row mt-4 mb-4 btn-adj" style=" background: aliceblue;padding: 2% 0 2% 0;">
+                                            <!--<div class="col-lg-2 col-md-2"></div>-->
+                
+                                            <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
+                                                <input type="submit" class="btn btn-success px-4 py-2" value="Save" style="width: -webkit-fill-available;margin: 0 14px;">
+                                            </div>
+                                            <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
+                                                <input type="submit" id="fetch_data" class="btn btn-danger px-4 py-2" value="Reset" style="width: -webkit-fill-available;margin: 0 14px;">
+                                            </div>
+                                            <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
+                                                <input type="submit" class="btn btn-primary px-4 py-2" value="Print" style="width: -webkit-fill-available;margin: 0 14px;">
+                                            </div>
+                                            <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
+                                                <input type="submit" class="btn btn-dark px-4 py-2" value="PDF" style="width: -webkit-fill-available;margin: 0 14px;">
+                                            </div>
+                                                  <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
+                                                       <a class="btn btn-warning px-4 py-2" id="listButton" data-bs-toggle="modal" data-bs-target="#label-pill-modal" href="#" style="margin: 0 14px;"  >List</a>
+                                          <!--<input type="submit" class="btn btn-warning px-4 py-2" value="List" style="width: -webkit-fill-available;margin: 0 14px;">-->
+                                     </div>
+                                      <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
+                                          <input type="submit" class="btn btn-info px-4 py-2" value="Delete" style="width: -webkit-fill-available;margin: 0 14px;">
+                                     </div>
+                
+                                        </div>
+                                    </form>
+                                </div>
+                
+                
+                                <!--</div>-->
+                            </div>
+                        </div>
+
+
+                        
+                        
+                </main>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

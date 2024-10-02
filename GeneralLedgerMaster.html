@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar With Bootstrap</title>
+    <style>
+        .shakirtop {
+            color: #7a70ba;
+            text-transform: capitalize;
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: 0.6px;
+        }
+
+        .shakir_grup {
+            display: flex !important;
+        }
+
+        /* {padding: 5px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    width: 100%;} */
+        .form-label {
+            color: #7a70ba;
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 30px;
+        }
+
+        input {
+            border: 1px solid #ccc;
+            width: 350px;
+            outline: none;
+            border-radius: 3px;
+        }
+
+        .shakir_side {
+            border: 1px solid #ccc;
+            width: 150px;
+            outline: none;
+            border-radius: 3px;
+        }
+
+        .shakir_lable {
+            width: 200px;
+        }
+    </style>
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- reSPOSIVE BELOW 375 -->
+
+    <div class="header-res-op">
+
+        <div class="user">
+
+            <div class="icon">
+                <button class="btn  canvas_optional" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <i class="lni lni-grid-alt"></i>
+                </button>
+            </div>
+            <div class="">
+                <img src="profile.png" alt="User Profile" class="user-profile">
+                <div class="user-name">XYZ</div>
+                <div class="admon-re-dn">Admin</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" style="color:#fff !important;"
+                data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <!--  -->
+            <ul class="sidebar-nav">
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>Account</h6>
+                    </div>
+                </div>
+
+                <li class="sidebar-item">
+                    <a href="./index.html" class="sidebar-link">
+
+                        <i class="fa-solid fa-cubes"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <span>Account Opening</span>
+                    </a>
+                    <ul id="auth" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="./newcustomer.html" class="sidebar-link">New Customer</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./share-opening.html" class="sidebar-link">Share Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./deposite.html" class="sidebar-link">Deposite Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nominal Member</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Investment & Security</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
+                        <i class="fa-solid fa-money-bill-1-wave"></i>
+                        <span>Transaction</span>
+                    </a>
+                    <ul id="multi" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Cash Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Transfer Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSD Quick Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">RD Quick Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Didvidend Payment</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Passing Transection</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSd Passing</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">RD Passing</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-house-lock"></i>
+                        <span>Account Closing</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth01" aria-expanded="false" aria-controls="auth01">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                        <span>Account Renewal</span>
+                    </a>
+                    <ul id="auth01" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">New Customer</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Share Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Deposite Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nominal Member</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Investment & Security</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth02" aria-expanded="false" aria-controls="auth02">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <span>Small Saving/Pigmy</span>
+                    </a>
+                    <ul id="auth02" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSD/Oigmy Opening</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Ocount Linking</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Loan A/C Linking</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Pigmy Unit Interface</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Pigmy Mobile App</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Agrnt Comission</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-cog"></i>
+                        <span>System</span>
+                    </a>
+                </li>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth04" aria-expanded="false" aria-controls="auth04">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <span>Utility</span>
+                    </a>
+                    <ul id="auth04" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="utility1.html" class="sidebar-link">Add / Manage Religion</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./utility2.html" class="sidebar-link">Add / Manage Country</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./AddManageGroupType.html" class="sidebar-link">Add / Manage Sate</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./AddManageGroupType (1).html" class="sidebar-link">Add / Manage City</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./GeneralLedgerMaster.html" class="sidebar-link">General Ledger Master</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./ScheduleMaster.html" class="sidebar-link">Schdule Master</a>
+                        </li>
+                    </ul>
+                </li>
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>INTEREST</h6>
+                    </div>
+                </div>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth05" aria-expanded="false" aria-controls="auth05">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <span>Daily Reports</span>
+                    </a>
+                    <ul id="auth05" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Cash Book</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Day Book</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Other Reports</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Agent Reports</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-users"></i>
+                        <span>Account</span>
+                    </a>
+                </li>
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>ALL THINGS</h6>
+                    </div>
+                </div>
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-piggy-bank"></i>
+                        <span>Small Savings</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-regular fa-clipboard"></i>
+                        <span>NPA & Others</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                        <span>Investment</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-regular fa-newspaper"></i>
+                        <span>Final Reports</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-paste"></i> <span>Statement</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-file-lines"></i>
+                        <span>AR/DDR Reports</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <span>Notice</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-print"></i>
+                        <span>Printing</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-regular fa-folder-closed"></i>
+                        <span>Graphical Report</span>
+                    </a>
+                </li>
+
+
+
+
+            </ul>
+            <div class="sidebar-footer">
+                <a href="#" class="sidebar-link">
+                    <i class="lni lni-exit"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- reSPOSIVE BELOW 375 -->
+
+    <div class="wrapper">
+        <aside id="sidebar">
+            <div class="d-flex logo-ad">
+                <div class="sidebar-logo">
+                    <a href="#">Logo</a>
+                </div>
+                <button class="toggle-btn" type="button">
+                    <i class="lni lni-grid-alt"></i>
+                </button>
+
+            </div>
+            <ul class="sidebar-nav">
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>Account</h6>
+                    </div>
+                </div>
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+
+                        <i class="fa-solid fa-cubes"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <span>Account Opening</span>
+                    </a>
+                    <ul id="auth" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="./newcustomer.html" class="sidebar-link">New Customer</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./share-opening.html" class="sidebar-link">Share Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./deposite.html" class="sidebar-link">Deposite Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nominal Member</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Investment & Security</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
+                        <i class="fa-solid fa-money-bill-1-wave"></i>
+                        <span>Transaction</span>
+                    </a>
+                    <ul id="multi" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Cash Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Transfer Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSD Quick Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">RD Quick Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Didvidend Payment</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Passing Transection</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSd Passing</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">RD Passing</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-house-lock"></i>
+                        <span>Account Closing</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth01" aria-expanded="false" aria-controls="auth01">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                        <span>Account Renewal</span>
+                    </a>
+                    <ul id="auth01" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">New Customer</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Share Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Deposite Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nominal Member</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Investment & Security</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth02" aria-expanded="false" aria-controls="auth02">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <span>Small Saving/Pigmy</span>
+                    </a>
+                    <ul id="auth02" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSD/Oigmy Opening</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Ocount Linking</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Loan A/C Linking</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Pigmy Unit Interface</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Pigmy Mobile App</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Agrnt Comission</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-cog"></i>
+                        <span>System</span>
+                    </a>
+                </li>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth04" aria-expanded="false" aria-controls="auth04">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <span>Utility</span>
+                    </a>
+                    <ul id="auth04" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="utility1.html" class="sidebar-link">Add / Manage Religion</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./utility2.html" class="sidebar-link">Add / Manage Country</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./AddManageGroupType.html" class="sidebar-link">Add / Manage Sate</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./AddManageGroupType (1).html" class="sidebar-link">Add / Manage City</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./GeneralLedgerMaster.html" class="sidebar-link">General Ledger Master</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./ScheduleMaster.html" class="sidebar-link">Schdule Master</a>
+                        </li>
+                    </ul>
+                </li>
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>INTEREST</h6>
+                    </div>
+                </div>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth05" aria-expanded="false" aria-controls="auth05">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <span>Daily Reports</span>
+                    </a>
+                    <ul id="auth05" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Cash Book</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Day Book</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Other Reports</a>
+                        </li>
+                        <li class="sidebar-item"></li>
+                        <a href="#" class="sidebar-link">Agent Reports</a>
+                </li>
+            </ul>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Account</span>
+                </a>
+            </li>
+            <div class="d-flex heading-01">
+                <div class="sidebar-logo-heading ">
+                    <h6>ALL THINGS</h6>
+                </div>
+            </div>
+
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-piggy-bank"></i>
+                    <span>Small Savings</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-regular fa-clipboard"></i>
+                    <span>NPA & Others</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                    <span>Investment</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-regular fa-newspaper"></i>
+                    <span>Final Reports</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-paste"></i> <span>Statement</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-file-lines"></i>
+                    <span>AR/DDR Reports</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span>Notice</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-print"></i>
+                    <span>Printing</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-regular fa-folder-closed"></i>
+                    <span>Graphical Report</span>
+                </a>
+            </li>
+
+
+
+
+            </ul>
+            <div class="sidebar-footer">
+                <a href="#" class="sidebar-link">
+                    <i class="lni lni-exit"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+        </aside>
+        <div class="main p-3">
+            <div class="text-center dashboatrd-cstm">
+                <header>
+                    <div class="logo">
+                        United Rural Credit Co-Op. Society Ltd.
+                    </div>
+                    <div class="user">
+                        <img src="profile.png" alt="User Profile" class="user-profile">
+                        <div class="user-name">XYZ</div>
+                        <div class="admin-res">Admin</div>
+                    </div>
+                </header>
+
+            </div>
+
+            <main>
+
+                <div class="row">
+
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="card ">
+                            <div class="card-header">
+                                <center>
+                                    <h4 class="shakirtop" style="color:#7a70ba">General Ledger Master</h4>
+                                </center>
+                            </div>
+
+                            <div class="card-body">
+                                <form method="POST" action="#">
+                                    <div class="row" style="margin-bottom: -11px;">
+
+
+                                        <div class="col-lg-6 col-md-6 firstblock"
+                                            style="border-right: 1px solid #ccc;border-right-style: dashed;">
+                                            <div class="form-group shakir_grup" style="display:flex !important;">
+                                                <div class="col-lg-3 col-md-3 col-sm-12">
+                                                    <label class="form-label" for="party-id"
+                                                        style="width: max-content;">Ledger ID</label>
+                                                </div>
+                                                <div class="col-lg-9 col-md-9 col-sm-12">
+                                                    <input type="number" id="ledger_id" name="id"
+                                                        class="input-field  shakir_lable">
+                                                    <div id="suggestions_id" class="suggestions-box"></div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group" style="display:flex !important;">
+                                                <div class="col-lg-3 col-md-3 col-sm-12">
+                                                    <label class="form-label" for="party-id"
+                                                        style="width: max-content;">Ledger Name</label>
+                                                </div>
+                                                <div class="col-lg-9 col-md-9 col-sm-12">
+
+                                                    <input type="text" id="name_eng"
+                                                        oninput="translateField('name_eng', 'name_mar')" name="name_eng"
+                                                        class="input-field" required>
+                                                    <div id="suggestions_name" class="suggestions-box"></div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group" style="display:flex !important;">
+                                                <div class="col-lg-3 col-md-3 col-sm-12">
+                                                    <label class="form-label" for="party-id"
+                                                        style="width: max-content;"><b>लेजरचे नाव</b></label>
+                                                </div>
+                                                <div class="col-lg-9 col-md-9">
+
+                                                    <input type="text" id="name_mar" name="name_mar"
+                                                        class="input-field">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group " style="display:flex !important;">
+
+                                                <div class="col-lg-3 col-md-3 col-sm-12 f-d">
+                                                    <label class="form-label" for="party-id"
+                                                        style="width:-webkit-fill-available">Opening Balance</label>
+                                                </div>
+                                                <div class="col-lg-5 col-md-5 col-sm-12">
+                                                    <input type="number" id="opening_balance" name="opening_balence"
+                                                        class="input-field">
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-3 shakir_lable">
+                                                    <select id="opening_balance_type" name="opening_balance_type"
+                                                        class="input-field">
+                                                        <option value="credit">Credit</option>
+                                                        <option value="debit">Debit</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group " style="display:flex !important;">
+
+                                                <div class="col-lg-3 col-md-3 f-d">
+                                                    <label class="form-label" for="party-id"
+                                                        style="width:-webkit-fill-available">Current Balance</label>
+                                                </div>
+                                                <div class="col-lg-5 col-md-5 col-6">
+                                                    <input type="number" id="current_balance" name="current_balance"
+                                                        class="input-field">
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-3 shakir_lable">
+                                                    <select id="title-en" name="current_balence_type"
+                                                        class="input-field">
+                                                        <option value="credit">Credit</option>
+                                                        <option value="debit">Debit</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group " style="display:flex !important;">
+
+                                                <div class="col-lg-3 col-md-3 f-d ">
+                                                    <label class="form-label" for="party-id"
+                                                        style="width:-webkit-fill-available">Min Balance</label>
+                                                </div>
+                                                <div class="col-lg-5 col-md-5 col-6">
+                                                    <input type="number" id="min_balance" name="min_balance"
+                                                        class="input-field">
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-3 shakir_lable">
+                                                    <select id="min_balance_type" name="min_balance_type"
+                                                        class="input-field ">
+                                                        <option value="credit">Credit</option>
+                                                        <option value="debit">Debit</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="row">
+
+                                                <div class="col-lg-6 col-md-6 col-6">
+                                                    <div class="form-group">
+                                                        <label class="form-label">Subsidairy</label>
+                                                        <select id="subsidairy" name="subsidairy" class="input-field ">
+                                                            <option value="yes">Yes</option>
+                                                            <option value="no">No</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-6">
+                                                    <div class="form-group">
+                                                        <label class="form-label"
+                                                            style="width:-webkit-fill-available; width: 80px; vertical-align: top; line-height: 1.3;">Opening
+                                                            Date</label>
+                                                        <input type="date" name="opening_date" id="opening_date"
+                                                            class="input-field shakir_input"
+                                                            style=" border: 1px solid #ccc; width: 133px; outline: none; border-radius: 3px;">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-6">
+                                                    <div class="form-group">
+                                                        <label class="form-label sha" style="width:max-content">Interest
+                                                            Rate</label>
+                                                        <input type="number" id="interest_rate" name="interest_rate"
+                                                            class="input-field"
+                                                            style="width: 150px; margin-left: 30px;">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-6">
+                                                    <div class="form-group">
+                                                        <label class="form-label">Penal Rate</label>
+                                                        <input type="number" id="penal_rate" name="penal_rate"
+                                                            class="input-field"
+                                                            style="width: 150px; margin-left: 15px;">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-6">
+                                                    <div class="form-group">
+                                                        <label class="form-label">Send SMS</label>
+                                                        <select id="sms" name="sms" class="input-field"
+                                                            style="border: 1px solid #ccc;width: 150px; outline: none;border-radius: 3px;margin-left: 35px;">
+                                                            <option value="yes">Yes</option>
+                                                            <option value="no">No</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-6">
+                                                    <div class="form-group">
+                                                        <label class="form-label">CD Ratio</label>
+                                                        <select id="cd_ratio" name="cd_ratio" class="input-field"
+                                                            style="border: 1px solid #ccc;width: 150px; outline: none;border-radius: 3px;margin-left: 28px;">
+                                                            <option value="yes">Yes</option>
+                                                            <option value="no">No</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+
+
+
+
+                                        </div>
+
+
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="row">
+
+                                                <div class="col-lg-6 col-md-6 col-6">
+                                                    <div class="form-group">
+                                                        <label class="form-label">Schedule</label>
+                                                        <select id="schedule" name="schedule"
+                                                            class="input-field shakir_side" required
+                                                            style="margin-left: 10px;">
+                                                            <option></option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-6">
+                                                    <div class="form-group">
+                                                        <label class="form-label">Group</label>
+                                                        <select id="group" name="group" class="input-field shakir_side"
+                                                            style="float: right; margin-right: 35px;">
+                                                            <option value="deposite">Deposite</option>
+                                                            <option value="loan">Loan</option>
+                                                            <option value="bank">Bank</option>
+                                                            <option value="genral">Genral</option>
+                                                            <option value="fund">Fund</option>
+                                                            <option value="share">Share</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-6">
+                                                    <div class="form-group">
+                                                        <label class="form-label" style="width:max-content">Type
+                                                        </label>
+                                                        <select id="type" name="type" class="input-field shakir_side"
+                                                            style="margin-left: 10px; width: 176px;">
+                                                            <option value="Select">--- Select ---</option>
+                                                            <option value="saving deposits">SAVING DEPOSITS</option>
+                                                            <option value="pigmy deposits">PIGMY DEPOSITS</option>
+                                                            <option value="recurring deposits">RECURRING DEPOSITS
+                                                            </option>
+                                                            <option value="fixed deposits">FIXED DEPOSITS</option>
+                                                            <option value="current deposits">CURRENT DEPOSITS</option>
+                                                            <option value="call deposits">CALL DEPOSITS</option>
+                                                            <option value="locker type">LOCKER TYPE</option>
+                                                            <option value="sukanya yojana">SUKANYA YOJANA</option>
+
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-6">
+                                                    <div class="form-group">
+                                                        <label class="form-label">Int. Type</label>
+                                                        <select id="int_type" name="int_type"
+                                                            class="input-field shakir_side"
+                                                            style="margin-left: 35px; width: 150px;">
+                                                            <option value="Select">--- Select ---</option>
+                                                            <option value="saving deposit monthly">Saving Deposit
+                                                                Monthly</option>
+                                                            <option value="saving deposit">Saving Deposit</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-6">
+                                                    <div class="form-group">
+                                                        <label class="form-label">Item Of</label>
+                                                        <select id="item_of" name="item_of"
+                                                            class="input-field shakir_side" style="margin-left: 23px;">
+                                                            <option value="asset">Asset</option>
+                                                            <option value="liabilities">Liabilities</option>
+                                                            <option value="tncome">Income</option>
+                                                            <option value="expenditure">Expenditure</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-6">
+                                                    <div class="form-group">
+                                                        <label class="form-label" style="width:max-content">Add Int. to
+                                                            Balance</label>
+                                                        <select id="add_int_to_balance" name="add_int_to_balance"
+                                                            class="input-field shakir_side"
+                                                            style="width: 112px;margin-left: 10px;">
+                                                            <option value="yes">Yes</option>
+                                                            <option value="no">No</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-8 col-md-8 col-12">
+                                                    <div class="form-group">
+                                                        <label class="form-label" style="width:max-content">Agent wise
+                                                            Ac No.</label>
+                                                        <select id="agent_wise_account_no" name="agent_wise_account_no"
+                                                            class="input-field shakir_side"
+                                                            style="width: 200px;margin-left: 10px;">
+                                                            <option value="yes">Yes</option>
+                                                            <option value="no">No</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <hr>
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-12">
+                                                    <div class="form-group" style="display:flex !important;">
+                                                        <div class="row">
+                                                            <div class="col-lg-4 col-md-4">
+                                                                <label class="form-label" for="party-id"
+                                                                    style="width:-webkit-fill-available;">Paid /
+                                                                    Received</label>
+                                                            </div>
+                                                            <div class="col-lg-3 col-md-3 col-3">
+                                                                <input type="number" id="paid_or_received_id"
+                                                                    name="paid_or_received_id"
+                                                                    class="input-field shakir_side"
+                                                                    style="width: max-content; width: 241px;">
+                                                            </div>
+                                                            <div class="col-lg-5 col-md-5 col-7">
+                                                                <input type="text" id="paid_or_received_text"
+                                                                    name="paid_or_received_text"
+                                                                    class="input-field shakir_side"
+                                                                    style="width: 196px;">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-12">
+                                                    <div class="form-group" style="display:flex !important;">
+                                                        <div class="row">
+                                                            <div class="col-lg-4 col-md-4">
+                                                                <label class="form-label" for="party-id"
+                                                                    style="width:-webkit-fill-available;">Payable /
+                                                                    Receivable</label>
+                                                            </div>
+                                                            <div class="col-lg-3 col-md-3 col-3">
+                                                                <input type="number" id="payable_or_receivable_id"
+                                                                    name="payable_or_receivable_id"
+                                                                    class="input-field shakir_side"
+                                                                    style="width: max-content;width: 241px;">
+                                                            </div>
+                                                            <div class="col-lg-5 col-md-5 col-7">
+                                                                <input type="text" id="payable_or_receivable_text"
+                                                                    name="payable_or_receivable_text"
+                                                                    class="input-field shakir_side"
+                                                                    style="width: 196px;">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-12">
+                                                    <div class="form-group" style="display:flex !important;">
+                                                        <div class="row">
+                                                            <div class="col-lg-4 col-md-4">
+                                                                <label class="form-label" for="party-id"
+                                                                    style="width: -webkit-fill-available;">Penal Paid/
+                                                                    Received</label>
+                                                            </div>
+                                                            <div class="col-lg-3 col-md-3 col-3">
+                                                                <input type="number" id="penal_paid_or_received_id"
+                                                                    name="penal_paid_or_received_id"
+                                                                    class="input-field shakir_side"
+                                                                    style="width: max-content; width: 241px;">
+                                                            </div>
+                                                            <div class="col-lg-5 col-md-5 col-7">
+                                                                <input type="text" id="penal_paid_or_received_text"
+                                                                    name="penal_paid_or_received_text"
+                                                                    class="input-field shakir_side"
+                                                                    style="width: 196px;">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+
+
+
+                                    </div>
+                                    <hr>
+
+                                    <!--button-->
+                                    <div class="row mt-4 mb-4 btn-adj"
+                                        style=" background: aliceblue;padding: 2% 0 2% 0;">
+                                        <div class="col-lg-2 col-md-2 "></div>
+
+                                        <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
+                                            <input type="submit" class="btn btn-success px-4 py-2" value="Save"
+                                                style="width:max-content;margin: 0 14px;">
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
+                                            <input type="reset" class="btn btn-danger px-4 py-2" value="Reset"
+                                                style="width: max-content;margin: 0 14px;">
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
+                                            <a id="listButton" data-bs-toggle="modal" data-bs-target="#label-pill-modal"
+                                                href="#">
+                                                <input type="submit" class="btn btn-warning px-4 py-2" value="List"
+                                                    style="width: max-content;margin: 0 14px;"></a>
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
+                                            <input type="submit" class="btn btn-info px-4 py-2" value="Delete"
+                                                style="width: max-content;margin: 0 14px;">
+                                        </div>
+
+                                    </div>
+                                </form>
+                            </div>
+                            <!--  -->
+                        </div>
+                        <!--  -->
+
+                    </div>
+                </div>
+
+            </main>
+
+        </div>
+    </div>
+
+    <!--  -->
+    <!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

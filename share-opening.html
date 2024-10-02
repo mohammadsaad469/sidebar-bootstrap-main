@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar With Bootstrap</title>
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+
+    <!-- reSPOSIVE BELOW 375 -->
+
+    <div class="header-res-op">
+
+        <div class="user">
+
+            <div class="icon">
+                <button class="btn  canvas_optional" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <i class="lni lni-grid-alt"></i>
+                </button>
+            </div>
+            <div class="">
+                <img src="profile.png" alt="User Profile" class="user-profile">
+                <div class="user-name">XYZ</div>
+                <div class="admin-res">Admin</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" style="color:#fff !important;"
+                data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <!--  -->
+            <ul class="sidebar-nav">
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>Account</h6>
+                    </div>
+                </div>
+
+                <li class="sidebar-item">
+                    <a href="./index.html" class="sidebar-link">
+
+                        <i class="fa-solid fa-cubes"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <span>Account Opening</span>
+                    </a>
+                    <ul id="auth" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="./newcustomer.html" class="sidebar-link">New Customer</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./share-opening.html" class="sidebar-link">Share Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./deposite.html" class="sidebar-link">Deposite Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nominal Member</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Investment & Security</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
+                        <i class="fa-solid fa-money-bill-1-wave"></i>
+                        <span>Transaction</span>
+                    </a>
+                    <ul id="multi" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Cash Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Transfer Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSD Quick Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">RD Quick Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Didvidend Payment</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Passing Transection</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSd Passing</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">RD Passing</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-house-lock"></i>
+                        <span>Account Closing</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth01" aria-expanded="false" aria-controls="auth01">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                        <span>Account Renewal</span>
+                    </a>
+                    <ul id="auth01" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">New Customer</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Share Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Deposite Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nominal Member</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Investment & Security</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth02" aria-expanded="false" aria-controls="auth02">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <span>Small Saving/Pigmy</span>
+                    </a>
+                    <ul id="auth02" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSD/Oigmy Opening</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Ocount Linking</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Loan A/C Linking</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Pigmy Unit Interface</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Pigmy Mobile App</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Agrnt Comission</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-cog"></i>
+                        <span>System</span>
+                    </a>
+                </li>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth04" aria-expanded="false" aria-controls="auth04">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <span>Utility</span>
+                    </a>
+                    <ul id="auth04" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                    data-bs-parent="#sidebar">
+                    <li class="sidebar-item">
+                        <a href="utility1.html" class="sidebar-link">Add / Manage Religion</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./utility2.html" class="sidebar-link">Add / Manage Country</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./AddManageGroupType.html" class="sidebar-link">Add / Manage Sate</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./AddManageGroupType (1).html" class="sidebar-link">Add / Manage City</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./GeneralLedgerMaster.html" class="sidebar-link">General Ledger Master</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./ScheduleMaster.html" class="sidebar-link">Schdule Master</a>
+                    </li>
+                </ul>
+                </li>
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>INTEREST</h6>
+                    </div>
+                </div>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth05" aria-expanded="false" aria-controls="auth05">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <span>Daily Reports</span>
+                    </a>
+                    <ul id="auth05" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Cash Book</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Day Book</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Other Reports</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Agent Reports</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-users"></i>
+                        <span>Account</span>
+                    </a>
+                </li>
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>ALL THINGS</h6>
+                    </div>
+                </div>
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-piggy-bank"></i>
+                        <span>Small Savings</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-regular fa-clipboard"></i>
+                        <span>NPA & Others</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                        <span>Investment</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-regular fa-newspaper"></i>
+                        <span>Final Reports</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-paste"></i> <span>Statement</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-file-lines"></i>
+                        <span>AR/DDR Reports</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <span>Notice</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-print"></i>
+                        <span>Printing</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-regular fa-folder-closed"></i>
+                        <span>Graphical Report</span>
+                    </a>
+                </li>
+
+
+
+
+            </ul>
+            <div class="sidebar-footer">
+                <a href="#" class="sidebar-link">
+                    <i class="lni lni-exit"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- reSPOSIVE BELOW 375 -->
+    <div class="wrapper">
+        <aside id="sidebar">
+            <div class="d-flex logo-ad">
+                <div class="sidebar-logo">
+                    <a href="#">Logo</a>
+                </div>
+                <button class="toggle-btn" type="button">
+                    <i class="lni lni-grid-alt"></i>
+                </button>
+
+            </div>
+            <ul class="sidebar-nav">
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>Account</h6>
+                    </div>
+                </div>
+
+                <li class="sidebar-item">
+                    <a href="./index.html" class="sidebar-link">
+
+                        <i class="fa-solid fa-cubes"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <span>Account Opening</span>
+                    </a>
+                    <ul id="auth" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="./newcustomer.html" class="sidebar-link">New Customer</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./share-opening.html" class="sidebar-link">Share Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./deposite.html" class="sidebar-link">Deposite Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nominal Member</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Investment & Security</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
+                        <i class="fa-solid fa-money-bill-1-wave"></i>
+                        <span>Transaction</span>
+                    </a>
+                    <ul id="multi" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Cash Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Transfer Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSD Quick Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">RD Quick Entry</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Didvidend Payment</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Passing Transection</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSd Passing</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">RD Passing</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-house-lock"></i>
+                        <span>Account Closing</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth01" aria-expanded="false" aria-controls="auth01">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                        <span>Account Renewal</span>
+                    </a>
+                    <ul id="auth01" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">New Customer</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Share Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Deposite Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nominal Member</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Investment & Security</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth02" aria-expanded="false" aria-controls="auth02">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <span>Small Saving/Pigmy</span>
+                    </a>
+                    <ul id="auth02" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">SSD/Oigmy Opening</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Ocount Linking</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Loan A/C Linking</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Pigmy Unit Interface</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Pigmy Mobile App</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Agrnt Comission</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-cog"></i>
+                        <span>System</span>
+                    </a>
+                </li>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth04" aria-expanded="false" aria-controls="auth04">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <span>Utility</span>
+                    </a>
+                    <ul id="auth04" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                    data-bs-parent="#sidebar">
+                    <li class="sidebar-item">
+                        <a href="utility1.html" class="sidebar-link">Add / Manage Religion</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./utility2.html" class="sidebar-link">Add / Manage Country</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./AddManageGroupType.html" class="sidebar-link">Add / Manage Sate</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./AddManageGroupType (1).html" class="sidebar-link">Add / Manage City</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./GeneralLedgerMaster.html" class="sidebar-link">General Ledger Master</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./ScheduleMaster.html" class="sidebar-link">Schdule Master</a>
+                    </li>
+                </ul>
+                </li>
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>INTEREST</h6>
+                    </div>
+                </div>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth05" aria-expanded="false" aria-controls="auth05">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <span>Daily Reports</span>
+                    </a>
+                    <ul id="auth05" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Cash Book</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Day Book</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Other Reports</a>
+                        </li>
+                        <li class="sidebar-item"></li>
+                        <a href="#" class="sidebar-link">Agent Reports</a>
+                </li>
+            </ul>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Account</span>
+                </a>
+            </li>
+            <div class="d-flex heading-01">
+                <div class="sidebar-logo-heading ">
+                    <h6>ALL THINGS</h6>
+                </div>
+            </div>
+
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-piggy-bank"></i>
+                    <span>Small Savings</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-regular fa-clipboard"></i>
+                    <span>NPA & Others</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                    <span>Investment</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-regular fa-newspaper"></i>
+                    <span>Final Reports</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-paste"></i> <span>Statement</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-file-lines"></i>
+                    <span>AR/DDR Reports</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span>Notice</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-solid fa-print"></i>
+                    <span>Printing</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link">
+                    <i class="fa-regular fa-folder-closed"></i>
+                    <span>Graphical Report</span>
+                </a>
+            </li>
+
+
+
+
+            </ul>
+            <div class="sidebar-footer">
+                <a href="#" class="sidebar-link">
+                    <i class="lni lni-exit"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+        </aside>
+        <div class="main p-3">
+            <div class="text-center dashboatrd-cstm">
+                <header>
+                    <div class="logo">
+                        United Rural Credit Co-Op. Society Ltd.
+                    </div>
+                    <div class="user">
+                        <img src="profile.png" alt="User Profile" class="user-profile">
+                        <div class="user-name">XYZ</div>
+                        <div>Admin</div>
+                    </div>
+                </header>
+                <main>
+
+
+
+
+                    <!-- SHARE AC FORM SECTION -->
+
+                    <div class="col-sm-12">
+
+
+                        <div class="card ">
+                            <div class="card-header">
+                                <center>
+                                    <h4 style="color:#7a70ba">Share Account Opening </h4>
+                                </center>
+                            </div>
+                            <div class="card-body">
+                                <form method="POST" action="" enctype="multipart/form-data">
+
+                                    <div class="row" style="margin-bottom: -11px;">
+                                        <div class="col-lg-6 col-md-6"
+                                            style="border-right: 1px solid #ccc;border-right-style: dashed;">
+                                            <div class="form-group">
+                                                <label class="form-label">Ledger No </label>
+                                                <input type="text" class="input-field input-field01" name="balence"
+                                                    id="balence" required="">
+                                                <input type="text" class="input-field" name="balence" id="balence"
+                                                    required="">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="form-label">Party Id </label>
+                                                <input type="text" class="input-field input-field01" name="Party-Id"
+                                                    id="balence" required="">
+                                                <input type="text" class="input-field" name="Party-Id" id="Party-Id"
+                                                    required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="form-label">Account No </label>
+                                                <input type="text" class="input-field" name="Account-No" id="Account-No"
+                                                    required="">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="row">
+                                                <div class="col-lg-1 col-md-1"></div>
+                                                <div class="col-lg-5 col-md-5 col-6 lables-2ndl">
+                                                    <div class="form-group" style="display: block;">
+                                                        <center>
+                                                            <label class="form-label">Photo</label>
+                                                        </center>
+                                                        <input type="file" class="input-field-add-proof"
+                                                            name="upload_photo1" id="fileInputAdd"
+                                                            style="display:none;">
+                                                        <div class="preview-container-add-proof"
+                                                            id="previewContainerAddProof" style="cursor: pointer;">
+                                                            <span class="preview-text-id-proof"
+                                                                id="previewTextIDProof">Click to upload</span>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-5 col-md-5 col-6 lables-2ndl">
+                                                    <div class="form-group" style="display: block;">
+                                                        <center>
+                                                            <label class="form-label">Sign</label>
+                                                        </center>
+                                                        <input type="file" class="input-field-add-proof"
+                                                            name="upload_photo1" id="fileInputAddsign"
+                                                            style="display:none;">
+                                                        <div class="preview-container-add-proof"
+                                                            id="previewContainerAddProofsign" style="cursor: pointer;">
+                                                            <span class="preview-text-id-proof"
+                                                                id="previewTextIDProof">Click to upload</span>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-1 col-md-1"></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <hr>
+
+
+                                    <div>
+                                        <h4 style="font-size: 20px;font-weight: 600;letter-spacing: 0.6px;color:black;">
+                                            Personal Details </h4>
+                                        <br>
+                                        <div class="row personal-detail">
+                                            <div class="col-lg-7 col-md-7"
+                                                style="border-right: 1px solid #ccc;border-right-style: dashed;">
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Name</label>
+                                                            <input type="text" class="input-field" name="Name" id="name_en"  oninput="translateField('name_en', 'name_mar')"
+                                                                required="">
+                                                            <div data-lastpass-icon-root=""
+                                                                style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                                        <div class="form-group">
+                                                            <label class="form-label">नाव</label>
+                                                            <input type="text" class="input-field" name="name_mar"
+                                                                id="name_mar" required="">
+                                                            <div data-lastpass-icon-root=""
+                                                                style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Age</label>
+                                                            <input type="number" id="age" class="input-field"
+                                                                name="age">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Caste</label>
+                                                            <input type="text" id="category" class="input-field"
+                                                                name="cast">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Gender</label>
+                                                            <input type="text" id="gender" class="input-field"
+                                                                name="gender">
+                                                            <!--<select id="gender" name="gender" class="input-field" >-->
+                                                            <!--    <option value="">---Select---</option>-->
+                                                            <!--    <option value="Male">Male</option>-->
+                                                            <!--    <option value="Female">Female</option>-->
+                                                            <!--    <option value="Other">Other</option>-->
+                                                            <!--</select>-->
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Occupation</label>
+                                                            <input type="text" id="occupation" class="input-field"
+                                                                name="occupation">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Phone No</label>
+                                                            <input type="number" id="phone_no" name="phone_number"
+                                                                class="input-field">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Mobile No</label>
+                                                            <input type="number" id="mobile_no" name="mobile_number"
+                                                                class="input-field">
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+
+                                            </div>
+
+                                            <div class="col-lg-5 col-md-5">
+
+                                                <div class="row">
+
+                                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Address</label>
+                                                            <input type="text" class="input-field" name="address_eng"
+                                                                id="address">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                                        <div class="form-group">
+                                                            <label class="form-label">पत्ता </label>
+                                                            <input type="text" class="input-field" name="address_mar"
+                                                                id="address_hi">
+                                                            <div data-lastpass-icon-root=""
+                                                                style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                                        <div class="form-group">
+                                                            <label class="form-label">City </label>
+                                                            <input type="text" id="city" class="input-field"
+                                                                name="city">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                                        <div class="form-group">
+                                                            <label class="form-label">State </label>
+                                                            <input type="text" id="state" class="input-field"
+                                                                name="state">
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+
+                                    <div>
+
+                                    </div>
+                                    <div class="row">
+
+                                        <div class="col-xxl-12" style="margin-top: -1%;">
+                                            <div class="">
+                                                <div class="card-body">
+                                                    <div class="bg-navbar arrow-tabs ">
+                                                        <ul class="nav nav-pills mb-3 details-buttons"
+                                                            id="pills-bg-tab2" role="tablist">
+                                                            <li class="nav-item" role="presentation"><a
+                                                                    class="nav-link active" id="Loan-Detail1"
+                                                                    data-bs-toggle="pill" href="#LoanDetail1" role="tab"
+                                                                    aria-controls="LoanDetail1" aria-selected="true"
+                                                                    style="font-size: 16px;">Account Details</a></li>
+                                                            <li class="nav-item" role="presentation"><a class="nav-link"
+                                                                    id="Loan-Detail2" data-bs-toggle="pill"
+                                                                    href="#LoanDetail2" role="tab"
+                                                                    aria-controls="LoanDetail2" aria-selected="false"
+                                                                    style="font-size: 16px;" tabindex="-1">Nominee
+                                                                    Details</a></li>
+                                                            <li class="nav-item" role="presentation"><a class="nav-link"
+                                                                    id="kyc-details" data-bs-toggle="pill"
+                                                                    href="#kycdetails" role="tab"
+                                                                    aria-controls="kycdetails" aria-selected="false"
+                                                                    style="font-size: 16px;" tabindex="-1">KYC
+                                                                    Details</a></li>
+
+                                                        </ul>
+                                                        <div class="tab-content" id="pills-bg-tabContent2">
+                                                            <div class="tab-pane fade active show" id="LoanDetail1"
+                                                                role="tabpanel" aria-labelledby="Loan-Detail1">
+
+
+
+                                                                <div>
+                                                                    <!--<h4 style="font-size: 20px;font-weight: 600;letter-spacing: 0.6px;color:black;">Personal Details </h4><br>-->
+                                                                    <div class="row">
+                                                                        <div class="col-lg-6 col-md-7"
+                                                                            style="border-right: 1px solid #ccc;border-right-style: dashed;">
+                                                                            <div class="row">
+
+
+                                                                                <div
+                                                                                    class="col-lg-6 col-md-12 col-sm-6">
+                                                                                    <div class="form-group">
+                                                                                        <label class="form-label">Start
+                                                                                            Date</label>
+                                                                                        <input type="date"
+                                                                                            class="input-field"
+                                                                                            name="start_date"
+                                                                                            id="start_date"
+                                                                                            value="2024-09-23">
+                                                                                    </div>
+                                                                                </div>
+
+                                                                                <div
+                                                                                    class="col-lg-6 col-md-12 col-sm-6">
+                                                                                    <div class="form-group ">
+                                                                                        <label class="form-label">Open
+                                                                                            Balance</label>
+                                                                                        <input type="text"
+                                                                                            class="input-field"
+                                                                                            name="open_bal"
+                                                                                            id="open_bal" required="">
+                                                                                    </div>
+                                                                                </div>
+
+                                                                                <div
+                                                                                    class="col-lg-12 col-md-12 col-sm-6 ">
+                                                                                    <div class="form-group">
+                                                                                        <label
+                                                                                            class="form-label">Balance
+                                                                                        </label>
+                                                                                        <input type="text"
+                                                                                            class="input-field"
+                                                                                            name="balence" id="balence"
+                                                                                            required="">
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div
+                                                                                    class="col-lg-12 col-md-12 col-sm-12">
+                                                                                    <div class="form-group">
+                                                                                        <label class="form-label">Custom
+                                                                                            Ref</label>
+                                                                                        <input type="text"
+                                                                                            class="input-field input-field01"
+                                                                                            name="balence" id="balence"
+                                                                                            required="">
+                                                                                        <input type="text"
+                                                                                            class="input-field"
+                                                                                            name="balence" id="balence"
+                                                                                            required="">
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <label class="form-label">Dir
+                                                                                            Code </label>
+                                                                                        <input type="text"
+                                                                                            class="input-field input-field01"
+                                                                                            name="balence" id="balence"
+                                                                                            required="">
+                                                                                        <input type="text"
+                                                                                            class="input-field"
+                                                                                            name="balence" id="balence"
+                                                                                            required="">
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <label class="form-label">Agent
+                                                                                            Code </label>
+                                                                                        <input type="text"
+                                                                                            class="input-field input-field01"
+                                                                                            name="balence" id="balence"
+                                                                                            required="">
+                                                                                        <input type="text"
+                                                                                            class="input-field"
+                                                                                            name="balence" id="balence"
+                                                                                            required="">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-lg-6 col-md-5">
+                                                                            <div class="row">
+                                                                                <div
+                                                                                    class="col-lg-6 col-md-12 col-sm-6">
+                                                                                    <div class="form-group">
+                                                                                        <label class="form-label"
+                                                                                            style="width:max-content;">SMS</label>
+                                                                                        <select id="sms" name="sms"
+                                                                                            class="sms">--&gt;
+                                                                                            <option value="No">No
+                                                                                            </option>
+                                                                                            <option value="YES">Yes
+                                                                                            </option>
+                                                                                            <option value="No">No
+                                                                                            </option>
+
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                                <!--<div class="col-lg-1 col-md-2"></div>-->
+                                                                                <div
+                                                                                    class="col-lg-6 col-md-12 col-sm-6  Close-lag-sec">
+                                                                                    <input type="hidden"
+                                                                                        name="close_flag" value="off">
+                                                                                    <input class="checkbox_animated"
+                                                                                        id="close_flag"
+                                                                                        name="close_flag"
+                                                                                        type="checkbox">
+                                                                                    <label class="form-label"
+                                                                                        for="closeFlag">Close Flag
+                                                                                    </label><br>
+                                                                                    <input type="hidden"
+                                                                                        name="stop_flag" value="off">
+                                                                                    <input class="checkbox_animated"
+                                                                                        name="stop_flag" id="stop_flag"
+                                                                                        type="checkbox">
+                                                                                    <label class="form-label"
+                                                                                        for="closeFlag">Stop Flag
+                                                                                    </label>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="col-lg-6 col-md-12 col-sm-12">
+                                                                                    <div class="form-group">
+                                                                                        <label class="form-label"
+                                                                                            style="width: max-content;">Guarantor
+                                                                                            Limit Amt.</label>
+                                                                                        <input type="text"
+                                                                                            class="input-field"
+                                                                                            name="guarantor_limit_amt"
+                                                                                            id="guarantor_limit_amt">
+                                                                                    </div>
+                                                                                </div>
+
+
+                                                                                <!--<div class="col-lg-6 col-md-12 col-6">-->
+
+                                                                                <!--    <input class="checkbox_animated" id="closeFlag" type="checkbox">-->
+                                                                                <!--    <label class="form-label" for="closeFlag">Stop Flag </label>-->
+                                                                                <!--</div>-->
+                                                                                <div class="col-lg-6 col-md-12 col-12">
+                                                                                    <div class="form-group">
+                                                                                        <label class="form-label"
+                                                                                            style="width:fit-content;">No.of
+                                                                                            Guarantor Limit Amt.</label>
+                                                                                        <input type="text"
+                                                                                            class="input-field"
+                                                                                            name="no_of_guarantor_limit_amt"
+                                                                                            id="no_of_guarantor_limit_amt">
+                                                                                    </div>
+                                                                                </div>
+
+
+
+
+                                                                                <div
+                                                                                    class="col-lg-6 col-md-12 col-sm-6">
+                                                                                    <div class="form-group">
+                                                                                        <label class="form-label"
+                                                                                            style="width:max-content;">Dividend
+                                                                                            Date</label>
+                                                                                        <input type="date"
+                                                                                            class="input-field"
+                                                                                            id="divident_date"
+                                                                                            name="divident_date"
+                                                                                            value="2024-09-23">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="col-lg-6 col-md-12 col-sm-6">
+                                                                                    <div class="form-group">
+                                                                                        <label class="form-label"
+                                                                                            style="width: max-content;">Dividend
+                                                                                            Amount</label>
+                                                                                        <input type="text"
+                                                                                            class="input-field"
+                                                                                            id="divident_amount"
+                                                                                            name="divident_amount">
+                                                                                    </div>
+                                                                                </div>
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+
+                                                            </div>
+                                                            <div class="tab-pane fade" id="LoanDetail2" role="tabpanel"
+                                                                aria-labelledby="kyc-details">
+                                                                <div id="rows-container">
+                                                                    <div class="row my-row">
+                                                                        <div class="col-lg-11 col-md-11 col-12">
+                                                                            <div class="row" id="nominee-container">
+                                                                                <div class="col-lg-3 col-md-3 col-sm-6">
+                                                                                    <div class="form-group"
+                                                                                        style="display:block;">
+                                                                                        <label class="form-label"
+                                                                                            style="width:max-content;">Nominee
+                                                                                            Name</label>
+                                                                                        <input type="text"
+                                                                                            class="input-field form-control"
+                                                                                            id="nominee_name"
+                                                                                            name="nominee_name[]">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-2 col-md-2 col-sm-6">
+                                                                                    <div class="form-group"
+                                                                                        style="display:block;">
+                                                                                        <label class="form-label"
+                                                                                            style="width:max-content;">Age</label>
+                                                                                        <input type="number"
+                                                                                            class="input-field form-control"
+                                                                                            id="nominee_age"
+                                                                                            name="nominee_age[]"
+                                                                                            style="font-size:14px">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-3 col-md-3 col-sm-6">
+                                                                                    <div class="form-group"
+                                                                                        style="display:block;">
+                                                                                        <label class="form-label"
+                                                                                            style="width:max-content;">Address</label>
+                                                                                        <input type="text"
+                                                                                            class="input-field form-control"
+                                                                                            id="nominee_address"
+                                                                                            name="nominee_address[]">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-2 col-md-2 col-sm-6">
+                                                                                    <div class="form-group"
+                                                                                        style="display:block;">
+                                                                                        <label class="form-label"
+                                                                                            style="width:max-content;">Gender</label>
+                                                                                        <select id="nominee_gender"
+                                                                                            name="nominee_gender[]"
+                                                                                            class="input-field">
+                                                                                            <option value="">
+                                                                                                ---Select---</option>
+                                                                                            <option value="Male">Male
+                                                                                            </option>
+                                                                                            <option value="Female">
+                                                                                                Female</option>
+                                                                                            <option value="Other">Other
+                                                                                            </option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-2 col-md-2 col-sm-6">
+                                                                                    <div class="form-group"
+                                                                                        style="display:block;">
+                                                                                        <label class="form-label"
+                                                                                            style="width:max-content;">Relation</label>
+                                                                                        <select id="nominee_relation"
+                                                                                            name="nominee_relation[]"
+                                                                                            class="input-field">
+                                                                                            <option value="">
+                                                                                                ---Select---</option>
+                                                                                            <option value="Mother">
+                                                                                                Mother</option>
+                                                                                            <option value="Father">
+                                                                                                Father</option>
+                                                                                            <option value="Brother">
+                                                                                                Brother</option>
+                                                                                            <option value="Sister">
+                                                                                                Sister</option>
+                                                                                            <option value="Wife">Wife
+                                                                                            </option>
+                                                                                            <option value="Daughter">
+                                                                                                Daughter</option>
+                                                                                            <option value="Son">Son
+                                                                                            </option>
+
+
+
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div id="nominee-container">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12">
+                                                                            <span class="btn btn-primary add-row"
+                                                                                style="float: inline-end;color:white;position: relative;top: 30%; margin: 2px 0;">+</span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="tab-pane fade" id="kycdetails" role="tabpanel"
+                                                                aria-labelledby="kyc">
+
+                                                                <div class="row">
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12 kyc-detail-padding">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6 col-md-6 col-sm-6" id="unique">
+
+                                                                                <input type="file"
+                                                                                    class="input-field-add-proof"
+                                                                                    id="fileInputProof1"
+                                                                                    name="nominee_upload_photo">
+                                                                                <input type="file"
+                                                                                    class="input-field-add-proof"
+                                                                                    id="fileInputAdd1"
+                                                                                    name="nominee_upload_photo1">
+                                                                                <div class="preview-container-proof1"
+                                                                                    id="previewContainerProof4"> 
+                                                                                    <span class="preview-text-proof1"
+                                                                                        id="previewTextProof1">Click to
+                                                                                        upload</span>
+
+                                                                                </div>
+                                                                                <center><label class="form-label">Upload
+                                                                                        Photo</label></center>
+                                                                            </div>
+                                                                            <div class="col-lg-6 col-md-6 col-sm-6">
+
+                                                                                <input type="file"
+                                                                                    class="input-field-add-proof"
+                                                                                    id="fileInputProof2"
+                                                                                    name="nominee_upload_sign">
+                                                                                <input type="hidden"
+                                                                                    class="input-field-add-proof"
+                                                                                    id="fileInputID2"
+                                                                                    name="nominee_upload_sign1">
+                                                                                <div class="preview-container-proof2"
+                                                                                    id="previewContainerProof2">
+                                                                                    <span class="preview-text-proof1"
+                                                                                        id="previewTextProof1">Click to
+                                                                                        upload</span>
+                                                                                </div>
+                                                                                <center><label class="form-label">Upload
+                                                                                        Sign</label></center>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                                                                <div class="row">
+                                                                                    <div
+                                                                                        class="col-lg-12 col-md-12 col-sm-12">
+                                                                                        <div class="form-group"
+                                                                                            style="display: block !important;text-align: center;">
+                                                                                            <label class="form-label form-label-ms"
+                                                                                                style="margin-right: unset;width: -webkit-fill-available; text-align: center;">Select
+                                                                                                Address Proof</label>
+                                                                                            <br>
+                                                                                            <center>
+                                                                                                <select
+                                                                                                    id="nominee_select_address_proof"
+                                                                                                    name="nominee_select_address_proof"
+                                                                                                    class="input-field text-center">
+                                                                                                    <option value=" ">
+                                                                                                        ---Select---
+                                                                                                    </option>
+                                                                                                    <option
+                                                                                                        value="Passport">
+                                                                                                        Passport
+                                                                                                    </option>
+                                                                                                    <option
+                                                                                                        value="Driving License">
+                                                                                                        Driving License
+                                                                                                    </option>
+                                                                                                    <option
+                                                                                                        value="Voter Id">
+                                                                                                        Voter ID
+                                                                                                    </option>
+                                                                                                    <option
+                                                                                                        value="Aadhaar Card">
+                                                                                                        Aadhaar Card
+                                                                                                    </option>
+                                                                                                    <option
+                                                                                                        value="Utility Bill">
+                                                                                                        Utility Bill
+                                                                                                    </option>
+                                                                                                    <option
+                                                                                                        value="Rental Agreement">
+                                                                                                        Rental Agreement
+                                                                                                    </option>
+                                                                                                    <option
+                                                                                                        value="Bank Statement">
+                                                                                                        Bank Statement
+                                                                                                    </option>
+                                                                                                    <option
+                                                                                                        value="Government Id">
+                                                                                                        Government ID
+                                                                                                    </option>
+                                                                                                </select>
+                                                                                            </center>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="col-lg-12 col-md-12 col-sm-12">
+                                                                                        <div class="form-group"
+                                                                                            style="display: block !important;text-align: center;">
+                                                                                            <input type="text"
+                                                                                                id="nominee_select_adress_proof_number"
+                                                                                                name="nominee_select_adress_proof_number"
+                                                                                                class="input-field mt-2 text-center"
+                                                                                                placeholder="Please Enter Number">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                                                                <div class="row">
+                                                                                    <div
+                                                                                        class="col-lg-12 col-md-12 col-sm-12 ">
+                                                                                        <div class="form-group"
+                                                                                            style="display: block !important;">
+                                                                                            <label class="form-label"
+                                                                                                style="margin-right: unset;width: -webkit-fill-available;text-align: center;">Select
+                                                                                                ID Proof</label>
+                                                                                            <br>
+                                                                                            <select
+                                                                                                id="nominee_select_id_proof"
+                                                                                                name="nominee_select_id_proof"
+                                                                                                class="input-field text-center">
+                                                                                                <option value=" ">
+                                                                                                    ---Select---
+                                                                                                </option>
+                                                                                                <option
+                                                                                                    value="Passport">
+                                                                                                    Passport</option>
+                                                                                                <option value="Aadhaar">
+                                                                                                    Aadhaar Card
+                                                                                                </option>
+                                                                                                <option
+                                                                                                    value="Driving License">
+                                                                                                    Driving License
+                                                                                                </option>
+                                                                                                <option
+                                                                                                    value="Pan Card">PAN
+                                                                                                    Card</option>
+                                                                                                <option
+                                                                                                    value="Voter Id">
+                                                                                                    Voter ID</option>
+                                                                                                <option
+                                                                                                    value="Ration Card">
+                                                                                                    Ration Card</option>
+                                                                                                <option
+                                                                                                    value="Utility Bill">
+                                                                                                    Utility Bill
+                                                                                                </option>
+                                                                                            </select>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="col-lg-12 col-md-12 col-sm-12">
+                                                                                        <div class="form-group"
+                                                                                            style="display: block !important;">
+                                                                                            <input type="text"
+                                                                                                id="nominee_select_id_proof_number"
+                                                                                                name="nominee_select_id_proof_number"
+                                                                                                class="input-field mt-2 text-center"
+                                                                                                placeholder="Please Enter Number">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12 kyc-detail-padding ">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                                                                <input type="file"
+                                                                                    class="input-field-id-proof"
+                                                                                    id="fileInputProof3"
+                                                                                    name="nominee_upload_address_proof">
+                                                                                <input type="hidden"
+                                                                                    class="input-field-id-proof"
+                                                                                    id="fileInputAdd3"
+                                                                                    name="nominee_upload_address_proof1">
+                                                                                <div class="preview-container-proof3"
+                                                                                    id="previewContainerProof3">
+                                                                                    <span class="preview-text-proof1"
+                                                                                        id="previewTextProof1">Click to
+                                                                                        upload</span>
+                                                                                </div>
+                                                                                <center><label
+                                                                                        class="form-label">Address
+                                                                                        Proof</label></center>
+                                                                            </div>
+                                                                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                                                                <input type="file"
+                                                                                    class="input-field-id-proof"
+                                                                                    id="fileInputProof4"
+                                                                                    name="nominee_upload_id_proof">
+                                                                                <input type="hidden"
+                                                                                    class="input-field-id-proof"
+                                                                                    id="fileInputID4"
+                                                                                    name="nominee_upload_id_proof1">
+                                                                                <div class="preview-container-proof4"
+                                                                                    id="previewContainerProof4">
+                                                                                    <span class="preview-text-proof1"
+                                                                                        id="previewTextProof1">Click to
+                                                                                        upload</span>
+                                                                                </div>
+                                                                                <center><label class="form-label">ID
+                                                                                        Proof</label></center>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <!--button-->
+                                    <div class="row mt-4 mb-4 btn-adj"
+                                        style=" background: aliceblue;padding: 2% 0 2% 0;">
+                                        <!--<div class="col-lg-2 col-md-2"></div>-->
+
+                                        <div class="col-lg-2 col-md-2 col-sm-6" style="margin-bottom:6px">
+                                            <input type="submit" class="btn btn-success px-4 py-2" value="Save"
+                                                style=margin: 0 14px;">
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-6" style="margin-bottom:6px">
+                                            <input type="reset" class="btn btn-danger px-4 py-2" value="Reset"
+                                                style="margin: 0 14px;">
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-6" style="margin-bottom:6px">
+                                            <input type="submit" class="btn btn-primary px-4 py-2" value="Print"
+                                                style="margin: 0 14px;">
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-6" style="margin-bottom:6px">
+                                            <input type="submit" class="btn btn-dark px-4 py-2" value="PDF"
+                                                style="margin: 0 14px;">
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-6" style="margin-bottom:6px">
+                                            <a class="btn btn-warning px-4 py-2" id="listButton" data-bs-toggle="modal"
+                                                data-bs-target="#label-pill-modal" href="#"
+                                                style="margin: 0 14px;">List</a>
+                                            <!--<input type="submit" class="btn btn-warning px-4 py-2" value="List" style="margin: 0 14px;">-->
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-6" style="margin-bottom:6px">
+                                            <input type="submit" class="btn btn-info px-4 py-2" value="Delete"
+                                                style="margin: 0 14px;">
+                                        </div>
+
+                                    </div>
+                                    <div id="error-message" style="color: red; margin-top: 10px;"></div>
+
+                                </form>
+                            </div>
+                            <!--</div>-->
+                        </div>
+                    </div>
+
+
+
+                    <!-- END -->
+
+
+                </main>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
