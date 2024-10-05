@@ -267,6 +267,10 @@ main {
         margin-top: 10px;
         font-size: 3vw;
     }
+
+    .personal-detail-dep {
+        text-align: center !important;
+    }
 }
 
 
@@ -434,6 +438,7 @@ hr {
     border: 0;
     border-top: var(--bs-border-width) solid;
     opacity: .25;
+    border-style: dashed;
 }
 
 .arrow-tabs.bg-navbar .nav {
@@ -733,6 +738,15 @@ background-color: transparent;
 }
 
 
+.primry-sms-cstm {
+    width: 100%;
+    max-width: 130px;
+    background-color: #7A70BA !important;
+    border-color: #7A70BA !important ;
+    position: relative;
+    left: 78%;
+}
+
 
 
 
@@ -740,6 +754,16 @@ background-color: transparent;
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 376px) {
+
+    .primry-sms-cstm {
+        width: 100%;
+        max-width: 122px;
+        background-color: #7A70BA !important;
+        border-color: #7A70BA !important;
+        position: relative;
+        left: 58%;
+        font-size: 14px;
+    }
 
     .first-bl-date-master {
         display: flex !important;
@@ -936,6 +960,15 @@ background-color: transparent;
     margin-top: 30px;
 }
 
+.primry-sms-cstm {
+    width: 100%;
+    max-width: 130px;
+    background-color: #7A70BA !important;
+    border-color: #7A70BA !important;
+    position: relative;
+    left: 59%;
+}
+
 
 
  
@@ -979,11 +1012,6 @@ background-color: transparent;
         flex-direction: column !important;
     }
 }
-
-
-
-
-
 
 /* SHAKIR CSS */
 

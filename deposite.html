@@ -85,8 +85,6 @@
                     </ul>
                 </li>
 
-            
-
                 <li class="sidebar-item">
                     <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
                         data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
@@ -644,110 +642,84 @@
                         <div class="col-lg-12 col-md-12 col-sm-12">
                 
                 
-                            <!-- <div class="card "> -->
+                            <div class="card "> 
                                 <div class="card-header">
                                     <h4 style="color:#7a70ba;font-size: 20px; font-weight: 600; letter-spacing: 0.6px;" class="text-center">Deposite Account Opening </h4>
                                 </div>
                                 <div class="card-body">
                                     <form method="POST" action="" enctype="multipart/form-data">
                 
-                                        <div class="row" style="margin-bottom: -11px;">
-                                            <div class="col-lg-6 col-md-6 firstblock" style="border-right: 1px solid #ccc;border-right-style: dashed;">
-                                                <div class="form-group" style="display:flex !important;">
-                                                    <div class="col-lg-3 col-md-3 col-sm-12">
-                                                        <label class="form-label" for="party-id" style="color: #7a70ba; font-size: 15px;">Ledger No</label>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-3 col-sm-12">
-                                                        <input type="text" id="party_id" name="party_id" class="input-field" required style="width: 150px;border: 1px solid #ccc;">
-                                                        <div id="suggestions_id" class="suggestions-box" style="border: 1px solid #ccc; display: none;"></div>
-                                                    </div>
-                                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                                        <input type="text" id="party_text" name="party_text" class="input-field" style="width: 256px; float: left; margin-bottom: 10px;border: 1px solid #ccc;">
-                                                        <div id="suggestions_text" class="suggestions-box" style="border: 1px solid #ccc; display: none;"></div>
-                                                    </div>
-                                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                                        <div id="suggestions_text" class="suggestions-box" style="border: 1px solid #ccc; display: none;"></div>
-                                                    </div>
+
+                                        <div class="row" style="margin-bottom: -11px;    margin-top: 10px;">
+                                            <div class="col-lg-6 col-md-6" style="border-right: 1px solid #ccc;border-right-style: dashed;">
+                                                <div class="form-group">
+                                                    <label class="form-label">Ledger No </label>
+                                                    <input type="text" class="input-field input-field01sh" name="balence-sh" id="balence-sh" required="">
+                                                    <input type="text" class="input-field" name="balence" id="balence" required="">
                                                 </div>
-                
-                                                <div class="form-group" style="display:flex !important;">
-                                                    <div class="col-lg-3 col-md-8 col-sm-12">
-                                                        <label class="form-label" for="party-id" style="width: max-content;color: #7a70ba; text-align: left; font-size: 15px;">Account No</label>
-                                                    </div>
-                                                    <div class="col-lg-12 col-md-12 col-sm-12">
-                                                        <input type="text" id="account_no" name="account_no" class="input-field" style="width: 67%; float: left;border: 1px solid #ccc;">
-                                                        <div id="suggestions_deposite_account_no" class="suggestions-box" style="border: 1px solid #ccc; display: none;"></div>
-                                                       
-                                                    </div>
-                                                </div>
-                
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                            <div class="form-group" style="display:flex !important;">
-                                                <div class="col-lg-3 col-md-3 col-sm-12">
-                                                    <label class="form-label" for="party-id" style="color: #7a70ba; font-size: 15px;">Party Id</label>
-                                                </div>
-                                                <div class="col-lg-3 col-md-3 col-sm-12">
-                                                    <input type="text" id="party_id" name="party_id" class="input-field" required style="width: 150px;border: 1px solid #ccc;">
-                                                    <div id="suggestions_id" class="suggestions-box" style="border: 1px solid #ccc; display: none;"></div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <input type="text" id="party_text" name="party_text" class="input-field" style="border: 1px solid #ccc;width: 256px; float: left; margin-bottom: 10px;">
-                                                    <div id="suggestions_text" class="suggestions-box" style="border: 1px solid #ccc; display: none;"></div>
+    
+                                                <div class="form-group">
+                                                    <label class="form-label">Account No </label>
+                                                    <input type="text" class="input-field" name="Account-No" id="Account-No-sh" required="">
                                                 </div>
                                             </div>
-                
-                                                <div class="form-group" style="display:flex !important;">
-                                                    <div class="col-lg-3 col-md-3 col-sm-12">
-                                                        <label class="form-label" for="party-id" style="color: #7a70ba;font-size: 15px;">Agent Id</label>
+    
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="row">
+                                                    <div class="col-lg-1 col-md-1"></div>
+                                                    <div class="form-group">
+                                                        <label class="form-label">Party Id</label>
+                                                        <input type="text" class="input-field input-field01sh" name="balence-sh" id="balence-sh2" required="">
+                                                        <input type="text" class="input-field" name="balence" id="balence-sh2" required="">
                                                     </div>
-                                                    <div class="col-lg-3 col-md-3 col-sm-12">
-                                                        <input type="number" id="agent_id" name="agent_id" class="input-field" style="width: 150px;border: 1px solid #ccc;">
+                                                    <div class="form-group">
+                                                        <label class="form-label">Agent Id </label>
+                                                        <input type="text" class="input-field input-field01sh" name="balence-sh" id="balence-sh" required="">
+                                                        <input type="text" class="input-field" name="balence" id="balencesh2" required="">
                                                     </div>
-                                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                                        <input type="text" id="agent_text" name="agent_text" class="input-field" style="width: 256px; float: left;border: 1px solid #ccc;">
-                                                    </div>
+                                                    <button class="btn btn-primary primry-sms-cstm" type="submit" style="float: inline-end;">New Party</button>
+                                                   
                                                 </div>
-                                                <button class="btn" type="submit" style="float: inline-end; width: 20%; margin-right: 47px; margin-top: 10px; background-color: #7a70ba; font-size: 14px;font-weight: 600; color: #fff;">New Party</button>
+    
                                             </div>
                                         </div>
                                         <hr>
                 
                                         <div>
-                                            <h4 style="font-size: 20px;font-weight: 600;letter-spacing: 0.6px;color:black; text-align: left; margin-left: 30px;">Personal Details </h4>
+                                            <h4 class="personal-detail-dep" style="font-size: 20px;font-weight: 600;letter-spacing: 0.6px;color:black; text-align: left; margin-left: 30px;">Personal Details </h4>
                                             <br>
                                             <div class="row">
                                                 <div class="col-lg-7 col-md-7" style="border-right: 1px solid #ccc;border-right-style: dashed;">
                                                     <div class="row">
-                                                        <div class="col-lg-12 col-md-12 col-12">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12">
                                                             <div class="form-group">
-                                                                <label class="form-label" style="float: left; margin-left: 30px; color: #7a70ba; font-size: 15px;">Name</label>
+                                                                <label class="form-label">Name</label>
                                                               
-                                                                <input type="text" id="name_eng" oninput="translateField('name_eng', 'name_mar')" name="name_eng" class="input-field"  readonly style="border: 1px solid #ccc;width: 80%; margin-bottom: 10px;">
+                                                                <input type="text" id="name_eng" oninput="translateField('name_eng', 'name_mar')" name="name_eng" class="input-field" style="border: 1px solid #ccc;width: 80%; margin-bottom: 10px;">
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-12 col-md-12 col-12">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12">
                                                             <div class="form-group">
-                                                                <label class="form-label"  style="float: left; margin-left: 32px; color: #7a70ba;font-size: 15px;">नाव</label>
-                                                                <input type="text" id="name_mar" name="name_mar" class="input-field" readonly style="border: 1px solid #ccc;width: 80%;margin-left: 23px;">
+                                                                <label class="form-label">नाव</label>
+                                                                <input type="text" id="name_mar" name="name_mar" class="input-field" readonly">
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-4 col-md-6 col-6">
+                                                        <div class="col-lg-4 col-md-6 col-sm-12">
                                                             <div class="form-group">
-                                                                <label class="form-label" style="float: left; margin-left: 28px;color: #7a70ba; margin-top: 10px; font-size: 15px;">Age</label>
-                                                                <input type="number" id="age" name="age" class="input-field" readonly style="border: 1px solid #ccc;width: 40%;margin-left: 24px; margin-top: 10px;">
+                                                                <label class="form-label">Age</label>
+                                                                <input type="number" id="age" name="age" class="input-field">
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-4 col-md-6 col-6">
+                                                        <div class="col-lg-4 col-md-6 col-sm-12">
                                                             <div class="form-group">
-                                                                <label class="form-label" style="float: left; margin-left: 28px;color: #7a70ba; margin-top: 10px;font-size: 15px;">Cast</label>
-                                                                <input type="text" id="category" name="cast" class="input-field" readonly style="border: 1px solid #ccc;width: 40%;margin-left: 24px; margin-top: 10px;">
+                                                                <label class="form-label">Cast</label>
+                                                                <input type="text" id="category" name="cast" class="input-field">
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-4 col-md-6 col-6">
+                                                        <div class="col-lg-4 col-md-6 col-sm-12">
                                                             <div class="form-group">
-                                                                <label class="form-label" style="float: left; margin-left: 28px;color: #7a70ba; margin-top: 10px; font-size: 15px;">Gender</label>
-                                                                <select id="gender" name="gender" class="input-field" readonly style="border: 1px solid #ccc;width: 40%;margin-left: -18px; margin-top: 10px;">
+                                                                <label class="form-label">Gender</label>
+                                                                <select id="gender" name="gender" class="input-field">
                                                                     <option value="">---Select---</option>
                                                                     <option value="Male">Male</option>
                                                                     <option value="Female">Female</option>
@@ -755,22 +727,22 @@
                                                                 </select>
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-4 col-md-6 col-6">
+                                                        <div class="col-lg-4 col-md-6 col-sm-12">
                                                             <div class="form-group">
-                                                                <label class="form-label" style="width:max-content;float: left; margin-left: 15px;color: #7a70ba;font-size: 15px; margin-top: 10px;">Occupation</label>
-                                                                <input type="text" id="occupation" name="occupation" class="input-field" readonly style="border: 1px solid #ccc;width: 40%;margin-left: 24px; margin-top: 10px;">
+                                                                <label class="form-label">Occupation</label>
+                                                                <input type="text" id="occupation" name="occupation" class="input-field">
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-4 col-md-6 col-6">
+                                                        <div class="col-lg-4 col-md-6 col-sm-12">
                                                             <div class="form-group">
-                                                                <label class="form-label"style="float: left; margin-left: 28px;color: #7a70ba; margin-top: 10px;font-size: 15px;">Phone No</label>
-                                                                <input type="number" id="phone_no" name="phone_no" class="input-field" readonly style="border: 1px solid #ccc;width: 40%;margin-left: -15px; margin-top: 10px;">
+                                                                <label class="form-label">Phone No</label>
+                                                                <input type="number" id="phone_no" name="phone_no" class="input-field">
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-4 col-md-6 col-6">
+                                                        <div class="col-lg-4 col-md-6 col-sm-12">
                                                             <div class="form-group">
-                                                                <label class="form-label"style="float: left; margin-left: 15px;color: #7a70ba; margin-top: 10px;font-size: 15px;">Mobile No</label>
-                                                                <input type="number" id="mobile_no" name="mobile_no" class="input-field" readonly style="border: 1px solid #ccc;width: 40%;margin-left: -22px; margin-top: 10px;">
+                                                                <label class="form-label">Mobile No</label>
+                                                                <input type="number" id="mobile_no" name="mobile_no" class="input-field">
                                                             </div>
                                                         </div>
                 
@@ -783,35 +755,35 @@
                 
                                                     <div class="row">
                 
-                                                        <div class="col-lg-12 col-md-12 col-12">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12">
                                                             <div class="form-group">
-                                                                <label class="form-label" style="float: left; color: #7a70ba;font-size: 15px;">Address</label>
-                                                                <input type="text" id="address" oninput="translateField('address', 'address_hi')" name="address_eng" class="input-field" readonly style="border: 1px solid #ccc; width: 68%; margin-bottom: 10px;">
+                                                                <label class="form-label">Address</label>
+                                                                <input type="text" id="address-sh" oninput="translateField('address-sh', 'address_hi-sh')" name="address_eng" class="input-field"style="border: 1px solid #ccc; width: 68%; margin-bottom: 10px;">
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-12 col-md-12 col-12">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12">
                                                             <div class="form-group">
-                                                                <label class="form-label" style="float: left; color: #7a70ba;font-size: 15px;">पत्ता </label>
-                                                                <input type="text" id="address_hi" name="address_mar" class="input-field" readonly style="border: 1px solid #ccc; width: 68%;margin-left: 38px;margin-bottom: 10px;">
+                                                                <label class="form-label">पत्ता </label>
+                                                                <input type="text" id="address_hi-sh" name="address_mar" class="input-field" readonly>
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-6 col-md-12 col-6">
+                                                        <div class="col-lg-6 col-md-12 col-sm-12">
                                                             <div class="form-group">
-                                                                <label class="form-label" style="float: left; color: #7a70ba;font-size: 15px;">City </label>
-                                                                <input type="text" id="city" name="city" class="input-field" readonly style="border: 1px solid #ccc; width: 40%;margin-left: 50px; margin-bottom: 10px;">
+                                                                <label class="form-label">City </label>
+                                                                <input type="text" id="city" name="city" class="input-field">
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-6 col-md-12 col-6">
+                                                        <div class="col-lg-6 col-md-12 col-sm-12">
                                                             <div class="form-group">
-                                                                <label class="form-label"style="float: left; color: #7a70ba;font-size: 15px;">State </label>
-                                                                <input type="text" id="state" name="state" class="input-field" readonly style="width: 40%; margin-bottom: 10px;border: 1px solid #ccc;">
+                                                                <label class="form-label">State </label>
+                                                                <input type="text" id="state" name="state" class="input-field">
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-1 col-md-1"></div>
                                                         <div class="col-lg-5 col-md-5 col-6">
                                                             <div class="form-group" style="display: block;">
                                                                 <center>
-                                                                    <label class="form-label" style="font-size: 15px;color: #7a70ba; ">Photo</label>
+                                                                    <label class="form-label" style="text-align: center;">Photo</label>
                                                                 </center>
                                                                 <!--<input type="file" class="input-field-add-proof" name="upload_photo" id="fileInputAddProof" readonly>-->
                                                                 <input type="hidden" class="input-field-add-proof" name="upload_photo1" id="fileInputAdd">
@@ -826,7 +798,7 @@
                                                         <div class="col-lg-5 col-md-5 col-6">
                                                             <div class="form-group" style="display: block;">
                                                                 <center>
-                                                                    <label class="form-label" style="font-size: 15px;color: #7a70ba;">Sign</label>
+                                                                    <label class="form-label" style="text-align: center;">Sign</label>
                                                                 </center>
                                                                 <!--<input type="file" class="input-field-id-proof" name="upload_sign" id="fileInputIDProof" readonly>-->
                                                                  <input type="hidden" class="input-field-add-proof" name="upload_sign1" id="fileInputID">
@@ -856,10 +828,10 @@
                                                 <div class="">
                                                     <div class="card-body">
                                                         <div class="bg-navbar arrow-tabs">
-                                                            <ul class="nav nav-pills mb-3" id="pills-bg-tab2" role="tablist" style=" width: 100%; display: flex; flex-direction: row; justify-content: center;">
-                                                                <li class="nav-item"><a class="nav-link active" id="Loan-Detail1" data-bs-toggle="pill" href="#LoanDetail1" role="tab" aria-controls="LoanDetail1" aria-selected="false" style="font-size: 16px;background-color: #7a70ba;color: #fff;">Account Details</a></li>
-                                                                <li class="nav-item"><a class="nav-link " id="Loan-Detail2" data-bs-toggle="pill" href="#LoanDetail2" role="tab" aria-controls="LoanDetail2" aria-selected="false" style="font-size: 16px; background-color: #7a70ba;color: #fff;">Pigmy Details</a></li>
-                                                                <li class="nav-item"><a class="nav-link" id="kyc-details" data-bs-toggle="pill" href="#kycdetails" role="tab" aria-controls="kycdetails" aria-selected="false" style="font-size: 16px;background-color: #7a70ba;color: #fff;">Nominee Details</a></li>
+                                                            <ul class="nav nav-pills mb-3 details-buttons" id="pills-bg-tab2" role="tablist" style=" width: 100%; display: flex; flex-direction: row; justify-content: center;">
+                                                                <li class="nav-item"><a class="nav-link active" id="Loan-Detail1" data-bs-toggle="pill" href="#LoanDetail1" role="tab" aria-controls="LoanDetail1" aria-selected="false">Account Details</a></li>
+                                                                <li class="nav-item"><a class="nav-link " id="Loan-Detail2" data-bs-toggle="pill" href="#LoanDetail2" role="tab" aria-controls="LoanDetail2" aria-selected="false">Pigmy Details</a></li>
+                                                                <li class="nav-item"><a class="nav-link" id="kyc-details" data-bs-toggle="pill" href="#kycdetails" role="tab" aria-controls="kycdetails" aria-selected="false">Nominee Details</a></li>
                                                             </ul>
                                                             <div class="tab-content" id="pills-bg-tabContent2">
                                                                 <div class="tab-pane fade show active" id="LoanDetail1" role="tabpanel" aria-labelledby="Loan-Detail1">
@@ -868,16 +840,17 @@
                                                                         <div class="row">
                                                                             <div class="col-lg-6 col-md-7" style="border-right: 1px solid #ccc;border-right-style: dashed;">
                                                                                 <div class="row">
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
-                                                                                            <label class="form-label" style="width: fit-content;float: left; color: #7a70ba; font-size: 15px;margin-left: 14px;width: 10%;">Opening Date</label>
-                                                                                            <input type="Date" id="opening_date" class="input-field" name="opening_date" tabindex="1" style="width: 48%;padding: 3px;border: 1px solid #ccc;">
+                                                                                            <label class="form-label">Opening Date</label>
+                                                                                            <input type="Date" id="opening_date" class="input-field" name="opening_date" tabindex="1" 
+                                                                                            >
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
-                                                                                            <label class="form-label" style="width:max-content;float: left; color: #7a70ba; font-size: 15px; margin-top: 5px;">Account Type</label>
-                                                                                            <select id="account_type" name="account_type" class="input-field" tabindex="2" style="width: 48%;padding: 3px;border: 1px solid #ccc;">
+                                                                                            <label class="form-label">Account Type</label>
+                                                                                            <select id="account_type" name="account_type" class="input-field" tabindex="2">
                                                                                                 <option value="">---Select---</option>
                                                                                                 <option value="savings">Savings</option>
                                                                                                 <option value="current">Current</option>
@@ -891,16 +864,16 @@
                 
                 
                 
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
-                                                                                            <label class="form-label" style="width:max-content;float: left; color: #7a70ba; font-size: 15px; margin-left: 15px; margin-top: 3px;">Balence </label>
-                                                                                            <input type="text" id="balence" name="balence" class="input-field" tabindex="5" style="width: 60%;padding: 3px; border: 1px solid #ccc;">
+                                                                                            <label class="form-label">Balence </label>
+                                                                                            <input type="text" id="balence" name="balence" class="input-field" tabindex="5">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
-                                                                                            <label class="form-label"  style=" width:max-content;float: left; color: #7a70ba; font-size: 15px; margin-top: 3px;">Mode of Operation</label>
-                                                                                            <select id="mode_of_operation" name="mode_of_operation" class="input-field" tabindex="6" style="border: 1px solid #ccc; width: 37%;padding: 3px; border: 1px solid #ccc;">
+                                                                                            <label class="form-label">Mode of Operation</label>
+                                                                                            <select id="mode_of_operation" name="mode_of_operation" class="input-field" tabindex="6">
                                                                                                 <option value="">---Select---</option>
                                                                                                 <option value="single">Single</option>
                                                                                                 <option value="joint">Joint</option>
@@ -914,24 +887,14 @@
                                                                                 </div>
                 
                                                                                 <div class="row">
-                                                                                    <div class="col-lg-12 col-md-12 col-12">
+                                                                                    <div class="col-lg-12 col-md-12 col-sm-12">
                                                                                         <div class="form-group" style="display:block !important;">
                                                                                             <div class="row">
-                                                                                                <div class="col-lg-3 col-md-3">
-                                                                                                    <label class="form-label" for="party-id" style="width:max-content;padding:5px; color: #7a70ba; font-size: 15px; margin-top: 3px;">Director Code</label>
-                                                                                                
+                                                                                                <div class="form-group">
+                                                                                                    <label class="form-label">Ledger No </label>
+                                                                                                    <input type="text" class="input-field input-field01sh" name="balence-sh" id="balence-sh" required="">
+                                                                                                    <input type="text" class="input-field" name="balence" id="balence" required="">
                                                                                                 </div>
-                                                                                                <div class="col-lg-9 col-md-9 col-12" style="display: contents;">
-                                                                                                    <div class="row px-3">
-                                                                                                        <div class="col-lg-4 col-md-4 col-6">
-                                                                                                            <input type="number" id="director_id" name="director_id" class="input-field" style="width: max-content; width: 150px;border: 1px solid #ccc; margin-top: 10px;" tabindex="9">
-                                                                                                        </div>
-                                                                                                        <div class="col-lg-8 col-md-8 col-6">
-                                                                                                            <input type="text" id="director_text" name="director_text" class="input-field" tabindex="10" style="border: 1px solid #ccc;width: 256px;float: left;margin-top: 10px;">
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
@@ -942,23 +905,23 @@
                 
                                                                                 <div class="row">
                 
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
-                                                                                            <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Opening Balence</label>
-                                                                                            <input type="text" id="opening_balence" name="opening_balence" class="input-field" tabindex="3" style="border: 1px solid #ccc; width: 40%;padding: 3px;margin-bottom: 10px; ">
+                                                                                            <label class="form-label">Opening Balence</label>
+                                                                                            <input type="text" id="opening_balence" name="opening_balence" class="input-field" tabindex="3">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
-                                                                                            <label class="form-label" style="width: fit-content;float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Interest Rate</label>
-                                                                                            <input type="text" id="interest_rate" name="interest_rate" class="input-field" tabindex="4"style="border: 1px solid #ccc; width: 48%;padding: 3px;margin-bottom: 10px ">
+                                                                                            <label class="form-label">Interest Rate</label>
+                                                                                            <input type="text" id="interest_rate" name="interest_rate" class="input-field" tabindex="4">
                                                                                         </div>
                                                                                     </div>
                 
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
-                                                                                            <label class="form-label" style="width:max-content;float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Send SMS</label>
-                                                                                            <select id="sms" name="sms" class="input-field" tabindex="7" style="border: 1px solid #ccc; width: 52%;padding: 3px;margin-bottom: 10px ">
+                                                                                            <label class="form-label">Send SMS</label>
+                                                                                            <select id="sms" name="sms" class="input-field">
                                                                                                 <option value="">---Select---</option>
                                                                                                 <option value="Yes">Yes</option>
                                                                                                 <option value="No">No</option>
@@ -966,10 +929,10 @@
                                                                                             </select>
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
-                                                                                            <label class="form-label" style="width: max-content;float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Doc No.</label>
-                                                                                            <input type="text" id="doc_no" name="doc_no" class="input-field" tabindex="8" style="border: 1px solid #ccc; width: 52%;padding: 3px;margin-bottom: 10px;margin-left: 27px; ">
+                                                                                            <label class="form-label">Doc No.</label>
+                                                                                            <input type="text" id="doc_no" name="doc_no" class="input-field" tabindex="8">
                                                                                         </div>
                                                                                     </div>
                 
@@ -995,9 +958,9 @@
                                                                         <div class="row">
                                                                             <div class="col-lg-6 col-md-7">
                                                                                 <div class="row">
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
-                                                                                            <label class="form-label" style="width: max-content;float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Installment Type</label>
+                                                                                            <label class="form-label">Installment Type</label>
                 
                                                                                             <select id="installment_type" name="installment_type" class="input-field" tabindex="1"style="border: 1px solid #ccc; width: 48%;padding: 3px;margin-bottom: 10px; ">
                                                                                                 <option value="">---Select---</option>
@@ -1012,7 +975,7 @@
                                                                                             </select>
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
                                                                                             <label class="form-label" style="width:max-content;float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Pigmy Amount</label>
                                                                                             <input type="text" id="pigmy_amount" name="pigmy_amount" class="input-field" tabindex="2" style="border: 1px solid #ccc; width: 48%;padding: 3px;margin-bottom: 10px; ">
@@ -1021,13 +984,13 @@
                 
                 
                 
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
                                                                                             <label class="form-label" style="width:max-content;float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Interest Amount</label>
                                                                                             <input type="text" id="interest_amount" name="interest_amount" class="input-field" tabindex="5" style="border: 1px solid #ccc; width: 48%;padding: 3px;margin-bottom: 10px; ">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
                                                                                             <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Open Int. Prov</label>
                                                                                             <input type="text" id="open_int_prov" name="open_int_prov" class="input-field" tabindex="6" style="border: 1px solid #ccc; width: 48%;padding: 3px;margin-bottom: 10px; margin-left: 6px;">
@@ -1035,14 +998,14 @@
                                                                                     </div>
                 
                 
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
                                                                                             <label class="form-label" style="width: max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Installment Paid</label>
                                                                                             <input type="text" id="installment_paid" name="installment_paid" class="input-field" tabindex="9" style="border: 1px solid #ccc; width: 48%;padding: 3px;margin-bottom: 10px; ">
                                                                                         </div>
                                                                                     </div>
                 
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
                                                                                             <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Due Date</label>
                                                                                             <input type="date" id="due_date" name="due_date" class="input-field" tabindex="10" style="border: 1px solid #ccc; width: 55%;padding: 3px;margin-bottom: 10px;margin-left: 20px;">
@@ -1060,20 +1023,20 @@
                 
                                                                                 <div class="row">
                 
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
                                                                                             <label class="form-label" style="width:max-content;float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Interest Provision</label>
                                                                                             <input type="text" id="interest_provision" name="interest_provision" class="input-field" tabindex="3" style="border: 1px solid #ccc; width: 40%;padding: 3px;margin-bottom: 10px;">
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
                                                                                             <label class="form-label" style="width: max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Installment Amount</label>
                                                                                             <input type="text" id="installment_amount" name="installment_amount" class="input-field" tabindex="4" style="border: 1px solid #ccc; width: 45%;padding: 3px;margin-bottom: 10px;">
                                                                                         </div>
                                                                                     </div>
                 
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
                                                                                             <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">No. of Installment</label>
                                                                                             <select id="no_of_installment" name="no_of_installment" class="input-field" tabindex="7" style="border: 1px solid #ccc; width: 40%;padding: 3px;margin-bottom: 10px;">
@@ -1087,7 +1050,7 @@
                                                                                             </select>
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
                                                                                             <label class="form-label" style="width: max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Payable Amount</label>
                                                                                             <input type="text" id="payable_amount" name="payable_amount" class="input-field" tabindex="8" style="border: 1px solid #ccc; width: 53%;padding: 3px;margin-bottom: 10px;">
@@ -1095,7 +1058,7 @@
                                                                                     </div>
                 
                 
-                                                                                    <div class="col-lg-6 col-md-12 col-6">
+                                                                                    <div class="col-lg-6 col-md-12 col-sm-12">
                                                                                         <div class="form-group">
                                                                                             <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Close Date</label>
                                                                                             <input type="date" id="close_date" name="close_date" class="input-field" tabindex="11" style="border: 1px solid #ccc; width: 55%;padding: 3px;margin-bottom: 10px;margin-left: 6px;">
@@ -1118,25 +1081,25 @@
                                                                             <div class="col-lg-11 col-md-11 col-12" >
                                                                              <div class="row" id="nominee-container" >  
                                                                          
-                                                                             <div class="col-lg-3 col-md-6 col-6">
+                                                                             <div class="col-lg-3 col-md-6 col-sm-12">
                                                                                     <div class="form-group" style="display:block;">
                                                                                         <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Nominee Name</label>
                                                                                         <input type="text"  name="nominee_name[]" class="input-field form-control" >
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="col-lg-2 col-md-6 col-6">
+                                                                                <div class="col-lg-2 col-md-6 col-sm-12">
                                                                                     <div class="form-group" style="display:block;">
                                                                                         <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Age</label>
                                                                                         <input type="text"  name="nominee_age[]" class="input-field form-control" >
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="col-lg-3 col-md-6 col-6">
+                                                                                <div class="col-lg-3 col-md-6 col-sm-12">
                                                                                     <div class="form-group" style="display:block;">
-                                                                                        <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Address</label>
+                                                                                        <label class="form-label" style="width:max-content;">Address</label>
                                                                                         <input type="text"  name="nominee_address[]" class="input-field form-control" >
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="col-lg-2 col-md-6 col-6">
+                                                                                <div class="col-lg-2 col-md-6 col-sm-12">
                                                                                     <div class="form-group" style="display:block;">
                                                                                         <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Gender</label>
                                                                                         <select  name="nominee_gender[]" class="input-field form-control">
@@ -1147,7 +1110,7 @@
                                                                                         </select>
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="col-lg-2 col-md-6 col-6">
+                                                                                <div class="col-lg-2 col-md-6 col-sm-12">
                                                                                     <div class="form-group" style="display:block;">
                                                                                         <label class="form-label" style="width:max-content; float: left; color: #7a70ba; font-size: 15px;margin-top: 5px;">Relation</label>
                                                                                         <select  name="nominee_relation[]" class="input-field form-control">
@@ -1210,12 +1173,10 @@
                                 </div>
                 
                 
-                                <!--</div>-->
+                              </div>
                             </div>
                         </div>
 
-
-                        
                         
                 </main>
             </div>
