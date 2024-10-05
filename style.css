@@ -747,8 +747,17 @@ background-color: transparent;
     left: 78%;
 }
 
+.form-label-01 {
+    width: 100% !important; 
+}
 
 
+.px-4 {
+    padding: 6px 24px !important;
+}
+.new-cst-buttons {
+    margin-top: -22px;
+}
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -787,7 +796,18 @@ background-color: transparent;
         margin-top: 2px;
     }
 
+.details-buttons li {
+    width: 100%;
+}
+
+a#listButton {
+    color: #fff;
+    padding: 8px 44px !important;
+}
   
+.btn-adj {
+    padding: 2% 0% 2% 0% !important;
+}
 
 }
 
@@ -903,19 +923,6 @@ background-color: transparent;
         width: 19% !important;
     }
 
-    .details-buttons li {
-        width: 100%;
-    }
-
-   
-
-    .btn-adj {
-        padding: 2% 0% 2% 0% !important;
-    }
-
-    .form-group {
-        flex-wrap: wrap;
-    }
 
 
     .photo-up-res {
@@ -969,6 +976,15 @@ background-color: transparent;
     left: 59%;
 }
 
+.btn-adj {
+    padding: 2% 0% 2% 0% !important;
+}
+
+
+span.btn.btn-primary.add-row {
+    top: 35% !important ;
+    right: 43%;
+}
 
 
  

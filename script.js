@@ -69,6 +69,44 @@ function translateNumber(englishInputId, outputId) {
 
 
 
+        // DOUBL THE ROW 
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // Event delegation for handling add and remove buttons
+        document.querySelector('#rows-container').addEventListener('click', function(event) {
+            // Add new row on clicking the plus button
+            if (event.target.classList.contains('add-row')) {
+                let newRow = event.target.closest('.my-row').cloneNode(true);
+
+                // Reset input values in the cloned row
+                newRow.querySelectorAll('input').forEach(function(input) {
+                    input.value = '';
+                });
+
+                // Append the new row to the container
+                document.querySelector('#rows-container').appendChild(newRow);
+            }
+
+            // Remove row on clicking the minus button
+            if (event.target.classList.contains('remove-row')) {
+                let rows = document.querySelectorAll('.my-row');
+                
+                // Only remove the row if more than one exists
+                if (rows.length > 1) {
+                    // Remove the closest row (the .my-row element)
+                    event.target.closest('.my-row').remove();
+                } else {
+                    alert("At least one row must be present.");
+                }
+            }
+        });
+    });
+
+
+
+
+
 
 
 
