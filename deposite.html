@@ -1074,38 +1074,70 @@
                 
                 
                                                                 <div class="tab-pane fade" id="kycdetails" role="tabpanel" aria-labelledby="kyc">
-                
                                                                     <div id="rows-container">
                                                                         <div class="row my-row">
-                                                                            <div class="col-lg-12 col-md-12 col-12">
-                                                                                <div class="row" id="nominee-container">
-                                                                                    <div class="col-lg-4 col-md-4 col-12">
-                                                                                        <div class="form-group">
-                                                                                            <label class="form-label" for="title-en">Bank Name</label>
-                                                                                            <input type="text" id="bank_name" name="bank_name[]" class="input-field">
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="col-lg-4 col-md-4 col-12">
-                                                                                        <div class="form-group">
-                                                                                            <label class="form-label" for="title-en">Bank Account No</label>
-                                                                                            <input type="number" id="account_no" name="account_no[]" class="input-field">
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="col-lg-3 col-md-3 col-12">
-                                                                                        <div class="form-group">
-                                                                                            <label class="form-label" for="title-en">Bank IFSC</label>
-                                                                                            <input type="text" id="ifsc" name="ifsc[]" class="input-field">
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="col-lg-1 col-md-1 col-12">
-                                                                                        <span class="btn btn-primary add-row" style="float: inline-end;color:white;position: relative;top: 30%; margin: 2px 0;">+</span>
-                                                                                        <span class="btn btn-danger remove-row" style="float: inline-end;color:white;position: relative;top: 30%; margin: 2px 0;">-</span>
+        
+                                                                            <div class="col-lg-11 col-md-11 col-12">
+                                                                             <div class="row" id="nominee-container">  
+                                                                         
+                                                                             <div class="col-lg-3 col-md-6 col-6">
+                                                                                    <div class="form-group" style="display:block;">
+                                                                                        <label class="form-label" style="width:max-content;">Nominee Name</label>
+                                                                                        <input type="text" name="nominee_name[]" class="input-field form-control">
                                                                                     </div>
                                                                                 </div>
+                                                                                <div class="col-lg-2 col-md-6 col-6">
+                                                                                    <div class="form-group" style="display:block;">
+                                                                                        <label class="form-label" style="width:max-content;">Age</label>
+                                                                                        <input type="text" name="nominee_age[]" class="input-field form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-3 col-md-6 col-6">
+                                                                                    <div class="form-group" style="display:block;">
+                                                                                        <label class="form-label" style="width:max-content;">Address</label>
+                                                                                        <input type="text" name="nominee_address[]" class="input-field form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-2 col-md-6 col-6">
+                                                                                    <div class="form-group" style="display:block;">
+                                                                                        <label class="form-label" style="width:max-content;">Gender</label>
+                                                                                        <select name="nominee_gender[]" class="input-field form-control">
+                                                                                            <option value="">---Select---</option>
+                                                                                            <option value="Male">Male</option>
+                                                                                            <option value="Female">Female</option>
+                                                                                            <option value="Other">Other</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-2 col-md-6 col-6">
+                                                                                    <div class="form-group" style="display:block;">
+                                                                                        <label class="form-label" style="width:max-content;">Relation</label>
+                                                                                        <select name="nominee_relation[]" class="input-field form-control">
+                                                                                            <option value="">---Select---</option>
+                                                                                            <option value="Mother">Mother</option>
+                                                                                            <option value="Father">Father</option>
+                                                                                            <option value="Brother">Brother</option>
+                                                                                            <option value="Sister">Sister</option>
+                                                                                            <option value="Wife">Wife</option>
+                                                                                            <option value="Daughter">Daughter</option>
+                                                                                            <option value="Son">Son</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                              </div>
+                                                                                <div id="nominee-container"> 
+                                                                              </div>
+        
                                                                             </div>
+                                                                            <div class="col-lg-1 col-md-1 col-12 d-flex align-items-center deposite-cst-buttons">
+                                                                                <!-- Plus button -->
+                                                                                <span class="btn btn-primary add-row" style="color:white; margin: 2px;">+</span>
+                                                                                <!-- Minus button -->
+                                                                                <span class="btn btn-danger remove-row" style="color:white; margin: 2px;">-</span>
+                                                                            </div>
+                                                                            <br>
                                                                         </div>
                                                                     </div>
-                                                                    
                                                                 </div>
                                                             </div>
                                                         </div>

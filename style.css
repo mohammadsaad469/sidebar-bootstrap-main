@@ -758,7 +758,13 @@ background-color: transparent;
 .new-cst-buttons {
     margin-top: -22px;
 }
+.share-cst-buttons {
+    margin-top: 15px;
+}
 
+.deposite-cst-buttons {
+    margin-top: 12px;
+}
 
 /* Extra small devices (phones, 600px and down) */
 
@@ -800,14 +806,28 @@ background-color: transparent;
     width: 100%;
 }
 
-a#listButton {
-    color: #fff;
-    padding: 8px 44px !important;
-}
+
   
 .btn-adj {
     padding: 2% 0% 2% 0% !important;
 }
+.deposite-cst-buttons {
+    margin-top: -90px !important;
+    position: relative;
+    right: -50% !important;
+}
+.new-cst-buttons {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.share-cst-buttons {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.share-ac-buttons {
+    width: 50%;
+}
+
 
 }
 
@@ -977,13 +997,20 @@ a#listButton {
 }
 
 .btn-adj {
-    padding: 2% 0% 2% 0% !important;
+    padding: 6% 0% 6% 0% !important;
 }
 
 
 span.btn.btn-primary.add-row {
     top: 35% !important ;
     right: 43%;
+}
+
+
+.deposite-cst-buttons {
+    margin-top: 167px;
+    position: relative;
+    right: 46%;
 }
 
 
