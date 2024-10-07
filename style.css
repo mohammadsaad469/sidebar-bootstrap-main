@@ -541,8 +541,10 @@ hr {
 
 .add-Religion {
     margin-top: -28px !important;
+    background-color: #7a70ba;
+    font-size: 14px;
+    padding: 6px 18px;
 }
-
 
 .add-Religion-1 {
     margin-top: -28px !important;
@@ -553,12 +555,25 @@ hr {
 }
 
 
+.table td {
+    font-size: 14px;
+    padding: 12px;
+    color: #3D434A;
+    vertical-align: middle;
+}
 
-
+a.btn.btn-danger.btn-sm {
+    font-size: 12px;
+    padding: 7px 30px;
+}
 
 button.btn.btn-info.btn-sm.editReligion {
     color: #fff;
+    padding: 7px 30px;
+    font-size: 12px;
 }
+
+
 
 
 /* FORM UTILITY END */
@@ -675,7 +690,7 @@ button.btn.btn-info.btn-sm.editReligion {
 
 a#listButton {
     color: #fff;
-    }
+}
 
 input.btn.btn-info.px-4.py-2 {
     color: #fff;
@@ -721,20 +736,22 @@ background-color: transparent;
     margin-top: 28px !important;
 }
 
-.btn_shakir, .btn_shakir-2, .btn_shakir-3 {
+.btn_shakir,
+.btn_shakir-2,
+.btn_shakir-3 {
     background-color: #0DA759 !important;
     border-color: #0DA759 !important;
     transform: translateZ(0);
     font-size: 14px;
     width: 100%;
     max-width: 100px;
-    padding: 9px 0px !important; 
+    padding: 9px 0px !important;
 }
 
 .btn_shakir-2 {
 
     background-color: #d67747 !important;
-    border-color:#d67747 !important;
+    border-color: #d67747 !important;
 }
 
 
@@ -742,22 +759,24 @@ background-color: transparent;
     width: 100%;
     max-width: 130px;
     background-color: #7A70BA !important;
-    border-color: #7A70BA !important ;
+    border-color: #7A70BA !important;
     position: relative;
     left: 78%;
 }
 
 .form-label-01 {
-    width: 100% !important; 
+    width: 100% !important;
 }
 
 
 .px-4 {
     padding: 6px 24px !important;
 }
+
 .new-cst-buttons {
     margin-top: -22px;
 }
+
 .share-cst-buttons {
     margin-top: 15px;
 }
@@ -769,6 +788,7 @@ background-color: transparent;
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 376px) {
+    
 
     .primry-sms-cstm {
         width: 100%;
@@ -785,8 +805,9 @@ background-color: transparent;
         position: relative;
     }
 
-   
-    #previewContainer1, #previewContainer2{
+
+    #previewContainer1,
+    #previewContainer2 {
         width: 80%;
         height: 150px;
         margin: 0 auto;
@@ -795,39 +816,72 @@ background-color: transparent;
     .som-section {
         padding-left: 30px;
     }
-  
+
     .first-bl-date2 {
         position: relative;
         left: -24% !important;
         margin-top: 2px;
     }
 
-.details-buttons li {
-    width: 100%;
-}
+    .details-buttons li {
+        width: 100%;
+    }
 
 
-  
-.btn-adj {
-    padding: 2% 0% 2% 0% !important;
-}
-.deposite-cst-buttons {
-    margin-top: -90px !important;
-    position: relative;
-    right: -50% !important;
-}
-.new-cst-buttons {
-    margin-top: 0px;
-    margin-bottom: 15px;
-}
-.share-cst-buttons {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.share-ac-buttons {
-    width: 50%;
-}
 
+    .btn-adj {
+        padding: 2% 0% 2% 0% !important;
+    }
+
+    .deposite-cst-buttons {
+        margin-top: -90px !important;
+        position: relative;
+        right: -50% !important;
+    }
+
+    .new-cst-buttons {
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+    .share-cst-buttons {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .share-ac-buttons {
+        width: 50%;
+    }
+
+    .p-3 {
+        padding: 0px !important;
+    }
+
+    .card .card-header h4 {
+        font-size: 18px;
+    }
+    .add-mang-rlgn-ms h3 {
+        font-size: 14px;
+    }
+
+    .card .card-header h4 {
+        font-size: 18px !important;
+    }
+
+    button.btn.btn-info.btn-sm.editReligion {
+        color: #fff;
+        padding: 6px 16px;
+        font-size: 12px;
+    }
+
+    a.btn.btn-danger.btn-sm {
+        font-size: 12px;
+        padding: 6px 16px;
+    }
+
+    .table th {
+        font-size: 14px;
+    }
 
 }
 
@@ -837,8 +891,9 @@ background-color: transparent;
 
     .offcanvas-body {
         background-color: #29354E;
-        width:252px!important;
+        width: 252px !important;
     }
+
     .offcanvas-header {
         box-shadow: 0 0 21px 0 rgba(89, 102, 122, 0.1);
         background-color: #2A3650;
@@ -853,7 +908,7 @@ background-color: transparent;
     }
 
 
-    .admin-res{
+    .admin-res {
         display: none;
     }
 
@@ -921,7 +976,7 @@ background-color: transparent;
     }
 
     .card .card-header h4 {
-        font-size: 14px;
+        font-size: 28px;
     }
 
     .firstblock-a {
@@ -937,7 +992,7 @@ background-color: transparent;
         width: 100%;
     }
 
-   
+
 
     .form-group-2 .form-label {
         width: 19% !important;
@@ -952,69 +1007,78 @@ background-color: transparent;
     .form-label-sms {
         max-width: 100% !important;
     }
+
     .form-label-res {
         width: 100% !important;
     }
+
     #opening_date {
         width: 100%;
     }
-.opening_date-re {
-    display: block !important;
-}
 
-.first-bl-date2 {
-    position: relative;
-    left: -21%;
-    margin-top: 2px;
-}
+    .opening_date-re {
+        display: block !important;
+    }
 
-.first-bl-date3 {
-    left: -33% !important;
-    position: relative;
-    margin-top: 2px;
+    .first-bl-date2 {
+        position: relative;
+        left: -21%;
+        margin-top: 2px;
+    }
 
-} 
-.first-bl-date2 label{
-  font-size: 13px !important;
-}
-.preview-container-proof1, .preview-container-proof2, .preview-container-proof3, .preview-container-proof4 {
-    width: 100%;
-    max-width: 240px;
-    max-height: 150px;
-    margin: 0 auto;
-}
-.form-label-ms {
-    margin-top: 30px;
-}
+    .first-bl-date3 {
+        left: -33% !important;
+        position: relative;
+        margin-top: 2px;
 
-.primry-sms-cstm {
-    width: 100%;
-    max-width: 130px;
-    background-color: #7A70BA !important;
-    border-color: #7A70BA !important;
-    position: relative;
-    left: 59%;
-}
+    }
 
-.btn-adj {
-    padding: 6% 0% 6% 0% !important;
-}
+    .first-bl-date2 label {
+        font-size: 13px !important;
+    }
 
+    .preview-container-proof1,
+    .preview-container-proof2,
+    .preview-container-proof3,
+    .preview-container-proof4 {
+        width: 100%;
+        max-width: 240px;
+        max-height: 150px;
+        margin: 0 auto;
+    }
 
-span.btn.btn-primary.add-row {
-    top: 35% !important ;
-    right: 43%;
-}
+    .form-label-ms {
+        margin-top: 30px;
+    }
 
+    .primry-sms-cstm {
+        width: 100%;
+        max-width: 130px;
+        background-color: #7A70BA !important;
+        border-color: #7A70BA !important;
+        position: relative;
+        left: 59%;
+    }
 
-.deposite-cst-buttons {
-    margin-top: 167px;
-    position: relative;
-    right: 46%;
-}
+    .btn-adj {
+        padding: 6% 0% 6% 0% !important;
+    }
 
 
- 
+    span.btn.btn-primary.add-row {
+        top: 35% !important;
+        right: 43%;
+    }
+
+
+    .deposite-cst-buttons {
+        margin-top: 167px;
+        position: relative;
+        right: 46%;
+    }
+
+
+
 
 }
 
@@ -1047,16 +1111,13 @@ span.btn.btn-primary.add-row {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1315px) {
-    .first-bl-date-master{
+    .first-bl-date-master {
         flex-direction: column !important;
     }
 
-    .first-bl-date-master02{
+    .first-bl-date-master02 {
         flex-direction: column !important;
     }
 }
 
 /* SHAKIR CSS */
-
-
-
