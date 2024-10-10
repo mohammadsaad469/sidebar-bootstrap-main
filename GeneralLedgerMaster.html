@@ -19,11 +19,7 @@
             display: flex !important;
         }
 
-        /* {padding: 5px;
-    font-size: 15px;
-    border: 1px solid #ccc;
-    border-radius: 1px;
-    width: 100%;} */
+
         .form-label {
             color: #7a70ba;
             font-size: 12px;
@@ -684,7 +680,7 @@
 
             </div>
 
-            <main>
+            <main class="gl-master-ms">
 
                 <div class="row">
 
@@ -704,22 +700,22 @@
                                         <div class="col-lg-6 col-md-6 firstblock"
                                             style="border-right: 1px solid #ccc;border-right-style: dashed;">
                                             <div class="form-group shakir_grup" style="display:flex !important;">
-                                                <div class="col-lg-3 col-md-3 col-sm-12">
+                                                <div class="col-lg-3 col-md-3 col-sm-2">
                                                     <label class="form-label" for="party-id"
                                                         style="width: max-content;">Ledger ID</label>
                                                 </div>
-                                                <div class="col-lg-9 col-md-9 col-sm-12">
+                                                <div class="col-lg-9 col-md-9 col-sm-10">
                                                     <input type="number" id="ledger_id" name="id"
                                                         class="input-field  shakir_lable">
                                                     <div id="suggestions_id" class="suggestions-box"></div>
                                                 </div>
                                             </div>
                                             <div class="form-group" style="display:flex !important;">
-                                                <div class="col-lg-3 col-md-3 col-sm-12">
+                                                <div class="col-lg-3 col-md-3 col-sm-2">
                                                     <label class="form-label" for="party-id"
                                                         style="width: max-content;">Ledger Name</label>
                                                 </div>
-                                                <div class="col-lg-9 col-md-9 col-sm-12">
+                                                <div class="col-lg-9 col-md-9 col-sm-10">
 
                                                     <input type="text" id="name_eng"
                                                         oninput="translateField('name_eng', 'name_mar')" name="name_eng"
@@ -728,11 +724,11 @@
                                                 </div>
                                             </div>
                                             <div class="form-group" style="display:flex !important;">
-                                                <div class="col-lg-3 col-md-3 col-sm-12">
+                                                <div class="col-lg-3 col-md-3 col-sm-2">
                                                     <label class="form-label" for="party-id"
                                                         style="width: max-content;"><b>लेजरचे नाव</b></label>
                                                 </div>
-                                                <div class="col-lg-9 col-md-9">
+                                                <div class="col-lg-9 col-md-9 col-sm-10">
 
                                                     <input type="text" id="name_mar" name="name_mar"
                                                         class="input-field">
@@ -741,15 +737,15 @@
 
                                             <div class="form-group " style="display:flex !important;">
 
-                                                <div class="col-lg-3 col-md-3 col-sm-12 f-d">
+                                                <div class="col-lg-3 col-md-3 col-sm-2 f-d">
                                                     <label class="form-label" for="party-id"
                                                         style="width:-webkit-fill-available">Opening Balance</label>
                                                 </div>
-                                                <div class="col-lg-5 col-md-5 col-sm-12">
+                                                <div class="col-lg-5 col-md-5 col-sm-6">
                                                     <input type="number" id="opening_balance" name="opening_balence"
                                                         class="input-field">
                                                 </div>
-                                                <div class="col-lg-4 col-md-4 col-3 shakir_lable">
+                                                <div class="col-lg-4 col-md-4 col-sm-4 shakir_lable">
                                                     <select id="opening_balance_type" name="opening_balance_type"
                                                         class="input-field">
                                                         <option value="credit">Credit</option>
@@ -760,15 +756,15 @@
 
                                             <div class="form-group " style="display:flex !important;">
 
-                                                <div class="col-lg-3 col-md-3 f-d">
+                                                <div class="col-lg-3 col-md-3 col-sm-2 f-d">
                                                     <label class="form-label" for="party-id"
                                                         style="width:-webkit-fill-available">Current Balance</label>
                                                 </div>
-                                                <div class="col-lg-5 col-md-5 col-6">
+                                                <div class="col-lg-5 col-md-5 col-sm-6">
                                                     <input type="number" id="current_balance" name="current_balance"
                                                         class="input-field">
                                                 </div>
-                                                <div class="col-lg-4 col-md-4 col-3 shakir_lable">
+                                                <div class="col-lg-4 col-md-4 col-sm-4 shakir_lable">
                                                     <select id="title-en" name="current_balence_type"
                                                         class="input-field">
                                                         <option value="credit">Credit</option>
@@ -779,15 +775,15 @@
 
                                             <div class="form-group " style="display:flex !important;">
 
-                                                <div class="col-lg-3 col-md-3 f-d ">
+                                                <div class="col-lg-3 col-md-3 col-sm-2 f-d ">
                                                     <label class="form-label" for="party-id"
                                                         style="width:-webkit-fill-available">Min Balance</label>
                                                 </div>
-                                                <div class="col-lg-5 col-md-5 col-6">
+                                                <div class="col-lg-5 col-md-5 col-sm-6">
                                                     <input type="number" id="min_balance" name="min_balance"
                                                         class="input-field">
                                                 </div>
-                                                <div class="col-lg-4 col-md-4 col-3 shakir_lable">
+                                                <div class="col-lg-4 col-md-4 col-sm-4 shakir_lable">
                                                     <select id="min_balance_type" name="min_balance_type"
                                                         class="input-field ">
                                                         <option value="credit">Credit</option>
@@ -798,7 +794,7 @@
                                             <hr>
                                             <div class="row">
 
-                                                <div class="col-lg-6 col-md-6 col-6">
+                                                <div class="col-lg-6 col-md-12 col-sm-12">
                                                     <div class="form-group">
                                                         <label class="form-label">Subsidairy</label>
                                                         <select id="subsidairy" name="subsidairy" class="input-field ">
@@ -807,48 +803,44 @@
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6 col-md-6 col-6">
+                                                <div class="col-lg-6 col-md-12 col-sm-12">
                                                     <div class="form-group">
                                                         <label class="form-label"
-                                                            style="width:-webkit-fill-available; width: 80px; vertical-align: top; line-height: 1.3;">Opening
+                                                            style="width:max-content;">Opening
                                                             Date</label>
                                                         <input type="date" name="opening_date" id="opening_date"
                                                             class="input-field shakir_input"
                                                             style=" border: 1px solid #ccc; width: 133px; outline: none; border-radius: 3px;">
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6 col-md-6 col-6">
+                                                <div class="col-lg-6 col-md-12 col-sm-12">
                                                     <div class="form-group">
                                                         <label class="form-label sha" style="width:max-content">Interest
                                                             Rate</label>
                                                         <input type="number" id="interest_rate" name="interest_rate"
-                                                            class="input-field"
-                                                            style="width: 150px; margin-left: 30px;">
+                                                            class="input-field">
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6 col-md-6 col-6">
+                                                <div class="col-lg-6 col-md-12 col-sm-12">
                                                     <div class="form-group">
                                                         <label class="form-label">Penal Rate</label>
                                                         <input type="number" id="penal_rate" name="penal_rate"
-                                                            class="input-field"
-                                                            style="width: 150px; margin-left: 15px;">
+                                                            class="input-field">
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6 col-md-6 col-6">
+                                                <div class="col-lg-6 col-md-12 col-sm-12">
                                                     <div class="form-group">
                                                         <label class="form-label">Send SMS</label>
-                                                        <select id="sms" name="sms" class="input-field"
-                                                            style="border: 1px solid #ccc;width: 150px; outline: none;border-radius: 3px;margin-left: 35px;">
+                                                        <select id="sms" name="sms" class="input-field">
                                                             <option value="yes">Yes</option>
                                                             <option value="no">No</option>
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6 col-md-6 col-6">
+                                                <div class="col-lg-6 col-md-12 col-sm-12">
                                                     <div class="form-group">
                                                         <label class="form-label">CD Ratio</label>
-                                                        <select id="cd_ratio" name="cd_ratio" class="input-field"
-                                                            style="border: 1px solid #ccc;width: 150px; outline: none;border-radius: 3px;margin-left: 28px;">
+                                                        <select id="cd_ratio" name="cd_ratio" class="input-field">
                                                             <option value="yes">Yes</option>
                                                             <option value="no">No</option>
                                                         </select>
@@ -869,21 +861,19 @@
                                         <div class="col-lg-6 col-md-6">
                                             <div class="row">
 
-                                                <div class="col-lg-6 col-md-6 col-6">
+                                                <div class="col-lg-6 col-md-12 col-sm-12">
                                                     <div class="form-group">
                                                         <label class="form-label">Schedule</label>
                                                         <select id="schedule" name="schedule"
-                                                            class="input-field shakir_side" required
-                                                            style="margin-left: 10px;">
+                                                            class="input-field shakir_side" required">
                                                             <option></option>
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6 col-md-6 col-6">
+                                                <div class="col-lg-6 col-md-12 col-sm-12">
                                                     <div class="form-group">
                                                         <label class="form-label">Group</label>
-                                                        <select id="group" name="group" class="input-field shakir_side"
-                                                            style="float: right; margin-right: 35px;">
+                                                        <select id="group" name="group" class="input-field shakir_side">
                                                             <option value="deposite">Deposite</option>
                                                             <option value="loan">Loan</option>
                                                             <option value="bank">Bank</option>
@@ -893,12 +883,11 @@
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6 col-md-6 col-6">
+                                                <div class="col-lg-6 col-md-12 col-sm-12">
                                                     <div class="form-group">
-                                                        <label class="form-label" style="width:max-content">Type
+                                                        <label class="form-label">Type
                                                         </label>
-                                                        <select id="type" name="type" class="input-field shakir_side"
-                                                            style="margin-left: 10px; width: 176px;">
+                                                        <select id="type" name="type" class="input-field shakir_side">
                                                             <option value="Select">--- Select ---</option>
                                                             <option value="saving deposits">SAVING DEPOSITS</option>
                                                             <option value="pigmy deposits">PIGMY DEPOSITS</option>
@@ -913,12 +902,11 @@
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6 col-md-6 col-6">
+                                                <div class="col-lg-6 col-md-12 col-sm-12">
                                                     <div class="form-group">
                                                         <label class="form-label">Int. Type</label>
                                                         <select id="int_type" name="int_type"
-                                                            class="input-field shakir_side"
-                                                            style="margin-left: 35px; width: 150px;">
+                                                            class="input-field shakir_side">
                                                             <option value="Select">--- Select ---</option>
                                                             <option value="saving deposit monthly">Saving Deposit
                                                                 Monthly</option>
@@ -926,11 +914,11 @@
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6 col-md-6 col-6">
+                                                <div class="col-lg-6 col-md-12 col-sm-12">
                                                     <div class="form-group">
                                                         <label class="form-label">Item Of</label>
                                                         <select id="item_of" name="item_of"
-                                                            class="input-field shakir_side" style="margin-left: 23px;">
+                                                            class="input-field shakir_side">
                                                             <option value="asset">Asset</option>
                                                             <option value="liabilities">Liabilities</option>
                                                             <option value="tncome">Income</option>
@@ -938,26 +926,24 @@
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6 col-md-6 col-6">
+                                                <div class="col-lg-6 col-md-12 col-sm-12">
                                                     <div class="form-group">
                                                         <label class="form-label" style="width:max-content">Add Int. to
                                                             Balance</label>
                                                         <select id="add_int_to_balance" name="add_int_to_balance"
-                                                            class="input-field shakir_side"
-                                                            style="width: 112px;margin-left: 10px;">
+                                                            class="input-field shakir_side">
                                                             <option value="yes">Yes</option>
                                                             <option value="no">No</option>
                                                         </select>
                                                     </div>
                                                 </div>
 
-                                                <div class="col-lg-8 col-md-8 col-12">
+                                                <div class="col-lg-6 col-md-12 col-sm-12">
                                                     <div class="form-group">
                                                         <label class="form-label" style="width:max-content">Agent wise
                                                             Ac No.</label>
                                                         <select id="agent_wise_account_no" name="agent_wise_account_no"
-                                                            class="input-field shakir_side"
-                                                            style="width: 200px;margin-left: 10px;">
+                                                            class="input-field shakir_side">
                                                             <option value="yes">Yes</option>
                                                             <option value="no">No</option>
                                                         </select>
@@ -967,82 +953,55 @@
                                             </div>
                                             <hr>
                                             <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                   <div class="form-group" style="display:flex !important;">
+                                                      <div class="row">
+                                                         <div class="col-lg-4 col-md-4">
+                                                            <label class="form-label Paid-paypainal" for="party-id" style="width:160px;">Paid / Received</label>
+                                                         </div>
+                                                         <div class="col-lg-3 col-md-3 col-5">
+                                                            <input type="number" id="paid_or_received_id" name="paid_or_received_id" class="input-field" style="width: max-content;">
+                                                         </div>
+                                                         <div class="col-lg-5 col-md-5 col-7">
+                                                            <input type="text" id="paid_or_received_text" name="paid_or_received_text" class="input-field">
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                
                                                 <div class="col-lg-12 col-md-12 col-12">
-                                                    <div class="form-group" style="display:flex !important;">
-                                                        <div class="row">
-                                                            <div class="col-lg-4 col-md-4">
-                                                                <label class="form-label" for="party-id"
-                                                                    style="width:-webkit-fill-available;">Paid /
-                                                                    Received</label>
-                                                            </div>
-                                                            <div class="col-lg-3 col-md-3 col-3">
-                                                                <input type="number" id="paid_or_received_id"
-                                                                    name="paid_or_received_id"
-                                                                    class="input-field shakir_side"
-                                                                    style="width: max-content; width: 241px;">
-                                                            </div>
-                                                            <div class="col-lg-5 col-md-5 col-7">
-                                                                <input type="text" id="paid_or_received_text"
-                                                                    name="paid_or_received_text"
-                                                                    class="input-field shakir_side"
-                                                                    style="width: 196px;">
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                   <div class="form-group" style="display:flex !important;">
+                                                      <div class="row">
+                                                         <div class="col-lg-4 col-md-4">
+                                                            <label class="form-label Paid-paypainal" for="party-id" style="width:-webkit-fill-available;">Payable / Receivable</label>
+                                                         </div>
+                                                         <div class="col-lg-3 col-md-3 col-5">
+                                                            <input type="number" id="payable_or_receivable_id" name="payable_or_receivable_id" class="input-field" style="width: max-content;">
+                                                         </div>
+                                                         <div class="col-lg-5 col-md-5 col-7">
+                                                            <input type="text" id="payable_or_receivable_text" name="payable_or_receivable_text" class="input-field">
+                                                         </div>
+                                                      </div>
+                                                   </div>
                                                 </div>
                                                 <div class="col-lg-12 col-md-12 col-12">
-                                                    <div class="form-group" style="display:flex !important;">
-                                                        <div class="row">
-                                                            <div class="col-lg-4 col-md-4">
-                                                                <label class="form-label" for="party-id"
-                                                                    style="width:-webkit-fill-available;">Payable /
-                                                                    Receivable</label>
-                                                            </div>
-                                                            <div class="col-lg-3 col-md-3 col-3">
-                                                                <input type="number" id="payable_or_receivable_id"
-                                                                    name="payable_or_receivable_id"
-                                                                    class="input-field shakir_side"
-                                                                    style="width: max-content;width: 241px;">
-                                                            </div>
-                                                            <div class="col-lg-5 col-md-5 col-7">
-                                                                <input type="text" id="payable_or_receivable_text"
-                                                                    name="payable_or_receivable_text"
-                                                                    class="input-field shakir_side"
-                                                                    style="width: 196px;">
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                   <div class="form-group" style="display:flex !important;">
+                                                      <div class="row">
+                                                         <div class="col-lg-4 col-md-4">
+                                                            <label class="form-label Paid-paypainal" for="party-id" style="width: -webkit-fill-available;">Penal Paid/ Received</label>
+                                                         </div>
+                                                         <div class="col-lg-3 col-md-3 col-5">
+                                                            <input type="number" id="penal_paid_or_received_id" name="penal_paid_or_received_id" class="input-field" style="width: max-content;">
+                                                         </div>
+                                                         <div class="col-lg-5 col-md-5 col-7">
+                                                            <input type="text" id="penal_paid_or_received_text" name="penal_paid_or_received_text" class="input-field">
+                                                         </div>
+                                                      </div>
+                                                   </div>
                                                 </div>
-                                                <div class="col-lg-12 col-md-12 col-12">
-                                                    <div class="form-group" style="display:flex !important;">
-                                                        <div class="row">
-                                                            <div class="col-lg-4 col-md-4">
-                                                                <label class="form-label" for="party-id"
-                                                                    style="width: -webkit-fill-available;">Penal Paid/
-                                                                    Received</label>
-                                                            </div>
-                                                            <div class="col-lg-3 col-md-3 col-3">
-                                                                <input type="number" id="penal_paid_or_received_id"
-                                                                    name="penal_paid_or_received_id"
-                                                                    class="input-field shakir_side"
-                                                                    style="width: max-content; width: 241px;">
-                                                            </div>
-                                                            <div class="col-lg-5 col-md-5 col-7">
-                                                                <input type="text" id="penal_paid_or_received_text"
-                                                                    name="penal_paid_or_received_text"
-                                                                    class="input-field shakir_side"
-                                                                    style="width: 196px;">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
+                                             </div>
 
                                         </div>
-
-
-
 
                                     </div>
                                     <hr>

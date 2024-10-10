@@ -258,21 +258,6 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-    }
-
-    .user {
-        margin-top: 10px;
-        font-size: 3vw;
-    }
-
-    .personal-detail-dep {
-        text-align: center !important;
-    }
-}
-
 
 
 /* END  */
@@ -701,32 +686,10 @@ input.btn.btn-info.px-4.py-2 {
     margin-top: 40px;
 }
 
-
-
-
-
-/* Footer shk */
-
-/* .card .card-header {
-    background-color: #fff;
-    padding: 16px 24px;
-    border-bottom: 1px dashed rgba(106, 113, 133, 0.3);
-    border-top-left-radius: 17px;
-    border-top-right-radius: 17px;
-    position: relative;
+input.btn.btn-warning.px-4.py-2 {
+    color: #fff;
 }
-.card .card-header h4 {
-text-transform: capitalize;
-}
-h4 {
-font-size: 20px;
-font-weight: 600;
-letter-spacing: 0.6px;
-}
-.card .card-body {
-padding: 16px 24px;
-background-color: transparent;
-} */
+
 
 .add-manage-rlgn {
     margin-top: 40px;
@@ -883,12 +846,35 @@ background-color: transparent;
         font-size: 14px;
     }
 
+
+    label.form-label.Paid-paypainal {
+        width: 100% !important;
+    }
+
+    .row.mt-4.mb-4.btn-adj {
+        text-align: center;
+    }
+
+ 
+
 }
 
 
 
 @media only screen and (max-width: 768px) {
 
+    header {
+        flex-direction: column;
+    }
+
+    .user {
+        margin-top: 10px;
+        font-size: 3vw;
+    }
+
+    .personal-detail-dep {
+        text-align: center !important;
+    }
     .offcanvas-body {
         background-color: #29354E;
         width: 252px !important;
@@ -1078,7 +1064,12 @@ background-color: transparent;
     }
 
 
+    .gl-master-ms label {
+        width: 90px !important;
+        line-height: 1.5;
+    }
 
+ 
 
 }
 
