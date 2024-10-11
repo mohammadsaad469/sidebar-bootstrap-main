@@ -548,8 +548,8 @@ hr {
 }
 
 a.btn.btn-danger.btn-sm {
-    font-size: 12px;
-    padding: 7px 30px;
+    font-size: 12px !important;
+    padding: 7px 30px !important;
 }
 
 button.btn.btn-info.btn-sm.editReligion {
@@ -748,10 +748,28 @@ input.btn.btn-warning.px-4.py-2 {
     margin-top: 12px;
 }
 
+.shakir_btn {
+    margin-top: -28px;
+    padding: 6px 18px;
+}
+table.table th {
+    text-align: left;
+}
+
+tbody tr {
+    text-align: left;
+}
+button.btn.btn-info.btn-sm.editCategory.delete_update {
+    padding: 7px 26px !important;
+}
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 376px) {
     
+
+    .card-body {
+        padding: 0px;
+    }
 
     .primry-sms-cstm {
         width: 100%;
@@ -1069,6 +1087,28 @@ input.btn.btn-warning.px-4.py-2 {
         line-height: 1.5;
     }
 
+    button.btn.btn-info.btn-sm.editCategory.delete_update {
+        padding: 4px 18px !important;
+    }
+
+    a.btn.btn-danger.btn-sm {
+        font-size: 12px !important;
+        padding: 4px 22px !important;
+    }
+
+    form#addGroupForm {
+        padding: 0px 12px;
+    }
+
+    .shakir_btn {
+        margin-top: -28px;
+        padding: 8px 19px;
+        font-size: 8px !important;
+    }
+
+    .card-body {
+        padding: 12px 5px;
+    }
  
 
 }
