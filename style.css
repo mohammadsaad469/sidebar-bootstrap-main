@@ -37,8 +37,8 @@ body {
 }
 
 #sidebar {
-    width: 70px;
-    min-width: 70px;
+    width: 4.5rem;
+    min-width: 4.5rem;
     z-index: 1000;
     transition: all .25s ease-in-out;
     background-color: #2A3650;
@@ -47,8 +47,8 @@ body {
 }
 
 #sidebar.expand {
-    width: 260px;
-    min-width: 260px;
+    width: 16.5rem;
+    min-width: 16.5rem;
 }
 
 .editReligion:hover{
@@ -242,8 +242,8 @@ header {
 }
 
 .user-profile {
-    width: 40px;
-    height: 40px;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -317,7 +317,7 @@ main {
 }
 
 .form-group .form-label {
-    width: 90px;
+    width: 5.6rem;
     text-align: left;
     font-size: 14px;
     font-weight: 600;
@@ -356,7 +356,7 @@ main {
 .suggestions-box {
     position: absolute;
     background-color: white;
-    max-height: 150px;
+    max-height: 10rem;
     overflow-y: auto;
     z-index: 1000;
     top: 10%;
@@ -393,7 +393,7 @@ input {
 .preview-container {
     background: aliceblue;
     width: 100%;
-    height: 200px;
+    height: 13rem;
     border: 1px solid #ccc;
     position: relative;
     cursor: pointer;
@@ -419,7 +419,7 @@ input {
     border-radius: 50%;
     cursor: pointer;
     display: none;
-    width: 20px;
+    width: 1.25rem;
 }
 
 hr {
@@ -458,7 +458,7 @@ hr {
 .preview-container-id-proof {
     background: aliceblue;
     width: 100%;
-    height: 130px;
+    height: 8.5rem;
     border: 1px solid #ccc;
     position: relative;
     cursor: pointer;
@@ -497,7 +497,7 @@ hr {
     border-radius: 50%;
     cursor: pointer;
     display: none;
-    width: 20px;
+    width: 1.25rem;
 }
 
 
@@ -506,7 +506,7 @@ hr {
 }
 
 .sao-up-2 {
-    max-width: 92px;
+    max-width: 5.8rem;
 }
 
 .Close-lag-sec {
@@ -514,7 +514,7 @@ hr {
 }
 
 .input-field01 {
-    max-width: 160px;
+    max-width: 10rem;
 }
 
 .preview-text-proof1 {
@@ -635,7 +635,7 @@ hr {
 .btn-upd-2 {
     background-color: #E44141 !important;
     width: 100% !important;
-    max-width: 100px;
+    max-width: 6.5rem;
     color: #fff;
 }
 
@@ -674,7 +674,7 @@ hr {
 .preview-container-proof4 {
     background: aliceblue;
     width: 100%;
-    height: 200px;
+    height: 13rem;
     border: 1px solid #ccc;
     position: relative;
     cursor: pointer;
@@ -731,7 +731,7 @@ input.btn.btn-warning.px-4.py-2 {
 
 .primry-sms-cstm {
     width: 100%;
-    max-width: 130px;
+    max-width: 8.2rem;
     background-color: #7A70BA !important;
     border-color: #7A70BA !important;
     position: relative;
@@ -770,7 +770,7 @@ table.table th {
 tbody tr {
     text-align: left;
 }
-button.btn.btn-info.btn-sm.editCategory.delete_update {
+.editCategory {
     padding: 7px 26px !important;
 }
 
@@ -790,20 +790,16 @@ button.btn.btn-info.btn-sm.editCategory.delete_update {
 }
 
 
-
+ 
 
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 376px) {
     
 
-    .card-body {
-        padding: 0px;
-    }
-
     .primry-sms-cstm {
         width: 100%;
-        max-width: 122px;
+        max-width: 7.8rem;
         background-color: #7A70BA !important;
         border-color: #7A70BA !important;
         position: relative;
@@ -820,7 +816,7 @@ button.btn.btn-info.btn-sm.editCategory.delete_update {
     #previewContainer1,
     #previewContainer2 {
         width: 80%;
-        height: 150px;
+        height: 9.5rem;
         margin: 0 auto;
     }
 
@@ -930,7 +926,122 @@ button.btn.btn-info.btn-sm.editCategory.delete_update {
 }
 
 
-@media only screen and (max-width:425px) {
+@media only screen and (max-width: 425px) {
+    
+
+    .primry-sms-cstm {
+        width: 100%;
+        max-width: 7.8rem;
+        background-color: #7A70BA !important;
+        border-color: #7A70BA !important;
+        position: relative;
+        left: 58%;
+        font-size: 14px;
+    }
+
+    .first-bl-date-master {
+        display: flex !important;
+        position: relative;
+    }
+
+
+    #previewContainer1,
+    #previewContainer2 {
+        width: 80%;
+        height: 9.5rem;
+        margin: 0 auto;
+    }
+
+    .som-section {
+        padding-left: 30px;
+    }
+
+    .first-bl-date2 {
+        position: relative;
+        left: -24% !important;
+        margin-top: 2px;
+    }
+
+    .details-buttons li {
+        width: 100%;
+    }
+
+
+
+    .btn-adj {
+        padding: 2% 0% 2% 0% !important;
+    }
+
+    .deposite-cst-buttons {
+        margin-top: -90px !important;
+        position: relative;
+        right: -50% !important;
+    }
+
+    .new-cst-buttons {
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+    .share-cst-buttons {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .share-ac-buttons {
+        width: 50%;
+    }
+
+    .p-3 {
+        padding: 0px !important;
+    }
+
+    .card .card-header h4 {
+        font-size: 18px;
+    }
+    .add-mang-rlgn-ms h3 {
+        font-size: 14px;
+    }
+
+    .card .card-header h4 {
+        font-size: 18px !important;
+    }
+
+    .editReligion {
+        color: #fff;
+        padding: 4px 12px;
+        font-size: 10px;
+    }
+
+    .editCategory {
+        color: #fff;
+        padding: 4px 12px;
+        font-size: 10px;
+    }
+
+
+    .btn-sm {
+        font-size: 10px !important;
+        padding: 4px 12px !important;
+    }
+    
+
+    .table th {
+        font-size: 9px;
+    }
+
+
+    label.form-label.Paid-paypainal {
+        width: 100% !important;
+    }
+
+    .row.mt-4.mb-4.btn-adj {
+        text-align: center;
+    }
+
+    #addReligionForm label {
+        font-size: 14px !important;
+    }
 
 
     .table td {
@@ -939,18 +1050,28 @@ button.btn.btn-info.btn-sm.editCategory.delete_update {
         color: #3D434A;
         vertical-align: middle;
     }
-    .table th {
-        font-size: 10px;
+
+    
+
+ 
+
+}
+
+@media only screen and (max-width: 575px) {
+    #optional-toggle-btn {
+        display: block;
     }
 
-    .btn-sm {
-        font-size: 10px !important;
-        padding: 4px 12px !important;
+    .toggle-btn {
+        display: none;
+    }
+
+    div#offcanvasExample {
+        background-color: #2A3650;
     }
 
 
 }
-
 @media only screen and (max-width: 768px) {
 
     header {
@@ -967,7 +1088,7 @@ button.btn.btn-info.btn-sm.editCategory.delete_update {
     }
     .offcanvas-body {
         background-color: #29354E;
-        width: 252px !important;
+        width: 16rem !important;
     }
 
     .offcanvas-header {
@@ -990,7 +1111,7 @@ button.btn.btn-info.btn-sm.editCategory.delete_update {
 
 
     div#offcanvasExample {
-        width: 253px;
+        width: 16rem;
     }
 
     .header-res-op {
@@ -1118,8 +1239,8 @@ button.btn.btn-info.btn-sm.editCategory.delete_update {
     .preview-container-proof3,
     .preview-container-proof4 {
         width: 100%;
-        max-width: 240px;
-        max-height: 150px;
+        max-width: 15rem;
+        max-height: 9.5rem;
         margin: 0 auto;
     }
 
@@ -1129,7 +1250,7 @@ button.btn.btn-info.btn-sm.editCategory.delete_update {
 
     .primry-sms-cstm {
         width: 100%;
-        max-width: 130px;
+        max-width: 8.5rem;
         background-color: #7A70BA !important;
         border-color: #7A70BA !important;
         position: relative;
@@ -1155,7 +1276,7 @@ button.btn.btn-info.btn-sm.editCategory.delete_update {
 
 
     .gl-master-ms label {
-        width: 90px !important;
+        width: 5.5rem !important;
         line-height: 1.5;
     }
 
@@ -1166,14 +1287,10 @@ button.btn.btn-info.btn-sm.editCategory.delete_update {
         padding: 0px 12px;
     }
 
-    .shakir_btn {
-        margin-top: -28px;
-        padding: 8px 19px;
-        font-size: 8px !important;
-    }
+ 
 
     .card-body {
-        padding: 12px 10px;
+        padding: 10px 4px;
     }
 
     .add-manage-rlgn {
@@ -1185,50 +1302,5 @@ button.btn.btn-info.btn-sm.editCategory.delete_update {
 
 
 
-@media only screen and (max-width: 575px) {
-    #optional-toggle-btn {
-        display: block;
-    }
-
-    .toggle-btn {
-        display: none;
-    }
-
-    div#offcanvasExample {
-        background-color: #2A3650;
-    }
 
 
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (max-width: 1315px) {
-    .first-bl-date-master {
-        flex-direction: column !important;
-    }
-
-    .first-bl-date-master02 {
-        flex-direction: column !important;
-    }
-}
-
-
- @media only screen and (max-width: 320px) {
-    a.btn.btn-danger.btn-sm {
-        font-size: 10px !important;
-        padding: 4px 16px !important;
-    }
-} 
-
-
-
-/* SHAKIR CSS */
