@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidebar With Bootstrap</title>
-   
+    <title>Document</title>
+    <style>
+          .shakirtop{
+            color: #7a70ba;
+            text-transform: capitalize;
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: 0.6px;
+        }
+      .shakir_grup  {     
+             display: flex !important;
+       }
+       .shakir_btn{
+        background-color: #7a70ba !important;
+        color: #fff !important;
+        font-size: 12px !important;
+        /* padding: 10px 12px !important; */
+       }
+       .delete_update{
+        padding: 8px 20px !important;
+        color: #fff !important;
+        font-size: 12px !important;
+       }
+       .shakir_g_list{
+        text-align: left;
+        font-size: 18px;
+       }
+      
+    </style>
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
-
 <body>
 
 
@@ -347,9 +371,8 @@
         </div>
     
         <!-- reSPOSIVE BELOW 375 -->
+    
 
-
-  <!-- FULL WIDHT -->
     <div class="wrapper">
         <aside id="sidebar">
             <div class="d-flex logo-ad">
@@ -384,13 +407,13 @@
                     <ul id="auth" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
                         data-bs-parent="#sidebar">
                         <li class="sidebar-item">
-                            <a href="./newcustomer.html" class="sidebar-link">New Customer</a>
+                            <a href="#" class="sidebar-link">New Customer</a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="./share-opening.html" class="sidebar-link">Share Account Opening </a>
+                            <a href="#" class="sidebar-link">Share Account Opening </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="./deposite.html" class="sidebar-link">Deposite Account Opening </a>
+                            <a href="#" class="sidebar-link">Deposite Account Opening </a>
                         </li>
                         <li class="sidebar-item">
                             <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
@@ -649,6 +672,9 @@
                 </a>
             </li>
 
+           
+           
+
             </ul>
             <div class="sidebar-footer">
                 <a href="#" class="sidebar-link">
@@ -671,81 +697,189 @@
                 </header>
                 <main>
                     <div class="page-body">
-                        <!-- Container-fluid starts-->
                         <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-sm-12">
-                
-                
-                                    <div class="card ">
-                                        <div class="card-header">
-                                            <center>
-                                                <h4 style="color:#7a70ba" class="shakirtop">Schedule Master</h4></center>
-                                        </div>
-                       <div class="card-body">
-                    <form method="POST" action="">
-                        <div>
-                            <br>
-                            <div class="row">
-                                <div class="col-lg-3 col-md-2" style="border-right: 1px solid #ccc; border-right-style: dashed;"></div>
-                                <div class="col-lg-6 col-md-8" style="border-right: 1px solid #ccc; border-right-style: dashed;">
-                                    <div class="row px-10">
-                                        <div class="col-lg-12 col-md-12 col-sm-12">
-                                            <div class="form-group form-group-2">
-                                                <label class="form-label">Id</label>
-                                                <input type="text" id="schedule_id" name="id" class="input-field">
-                                                <div id="suggestions_id" class="suggestions-box" style="border: 1px solid #ccc; display: none;"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12">
-                                            <div class="form-group form-group-2">
-                                                <label class="form-label">Name</label>
-                                                <input type="text" id="name_eng" oninput="translateField('name_eng', 'name_mar')" name="name_eng" class="input-field" required="">
-                                                <div id="suggestions_name" class="suggestions-box" style="border: 1px solid #ccc; display: none;"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12">
-                                            <div class="form-group form-group-2">
-                                                <label class="form-label">नाव</label>
-                                                <input type="text" id="name_mar" name="name_mar" class="input-field" readonly>
-                                            </div>
-                                        </div>
+                           <div class="row">
+                              <div class="col-sm-12">
+                                 <div class="card card-body">
+                                    <div class="card-header">
+                                       <center>
+                                          <h4 style="color:#7a70ba" class="shakirtop">Add / Manage City
+                                        </h4>
+                                       </center>
                                     </div>
-                                </div>
-                            </div>
+                                    <div class="row">
+                                       <div class="col-xxl-12" style="margin-top: -2%;">
+                                          <div class="">
+                                             <div class="card-body">
+                                                 <br>
+                                                 <!-- Form for adding a new group type -->
+                                                 <form id="addGroupForm" action="" method="POST">
+                                                    <div class="row">
+                                                       <div class="col-lg-5 col-md-5 col-sm-12">
+                                                          <div class="form-group">
+                                                             <label for="group_id shakir_group" style="float: left; font-size: 15px; width: 98px; text-align: left;">Select State:</label>
+                                                             <select class="form-control" id="group_id" name="group_id" style="width: 424px;">
+                                                                                                              <option value="Deposite">India</option>
+                                                                                                              <option value="Bank">Usa</option>
+
+                                                                                                        </select>
+                                                          </div>
+                                                       </div>
+                                                       <div class="col-lg-5 col-md-5 col-sm-12">
+                                                          <div class="form-group">
+                                                             <label for="group_type_name">City Name:</label>
+                                                             <input type="text" class="form-control" id="group_type_name" name="group_type_name" required style="width: 424px;">
+                                                          </div>
+                                                       </div>
+                                                       <div class="col-lg-2 col-md-2 col-sm-12">
+                                                          <br>
+                                                          <button type="submit" name="submit" class="btn  shakir_btn">Add City</button>
+                                                       </div>
+                                                    </div>
+                                                 </form>
+                                                 <hr>
+                                                 <h3 class="shakir_g_list">City List</h3>
+                                                 <!-- Table displaying existing group types -->
+                                                 <table class="table">
+                                                    <thead>
+                                                       <tr>
+                                                          <th>ID</th>
+                                                          <th>State</th>
+                                                          <th>City</th>
+                                                          <th>Update</th>
+                                                          <th>Delete</th>
+                                                       </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                                                                                           <tr>
+                                                          <td>1</td>
+                                                          <td>India</td>
+                                                          <td>	Andhra Pradesh</td>
+                                                          <td>
+                                                             <button class="btn btn-info btn-sm editCategory delete_update"
+                                                                     data-id="1"
+                                                                     data-group_type="CURRENT DEPOSITE"
+                                                                     data-group="Deposite"
+                                                                     data-toggle="modal"
+                                                                     data-target="#updateCategoryModal">
+                                                                Update
+                                                             </button>
+                                                          </td>
+                                                          <td>
+                                                             <a href="" class="btn btn-danger btn-sm delete_update">Delete</a>
+                                                          </td>
+                                                       </tr>
+                                                                                         <tr>
+                                                          <td>2</td>
+                                                          <td>India</td>
+                                                          <td>MAHARASHTRA</td>
+                                                          <td>
+                                                             <button class="btn btn-info btn-sm editCategory delete_update"
+                                                                     data-id="2"
+                                                                     data-group_type="SAVING DEPOSITE"
+                                                                     data-group="Deposite"
+                                                                     data-toggle="modal"
+                                                                     data-target="#updateCategoryModal">
+                                                                Update
+                                                             </button>
+                                                          </td>
+                                                          <td>
+                                                             <a href="" class="btn btn-danger btn-sm delete_update">Delete</a>
+                                                          </td>
+                                                       </tr>
+                                                                                         <tr>
+                                                          <td>3</td>
+                                                          <td>USA</td>
+                                                          <td>ALAMBAMA</td>
+                                                          <td>
+                                                             <button class="btn btn-info btn-sm editCategory delete_update"
+                                                                     data-id="3"
+                                                                     data-group_type="PIGMY DEPOSITE"
+                                                                     data-group="Deposite"
+                                                                     data-toggle="modal"
+                                                                     data-target="#updateCategoryModal">
+                                                                Update
+                                                             </button>
+                                                          </td>
+                                                          <td>
+                                                             <a href="" class="btn btn-danger btn-sm delete_update">Delete</a>
+                                                          </td>
+                                                       </tr>
+                                                                                         <tr>
+                                                          <td>4</td>
+                                                          <td>USA</td>
+                                                          <td>ALASKA</td>
+                                                          <td>
+                                                             <button class="btn btn-info btn-sm editCategory delete_update"
+                                                                     data-id="4"
+                                                                     data-group_type="RECURRING DEPOSITE"
+                                                                     data-group="Deposite"
+                                                                     data-toggle="modal"
+                                                                     data-target="#updateCategoryModal">
+                                                                Update
+                                                             </button>
+                                                          </td>
+                                                          <td>
+                                                             <a href="" class="btn btn-danger btn-sm delete_update">Delete</a>
+                                                          </td>
+                                                       </tr>
+                                                                                         <tr>
+                                                          <td>5</td>
+                                                          <td>iNDIA</td>
+                                                          <td>GUJRAT</td>
+                                                          <td>
+                                                             <button class="btn btn-info btn-sm editCategory delete_update"
+                                                                     data-id="5"
+                                                                     data-group_type="FIXED DEPOSITE"
+                                                                     data-group="Deposite"
+                                                                     data-toggle="modal"
+                                                                     data-target="#updateCategoryModal">
+                                                                Update
+                                                             </button>
+                                                          </td>
+                                                          <td>
+                                                             <a href="" class="btn btn-danger btn-sm delete_update">Delete</a>
+                                                          </td>
+                                                       </tr>
+                                                                                         <tr>
+                                                          <td>6</td>
+                                                          <td>USA</td>
+                                                          <td>WASHIGNTOUN</td>
+                                                          <td>
+                                                             <button class="btn btn-info btn-sm editCategory delete_update"
+                                                                     data-id="6"
+                                                                     data-group_type="SUKANYA YOJANA"
+                                                                     data-group="Fund"
+                                                                     data-toggle="modal"
+                                                                     data-target="#updateCategoryModal">
+                                                                Update
+                                                             </button>
+                                                          </td>
+                                                          <td>
+                                                             <a href="" class="btn btn-danger btn-sm delete_update">Delete</a>
+                                                          </td>
+                                                       </tr>
+                                                     </tbody>
+                                                 </table>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
-                        <hr>
-                        <div></div>
-                        <br>
-                        <div class="row mt-4 mb-4 btn-adj" style="background: aliceblue; padding: 2% 0 2% 0;">
-                            <div class="col-lg-2 col-md-2"></div>
-                            <div class="col-lg-2 col-md-2 col-sm-6" style="margin-bottom:6px">
-                                <input type="submit" class="btn btn-success px-2 py-2 btn_shakir" value="Save">
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-6" style="margin-bottom:6px">
-                                <input type="submit" class="btn btn-success px-2 py-2 btn_shakir-2" value="Update">
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-6" style="margin-bottom:6px">
-                                <input type="submit" class="btn btn-success px-2 py-2 btn_shakir-3" value="Delete">
-                            </div>
-                            
-
-                        </div>
-                    </form>
-                </div>
-                
+                     </div>
                 </main>
             </div>
         </div>
     </div>
-    <!--  -->
-  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
-    <script src="/script.js"></script>
-</body>
+   
 
+<!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
 </html>

@@ -516,41 +516,41 @@
                         <span>Utility</span>
                     </a>
                     <ul id="auth04" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
-                        data-bs-parent="#sidebar">
-                        <li class="sidebar-item">
-                            <a href="./utility2.html" class="sidebar-link">Add / Manage Religion</a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="./utility1.html" class="sidebar-link">Add / Manage Category</a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="./ManageSubcast.html" class="sidebar-link">Add / Manage Subcast</a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="./managecountry.html" class="sidebar-link">Add / Manage Country</a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="./AddManageGroupType.html" class="sidebar-link">Add / Manage Sate</a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="./managecity.html" class="sidebar-link">Add / Manage City</a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="./AddManageGroupType (1).html" class="sidebar-link">Add / Manage group</a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="./managegrptype2.html" class="sidebar-link">Add / Manage Group Type</a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="./ManageInterest.html" class="sidebar-link">Add / Manage Intereste</a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="./GeneralLedgerMaster.html" class="sidebar-link">General Ledger Master</a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="./ScheduleMaster.html" class="sidebar-link">Schdule Master</a>
-                        </li>
-                    </ul>
+                    data-bs-parent="#sidebar">
+                    <li class="sidebar-item">
+                        <a href="./utility2.html" class="sidebar-link">Add / Manage Religion</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./utility1.html" class="sidebar-link">Add / Manage Category</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./ManageSubcast.html" class="sidebar-link">Add / Manage Subcast</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./managecountry.html" class="sidebar-link">Add / Manage Country</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./AddManageGroupType.html" class="sidebar-link">Add / Manage Sate</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./managecity.html" class="sidebar-link">Add / Manage City</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./AddManageGroupType (1).html" class="sidebar-link">Add / Manage group</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./managegrptype2.html" class="sidebar-link">Add / Manage Group Type</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./ManageInterest.html" class="sidebar-link">Add / Manage Intereste</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./GeneralLedgerMaster.html" class="sidebar-link">General Ledger Master</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="./ScheduleMaster.html" class="sidebar-link">Schdule Master</a>
+                    </li>
+                </ul>
                 </li>
                 <div class="d-flex heading-01">
                     <div class="sidebar-logo-heading ">
@@ -678,7 +678,7 @@
                             <div class="card card-body">
                                 <div class="card-header">
                                     <center>
-                                        <h4 style="color:#7a70ba">Add / Manage Category </h4>
+                                        <h4 style="color:#7a70ba">Add / Manage Interest Type</h4>
                                     </center>
                                 </div>
                                 <div class="row">
@@ -690,14 +690,15 @@
                                                     <div class="row">
                                                         <div class="col-lg-5 col-md-6 col-sm-12">
                                                             <div class="form-group">
-                                                                <label for="religion_name">Religion Name:</label>
+                                                                <label for="religion_name">Select Group Type:</label>
                                                                 <input type="text" class="form-control"
                                                                     id="religion_name" name="religion_name" required>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-5 col-md-6 col-sm-12">
                                                             <div class="form-group">
-                                                                <label for="religion_name">Category Name:</label>
+                                                                <label for="religion_name">Int. Type Name:
+                                                                </label>
                                                                 <input type="text" class="form-control"
                                                                     id="religion_name" name="religion_name" required>
                                                             </div>
@@ -713,105 +714,98 @@
 
                                             </form>
                                             <hr>
-                                            <h3>Religion List</h3>
+                                            <h3>Interest Type List</h3>
                                             <table class="table">
                                                 <thead>
-                                                    <tr>
-                                                        <th>ID</th>
-                                                        <th>Name</th>
-                                                        <th>Update</th>
-                                                        <th>Delete</th>
-
-                                                    </tr>
+                                                   <tr>
+                                                      <th>ID</th>
+                                                      <th>Group Type</th>
+                                                      <th>	Int. Type</th>
+                                                      <th>Update</th>
+                                                      <th>Delete</th>
+                                                   </tr>
                                                 </thead>
                                                 <tbody>
-                                                    <!-- Display religions dynamically -->
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>Hindu</td>
-                                                        <td>
-
-                                                            <button class="btn btn-info btn-sm editReligion" data-id="1"
-                                                                data-name="Hindu">Update</button>
-                                                        </td>
-                                                        <td>
-                                                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3</td>
-                                                        <td>Christian</td>
-                                                        <td>
-
-                                                            <button class="btn btn-info btn-sm editReligion" data-id="3"
-                                                                data-name="Christian">Update</button>
-                                                        </td>
-                                                        <td>
-                                                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>4</td>
-                                                        <td>Jain</td>
-                                                        <td>
-
-                                                            <button class="btn btn-info btn-sm editReligion" data-id="4"
-                                                                data-name="Jain">Update</button>
-                                                        </td>
-                                                        <td>
-                                                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>5</td>
-                                                        <td>Budhha</td>
-                                                        <td>
-
-                                                            <button class="btn btn-info btn-sm editReligion" data-id="5"
-                                                                data-name="Budhha">Update</button>
-                                                        </td>
-                                                        <td>
-                                                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>6</td>
-                                                        <td>Parsi</td>
-                                                        <td>
-
-                                                            <button class="btn btn-info btn-sm editReligion" data-id="6"
-                                                                data-name="Parsi">Update</button>
-                                                        </td>
-                                                        <td>
-                                                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>7</td>
-                                                        <td>Sikh</td>
-                                                        <td>
-
-                                                            <button class="btn btn-info btn-sm editReligion" data-id="7"
-                                                                data-name="Sikh">Update</button>
-                                                        </td>
-                                                        <td>
-                                                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>8</td>
-                                                        <td>Other</td>
-                                                        <td>
-
-                                                            <button class="btn btn-info btn-sm editReligion" data-id="8"
-                                                                data-name="Other">Update</button>
-                                                        </td>
-                                                        <td>
-                                                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                                                        </td>
-                                                    </tr>
+                                                                                                                     <tr>
+                                                      <td>1</td>
+                                                      <td>Open</td>
+                                                      <td>Brahmin</td>
+                                                      <td>
+                                                         <button class="btn btn-info btn-sm editCategory" data-id="1" data-subcast="Brahmin" data-cast="Open" data-toggle="modal" data-target="#updateCategoryModal">
+                                                            Update
+                                                         </button>
+                                                      </td>
+                                                      <td>
+                                                         <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                                                      </td>
+                                                   </tr>
+                                                                                    <tr>
+                                                      <td>2</td>
+                                                      <td>Open</td>
+                                                      <td>Maratha</td>
+                                                      <td>
+                                                         <button class="btn btn-info btn-sm editCategory" data-id="4" data-subcast="Maratha" data-cast="Open" data-toggle="modal" data-target="#updateCategoryModal">
+                                                            Update
+                                                         </button>
+                                                      </td>
+                                                      <td>
+                                                         <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                                                      </td>
+                                                   </tr>
+                                                                                    <tr>
+                                                      <td>3</td>
+                                                      <td>Open</td>
+                                                      <td>Kayastha</td>
+                                                      <td>
+                                                         <button class="btn btn-info btn-sm editCategory" data-id="5" data-subcast="Kayastha" data-cast="Open" data-toggle="modal" data-target="#updateCategoryModal">
+                                                            Update
+                                                         </button>
+                                                      </td>
+                                                      <td>
+                                                         <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                                                      </td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td>4</td>
+                                                      <td>Open</td>
+                                                      <td>Kshatriya</td>
+                                                      <td>
+                                                         <button class="btn btn-info btn-sm editCategory" data-id="6" data-subcast="Kshatriya" data-cast="Open" data-toggle="modal" data-target="#updateCategoryModal">
+                                                            Update
+                                                         </button>
+                                                      </td>
+                                                      <td>
+                                                         <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                                                      </td>
+                                                   </tr>
+                                                   <tr>
+                                                    <td>5</td>
+                                                    <td>Open</td>
+                                                    <td>Kshatriya</td>
+                                                    <td>
+                                                       <button class="btn btn-info btn-sm editCategory" data-id="7" data-subcast="Kshatriya" data-cast="Open" data-toggle="modal" data-target="#updateCategoryModal">
+                                                          Update
+                                                       </button>
+                                                    </td>
+                                                    <td>
+                                                       <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                                                    </td>
+                                                 </tr>
+                                                 <tr>
+                                                    <td>6</td>
+                                                    <td>Open</td>
+                                                    <td>Kshatriya</td>
+                                                    <td>
+                                                       <button class="btn btn-info btn-sm editCategory" data-id="8" data-subcast="Kshatriya" data-cast="Open" data-toggle="modal" data-target="#updateCategoryModal">
+                                                          Update
+                                                       </button>
+                                                    </td>
+                                                    <td>
+                                                       <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                                                    </td>
+                                                 </tr>
                                                 </tbody>
-                                            </table>
+                                             </table>
                                         </div>
                                     </div>
                                 </div>
