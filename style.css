@@ -780,12 +780,14 @@ button.btn.btn-info.btn-sm.editCategory.delete_update {
 
 
 
+.card-body h3 {
+    font-size: 22px;
+}
 
 
-
-
-
-
+.editCategory:hover {
+    color: #fff !important;
+}
 
 
 
