@@ -1290,7 +1290,7 @@ tbody tr {
  
 
     .card-body {
-        padding: 10px 4px;
+        padding: 10px 10px !important;
     }
 
     .add-manage-rlgn {
