@@ -106,7 +106,8 @@ function translateNumber(englishInputId, outputId) {
 
 
 
-
+    
+    
 
 
 
