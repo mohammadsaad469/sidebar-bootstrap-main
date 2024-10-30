@@ -6,9 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sidebar With Bootstrap</title>
-    <style>
-
-    </style>
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -18,40 +15,44 @@
 
 <body>
 
- <!-- reSPOSIVE BELOW 375 -->
 
- <div class="header-res-op">
+    <!-- reSPOSIVE BELOW 375 -->
 
-    <div class="user">
+    <div class="header-res-op">
 
-        <div class="icon">
-    <button class="btn  canvas_optional" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-        <i class="lni lni-grid-alt"></i>
-    </button>        </div>
-        <div class="">
-        <img src="profile.png" alt="User Profile" class="user-profile">
-        <div class="user-name">XYZ</div>
-        <div  class="admin-res">Admin</div>
+        <div class="user">
+
+            <div class="icon">
+                <button class="btn  canvas_optional" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <i class="lni lni-grid-alt"></i>
+                </button>
+            </div>
+            <div class="">
+                <img src="profile.png" alt="User Profile" class="user-profile">
+                <div class="user-name">XYZ</div>
+                <div class="admin-res">Admin</div>
+            </div>
+        </div>
     </div>
-</div>
-</div>
-    
-      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
-                <button type="button" class="btn-close text-reset"style="color:#fff !important;" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="btn-close text-reset" style="color:#fff !important;"
+                data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-             <!--  -->
-             <ul class="sidebar-nav">
+            <!--  -->
+            <ul class="sidebar-nav">
                 <div class="d-flex heading-01">
                     <div class="sidebar-logo-heading ">
-                        <h6>Account</h6> 
+                        <h6>Account</h6>
                     </div>
                 </div>
 
                 <li class="sidebar-item">
                     <a href="./index.html" class="sidebar-link">
-                        
+
                         <i class="fa-solid fa-cubes"></i>
                         <span>Dashboard</span>
                     </a>
@@ -86,7 +87,7 @@
                     </ul>
                 </li>
 
-            
+
 
                 <li class="sidebar-item">
                     <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
@@ -158,7 +159,7 @@
 
                     </ul>
                 </li>
-                
+
                 <li class="sidebar-item ">
                     <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
                         data-bs-target="#auth02" aria-expanded="false" aria-controls="auth02">
@@ -187,20 +188,20 @@
                         </li>
                     </ul>
                 </li>
-            
-            <li class="sidebar-item">
-                <a href="#" class="sidebar-link">
-                    <i class="lni lni-cog"></i>
-                    <span>System</span>
-                </a>
-            </li>
-            <li class="sidebar-item ">
-                <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
-                    data-bs-target="#auth04" aria-expanded="false" aria-controls="auth04">
-                    <i class="fa-solid fa-screwdriver-wrench"></i>
-                    <span>Utility</span>
-                </a>
-                <ul id="auth04" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="lni lni-cog"></i>
+                        <span>System</span>
+                    </a>
+                </li>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth04" aria-expanded="false" aria-controls="auth04">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <span>Utility</span>
+                    </a>
+                    <ul id="auth04" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
                         data-bs-parent="#sidebar">
                         <li class="sidebar-item">
                             <a href="./utility2.html" class="sidebar-link">Add / Manage Religion</a>
@@ -236,33 +237,33 @@
                             <a href="./ScheduleMaster.html" class="sidebar-link">Schdule Master</a>
                         </li>
                     </ul>
-            </li>
-            <div class="d-flex heading-01">
-                <div class="sidebar-logo-heading ">
-                    <h6>INTEREST</h6> 
+                </li>
+                <div class="d-flex heading-01">
+                    <div class="sidebar-logo-heading ">
+                        <h6>INTEREST</h6>
+                    </div>
                 </div>
-            </div>
-            <li class="sidebar-item ">
-                <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
-                    data-bs-target="#auth05" aria-expanded="false" aria-controls="auth05">
-                    <i class="fa-solid fa-sack-dollar"></i>
-                    <span>Daily Reports</span>
-                </a>
-                <ul id="auth05" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
-                    data-bs-parent="#sidebar">
-                    <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">Cash Book</a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">Day Book</a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">Other Reports</a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">Agent Reports</a>
-                    </li>
-                </ul>
+                <li class="sidebar-item ">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth05" aria-expanded="false" aria-controls="auth05">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <span>Daily Reports</span>
+                    </a>
+                    <ul id="auth05" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Cash Book</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Day Book</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Other Reports</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Agent Reports</a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="sidebar-item">
                     <a href="#" class="sidebar-link">
@@ -272,10 +273,10 @@
                 </li>
                 <div class="d-flex heading-01">
                     <div class="sidebar-logo-heading ">
-                        <h6>ALL THINGS</h6> 
+                        <h6>ALL THINGS</h6>
                     </div>
                 </div>
-    
+
                 <li class="sidebar-item">
                     <a href="#" class="sidebar-link">
                         <i class="fa-solid fa-piggy-bank"></i>
@@ -302,7 +303,7 @@
                 </li>
                 <li class="sidebar-item">
                     <a href="#" class="sidebar-link">
-                        <i class="fa-solid fa-paste"></i>                    <span>Statement</span>
+                        <i class="fa-solid fa-paste"></i> <span>Statement</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
@@ -329,23 +330,22 @@
                         <span>Graphical Report</span>
                     </a>
                 </li>
-    
-               
-               
-    
-                </ul>
-                <div class="sidebar-footer">
-                    <a href="#" class="sidebar-link">
-                        <i class="lni lni-exit"></i>
-                        <span>Logout</span>
-                    </a>
-                </div>
-                 
+
+
+
+
+            </ul>
+            <div class="sidebar-footer">
+                <a href="#" class="sidebar-link">
+                    <i class="lni lni-exit"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+
+        </div>
     </div>
-      </div>
 
     <!-- reSPOSIVE BELOW 375 -->
-
     <div class="wrapper">
         <aside id="sidebar">
             <div class="d-flex logo-ad">
@@ -668,174 +668,237 @@
                         <div>Admin</div>
                     </div>
                 </header>
+                <main>
 
-            </div>
-            <!--  -->
-            <div class="page-body">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-12 add-manage-rlgn">
-                            <div class="card card-body">
-                                <div class="card-header">
-                                    <center>
-                                        <h4 style="color:#7a70ba">Add / Manage Category </h4>
-                                    </center>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xxl-12">
-                                        <div class="">
-                                            <div class="card-body">
-                                                <br>
-                                                <form id="addReligionForm">
-                                                    <div class="row">
-                                                        <div class="col-lg-5 col-md-6 col-sm-12">
-                                                            <div class="form-group">
-                                                                <label for="religion_name">Religion Name:</label>
-                                                                <input type="text" class="form-control"
-                                                                    id="religion_name" name="religion_name" required>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-5 col-md-6 col-sm-12">
-                                                            <div class="form-group">
-                                                                <label for="religion_name">Category Name:</label>
-                                                                <input type="text" class="form-control"
-                                                                    id="religion_name" name="religion_name" required>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-2 col-md-12 col-sm-12">
-                                                            <label for="religion_name"></label><br>
-                                                            <button type="submit" class="btn btn-primar add-Religion-1">Add
-                                                                Category</button>
-                                                        </div>
-                                                    </div>
-                                                    <table class="mytable">
-                                                        <tr>
-                                                            <td>
-                                                                <button class="btn btn-info btn-sm editReligion" data-id="6"
-                                                                    data-name="Parsi">Update</button>
-                                                            </td>
-                                                            <td>
-                                                                <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
+
+
+
+                    <!-- SHARE AC FORM SECTION -->
+
+                    <div class="col-sm-12">
+
+
+                        <div class="card ">
+                            <div class="card-header">
+                                <center>
+                                    <h4 style="color:#7a70ba">General Account Opening </h4>
+                                </center>
+                            </div>
+                            <div class="card-body">
+                                <form method="POST" action="" enctype="multipart/form-data">
+
+                                    <div class="row" style="margin-bottom: -11px;">
+                                        <div class="col-lg-6 col-md-6"
+                                            style="border-right: 1px solid #ccc;border-right-style: dashed;">
+                                            <div class="form-group">
+                                                <label class="form-label">Ledger No </label>
+                                                <input type="text" class="input-field input-field01" name="balence"
+                                                    id="balence-g" required="">
+                                                <input type="text" class="input-field" name="balence" id="balence"
+                                                    required="">
                                             </div>
 
-
-                                            </form>
-                                            <hr>
-                                            <h3>Religion List</h3>
-                                            <table class="table">
-                                                <thead>
-                                                    <tr>
-                                                        <th>ID</th>
-                                                        <th>Name</th>
-                                                        <th>Update</th>
-                                                        <th>Delete</th>
-
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <!-- Display religions dynamically -->
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>Hindu</td>
-                                                        <td>
-
-                                                            <button class="btn btn-info btn-sm editReligion" data-id="1"
-                                                                data-name="Hindu">Update</button>
-                                                        </td>
-                                                        <td>
-                                                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3</td>
-                                                        <td>Christian</td>
-                                                        <td>
-
-                                                            <button class="btn btn-info btn-sm editReligion" data-id="3"
-                                                                data-name="Christian">Update</button>
-                                                        </td>
-                                                        <td>
-                                                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>4</td>
-                                                        <td>Jain</td>
-                                                        <td>
-
-                                                            <button class="btn btn-info btn-sm editReligion" data-id="4"
-                                                                data-name="Jain">Update</button>
-                                                        </td>
-                                                        <td>
-                                                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>5</td>
-                                                        <td>Budhha</td>
-                                                        <td>
-
-                                                            <button class="btn btn-info btn-sm editReligion" data-id="5"
-                                                                data-name="Budhha">Update</button>
-                                                        </td>
-                                                        <td>
-                                                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>6</td>
-                                                        <td>Parsi</td>
-                                                        <td>
-
-                                                            <button class="btn btn-info btn-sm editReligion" data-id="6"
-                                                                data-name="Parsi">Update</button>
-                                                        </td>
-                                                        <td>
-                                                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>7</td>
-                                                        <td>Sikh</td>
-                                                        <td>
-
-                                                            <button class="btn btn-info btn-sm editReligion" data-id="7"
-                                                                data-name="Sikh">Update</button>
-                                                        </td>
-                                                        <td>
-                                                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>8</td>
-                                                        <td>Other</td>
-                                                        <td>
-
-                                                            <button class="btn btn-info btn-sm editReligion" data-id="8"
-                                                                data-name="Other">Update</button>
-                                                        </td>
-                                                        <td>
-                                                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
+                                            <div class="form-group">
+                                                <label class="form-label">Party Id </label>
+                                                <input type="text" class="input-field input-field01" name="Party-Id"
+                                                    id="balence-p" required="">
+                                                <input type="text" class="input-field" name="Party-Id" id="Party-Id"
+                                                    required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="form-label">Account No </label>
+                                                <input type="text" class="input-field" name="Account-No" id="Account-No-g"
+                                                    required="">
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="row">
+
+                                                <div class="form-group">
+                                                    <label class="form-label">Interest Rate</label>
+                                                    <input type="text" class="input-field" name="Account-No" id="Account-No-g"
+                                                        required="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label">Opening Balence</label>
+                                                    <input type="text" class="input-field" name="Account-No" id="Account-No-g"
+                                                        required="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label">Current Balence </label>
+                                                    <input type="text" class="input-field" name="Account-No" id="Account-No-g"
+                                                        required="">
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                        <hr>
+
+
+                                        <div>
+                                            <h4
+                                                style="font-size: 20px;font-weight: 600;letter-spacing: 0.6px;color:black;">
+                                                Personal Details </h4>
+                                            <br>
+                                            <div class="row personal-detail" style="margin-bottom: 30px;">
+                                                <div class="col-lg-6 col-md-6"
+                                                    style="border-right: 1px solid #ccc;border-right-style: dashed;">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                                            <div class="form-group">
+                                                                <label class="form-label">Name</label>
+                                                                <input type="text" class="input-field" name="Name"
+                                                                    id="name_en-g"
+                                                                    oninput="translateField('name_en-g', 'name_mar-g')"
+                                                                    required="">
+                                                                <div data-lastpass-icon-root=""
+                                                                    style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="form-group">
+                                                                <label class="form-label"
+                                                                style="width: 100%;max-width: 110px;"
+                                                                for="party-id">Opening Date</label>
+                                                            <input type="date" id="opening_date-2" name="opening_date-2"
+                                                                class="input-field" value="2024-09-19">
+                                                                <div data-lastpass-icon-root=""
+                                                                    style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+                                                                </div>
+                                                            </div>                                                            <div class="opening_date">
+                                                          
+                                                        </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+
+                                                <div class="col-lg-6 col-md-6">
+
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                                            <div class="form-group">
+                                                                <label class="form-label">नाव</label>
+                                                                <input type="text" class="input-field" name="name_mar-g "
+                                                                    id="name_mar-g" required="">
+                                                                <div data-lastpass-icon-root=""
+                                                                    style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+                                                                </div>
+                                                             </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12 col-sm-12" style="text-align:left;">
+                                                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" style="width: 20px;
+                                                                height: 20px;
+                                                                vertical-align: middle;
+                                                                margin-right: 11px;
+                                                            ">
+                                                                <label for="vehicle1">Close Flag</label><br>                                                              
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div></div>
+
+                                        <div>
+
+                                        </div>
+
+
+
+                                        <!--button-->
+                                        <div class="row mt-4 mb-4 btn-adj "
+                                            style=" background: aliceblue;padding: 2% 0 2% 0;">
+                                            <!--<div class="col-lg-2 col-md-2"></div>-->
+
+                                            <div class="col-lg-2 col-md-2 col-sm-6 share-ac-buttons"
+                                                style="margin-bottom:6px;">
+                                                <input type="submit" class="btn btn-success px-4 py-2" value="Save"
+                                                    style="margin: 0 14px;">
+                                            </div>
+                                            <div class="col-lg-2 col-md-2 col-sm-6 share-ac-buttons"
+                                                style="margin-bottom:6px">
+                                                <input type="reset" class="btn btn-danger px-4 py-2" value="Reset"
+                                                    style="margin: 0 14px;">
+                                            </div>
+                                            <div class="col-lg-2 col-md-2 col-sm-6 share-ac-buttons"
+                                                style="margin-bottom:6px">
+                                                <input type="submit" class="btn btn-primary px-4 py-2" value="Print"
+                                                    style="margin: 0 14px;">
+                                            </div>
+                                            <div class="col-lg-2 col-md-2 col-sm-6 share-ac-buttons"
+                                                style="margin-bottom:6px">
+                                                <input type="submit" class="btn btn-dark px-4 py-2" value="PDF"
+                                                    style="margin: 0 14px;">
+                                            </div>
+                                            <div class="col-lg-2 col-md-2 col-sm-6 share-ac-buttons"
+                                                style="margin-bottom:6px">
+                                                <a class="btn btn-warning px-4 py-2" id="listButton"
+                                                    data-bs-toggle="modal" data-bs-target="#label-pill-modal" href="#"
+                                                    style="margin: 0 14px;">List</a>
+                                                <!--<input type="submit" class="btn btn-warning px-4 py-2" value="List" style="margin: 0 14px;">-->
+                                            </div>
+                                            <div class="col-lg-2 col-md-2 col-sm-6 share-ac-buttons"
+                                                style="margin-bottom:6px">
+                                                <input type="submit" class="btn btn-info px-4 py-2" value="Delete"
+                                                    style="margin: 0 14px;">
+                                            </div>
+
+                                        </div>
+                                        <div id="error-message" style="color: red; margin-top: 10px;"></div>
+
+                                </form>
                             </div>
+                            <!--</div>-->
                         </div>
                     </div>
-                </div>
+
+
+
+                    <!-- END -->
+
+
+                </main>
             </div>
         </div>
-        <!--  -->
+
     </div>
-    <!--  -->
-    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"

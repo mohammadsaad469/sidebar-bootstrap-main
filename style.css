@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
+
 ::after,
 ::before {
     box-sizing: border-box;
@@ -375,7 +376,7 @@ i.fa-solid.fa-user-plus {
 .green{
     background-color: #008000 !important;
 }
-.fa-piggy-bank{
+.fa-piggy-bank-01{
     background-color: #b04141 !important;
 }
 .fa-users{
@@ -924,6 +925,20 @@ tbody tr {
 }
 
 
+.preview-container-ln {
+    height: 13rem;
+    background: aliceblue;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.ch-cox label {
+    margin-right: 35px;
+    color: #073497;
+    font-weight: 600;
+}
 
  
 
@@ -1057,7 +1072,29 @@ tbody tr {
         font-size: 5px !important;
         font-weight: bold;
     }
-
+    .th_shakir{
+        font-size: 2vw;
+        padding: 5.2px;
+        font-weight: 600;
+    }
+    .firstblock{
+        display: flex;
+        flex-direction: column;   
+    }
+    .shakir_flex{
+     width: 50%  !important;
+    }
+    .col-6{
+        flex:0 0 auto;
+        width: 100%;
+    }
+    .py-2{
+        margin: 10px;
+    }
+    .o_balance{
+        font-size: 2vw;
+        font-weight: 600;
+    }
     
 
  
@@ -1189,6 +1226,41 @@ tbody tr {
         color: #3D434A;
         vertical-align: middle;
     }
+    .table td {
+        font-size: 12px;
+        padding: 10px 3px;
+        color: #3D434A;
+        vertical-align: middle;
+    }
+    .f-w-600{
+        font-size: 5px !important;
+        font-weight: bold;
+    }
+    .th_shakir{
+        font-size: 2vw;
+        padding: 5.2px;
+        font-weight: 600;
+    }
+    .firstblock{
+        display: flex;
+        flex-direction: column;   
+    }
+    .shakir_flex{
+     width: 50%  !important;
+    }
+    .col-6{
+        flex:0 0 auto;
+        width: 100%;
+    }
+    .py-2{
+        margin: 10px;
+    }
+    .o_balance{
+        font-size: 2vw;
+        font-weight: 600;
+    }
+
+    
 
     
 
