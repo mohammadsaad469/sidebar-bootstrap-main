@@ -3,9 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidebar With Bootstrap</title>
+    <title>Document</title>
     <style>
         .shakirtop {
             color: #7a70ba;
@@ -19,30 +18,50 @@
             display: flex !important;
         }
 
-
-        .form-label {
-            color: #7a70ba;
-            font-size: 12px;
-            font-weight: bold;
-            line-height: 30px;
+        .shakir_btn {
+            background-color: #7a70ba !important;
+            color: #fff !important;
+            font-size: 12px !important;
+            /* padding: 10px 12px !important; */
         }
 
-        input {
-            border: 1px solid #ccc;
-            width: 350px;
-            outline: none;
-            border-radius: 3px;
+        .delete_update {
+            padding: 8px 20px !important;
+            color: #fff !important;
+            font-size: 12px !important;
         }
 
-        .shakir_side {
-            border: 1px solid #ccc;
-            width: 150px;
-            outline: none;
-            border-radius: 3px;
+        .shakir_g_list {
+            text-align: left;
+            font-size: 18px;
         }
 
-        .shakir_lable {
-            width: 200px;
+        .th_shakir {
+            padding: 10px 10px;
+            border: 1px solid black;
+            text-align: left;
+            font-size: 0.9vw;
+            font-weight: 600;
+        }
+
+        /* .ok{
+    background-color: #0DA759 !important;
+    border-color: #0DA759 !important;
+    font-size: 0.9vw;
+    font-weight: 600;
+    transform: translateZ(0);
+}
+.print{
+    background-color: #D77748 !important;
+    border-color: #D77748 !important;
+    font-size: 0.9vw;
+    font-weight: 600;
+    transform: translateZ(0);
+} */
+        @media only screen and (max-width: 475px) {
+            .shakir_date {
+                width: 90% !important;
+            }
         }
     </style>
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
@@ -53,6 +72,7 @@
 </head>
 
 <body>
+
 
     <!-- reSPOSIVE BELOW 375 -->
 
@@ -390,8 +410,9 @@
 
     <!-- reSPOSIVE BELOW 375 -->
 
+
     <div class="wrapper">
-        <aside id="sidebar">
+        <aside id="sidebar" class="expand">
             <div class="d-flex logo-ad">
                 <div class="sidebar-logo">
                     <a href="#">Logo</a>
@@ -565,41 +586,41 @@
                         <span>Utility</span>
                     </a>
                     <ul id="auth04" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
-                    data-bs-parent="#sidebar">
-                    <li class="sidebar-item">
-                        <a href="./utility2.html" class="sidebar-link">Add / Manage Religion</a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./utility1.html" class="sidebar-link">Add / Manage Category</a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./ManageSubcast.html" class="sidebar-link">Add / Manage Subcast</a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./managecountry.html" class="sidebar-link">Add / Manage Country</a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./AddManageGroupType.html" class="sidebar-link">Add / Manage Sate</a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./managecity.html" class="sidebar-link">Add / Manage City</a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./AddManageGroupType (1).html" class="sidebar-link">Add / Manage group</a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./managegrptype2.html" class="sidebar-link">Add / Manage Group Type</a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./ManageInterest.html" class="sidebar-link">Add / Manage Intereste</a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./GeneralLedgerMaster.html" class="sidebar-link">General Ledger Master</a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./ScheduleMaster.html" class="sidebar-link">Schdule Master</a>
-                    </li>
-                </ul>
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="./utility2.html" class="sidebar-link">Add / Manage Religion</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./utility1.html" class="sidebar-link">Add / Manage Category</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./ManageSubcast.html" class="sidebar-link">Add / Manage Subcast</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./managecountry.html" class="sidebar-link">Add / Manage Country</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./AddManageGroupType.html" class="sidebar-link">Add / Manage Sate</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./managecity.html" class="sidebar-link">Add / Manage City</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./AddManageGroupType (1).html" class="sidebar-link">Add / Manage group</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./managegrptype2.html" class="sidebar-link">Add / Manage Group Type</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./ManageInterest.html" class="sidebar-link">Add / Manage Intereste</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./GeneralLedgerMaster.html" class="sidebar-link">General Ledger Master</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./ScheduleMaster.html" class="sidebar-link">Schdule Master</a>
+                        </li>
+                    </ul>
                 </li>
                 <div class="d-flex heading-01">
                     <div class="sidebar-logo-heading ">
@@ -714,369 +735,339 @@
                     <div class="user">
                         <img src="profile.png" alt="User Profile" class="user-profile">
                         <div class="user-name">XYZ</div>
-                        <div class="admin-res">Admin</div>
+                        <div>Admin</div>
                     </div>
                 </header>
-
-            </div>
-
-            <main class="gl-master-ms">
-
-                <div class="row">
-
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <div class="card ">
-                            <div class="card-header">
-                                <center>
-                                    <h4 class="shakirtop" style="color:#7a70ba">General Ledger Master</h4>
-                                </center>
-                            </div>
-
-                            <div class="card-body">
-                                <form method="POST" action="#">
-                                    <div class="row" style="margin-bottom: -11px;">
-
-
-                                        <div class="col-lg-6 col-md-6 firstblock"
-                                            style="border-right: 1px solid #ccc;border-right-style: dashed;">
-                                            <div class="form-group shakir_grup" style="display:flex !important;">
-                                                <div class="col-lg-3 col-md-3 col-sm-2">
-                                                    <label class="form-label" for="party-id"
-                                                        style="width: max-content;">Ledger ID</label>
-                                                </div>
-                                                <div class="col-lg-9 col-md-9 col-sm-10">
-                                                    <input type="number" id="ledger_id" name="id"
-                                                        class="input-field  shakir_lable">
-                                                    <div id="suggestions_id" class="suggestions-box"></div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group" style="display:flex !important;">
-                                                <div class="col-lg-3 col-md-3 col-sm-2">
-                                                    <label class="form-label" for="party-id"
-                                                        style="width: max-content;">Ledger Name</label>
-                                                </div>
-                                                <div class="col-lg-9 col-md-9 col-sm-10">
-
-                                                    <input type="text" id="name_eng"
-                                                        oninput="translateField('name_eng', 'name_mar')" name="name_eng"
-                                                        class="input-field" required>
-                                                    <div id="suggestions_name" class="suggestions-box"></div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group" style="display:flex !important;">
-                                                <div class="col-lg-3 col-md-3 col-sm-2">
-                                                    <label class="form-label" for="party-id"
-                                                        style="width: max-content;"><b>लेजरचे नाव</b></label>
-                                                </div>
-                                                <div class="col-lg-9 col-md-9 col-sm-10">
-
-                                                    <input type="text" id="name_mar" name="name_mar"
-                                                        class="input-field">
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group " style="display:flex !important;">
-
-                                                <div class="col-lg-3 col-md-3 col-sm-2 f-d">
-                                                    <label class="form-label" for="party-id"
-                                                        style="width:-webkit-fill-available">Opening Balance</label>
-                                                </div>
-                                                <div class="col-lg-5 col-md-5 col-sm-6">
-                                                    <input type="number" id="opening_balance" name="opening_balence"
-                                                        class="input-field">
-                                                </div>
-                                                <div class="col-lg-4 col-md-4 col-sm-4 shakir_lable">
-                                                    <select id="opening_balance_type" name="opening_balance_type"
-                                                        class="input-field">
-                                                        <option value="credit">Credit</option>
-                                                        <option value="debit">Debit</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group " style="display:flex !important;">
-
-                                                <div class="col-lg-3 col-md-3 col-sm-2 f-d">
-                                                    <label class="form-label" for="party-id"
-                                                        style="width:-webkit-fill-available">Current Balance</label>
-                                                </div>
-                                                <div class="col-lg-5 col-md-5 col-sm-6">
-                                                    <input type="number" id="current_balance" name="current_balance"
-                                                        class="input-field">
-                                                </div>
-                                                <div class="col-lg-4 col-md-4 col-sm-4 shakir_lable">
-                                                    <select id="title-en" name="current_balence_type"
-                                                        class="input-field">
-                                                        <option value="credit">Credit</option>
-                                                        <option value="debit">Debit</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group " style="display:flex !important;">
-
-                                                <div class="col-lg-3 col-md-3 col-sm-2 f-d ">
-                                                    <label class="form-label" for="party-id"
-                                                        style="width:-webkit-fill-available">Min Balance</label>
-                                                </div>
-                                                <div class="col-lg-5 col-md-5 col-sm-6">
-                                                    <input type="number" id="min_balance" name="min_balance"
-                                                        class="input-field">
-                                             </div>
-                                                <div class="col-lg-4 col-md-4 col-sm-4 shakir_lable">
-                                                    <select id="min_balance_type" name="min_balance_type"
-                                                        class="input-field ">
-                                                        <option value="credit">Credit</option>
-                                                        <option value="debit">Debit</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <hr>
-                                            <div class="row">
-
-                                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <label class="form-label">Subsidairy</label>
-                                                        <select id="subsidairy" name="subsidairy" class="input-field ">
-                                                            <option value="yes">Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <label class="form-label"
-                                                            style="width:max-content;">Opening
-                                                            Date</label>
-                                                        <input type="date" name="opening_date" id="opening_date"
-                                                            class="input-field shakir_input"
-                                                            style=" border: 1px solid #ccc; width: 133px; outline: none; border-radius: 3px;">
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <label class="form-label sha" style="width:max-content">Interest
-                                                            Rate</label>
-                                                        <input type="number" id="interest_rate" name="interest_rate"
-                                                            class="input-field">
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <label class="form-label">Penal Rate</label>
-                                                        <input type="number" id="penal_rate" name="penal_rate"
-                                                            class="input-field">
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <label class="form-label">Send SMS</label>
-                                                        <select id="sms" name="sms" class="input-field">
-                                                            <option value="yes">Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <label class="form-label">CD Ratio</label>
-                                                        <select id="cd_ratio" name="cd_ratio" class="input-field">
-                                                            <option value="yes">Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-
-                                            </div>
+                <main>
+                    <!-- Cash Book PL And Balance Sheet -->
+                    <div class="page-body">
+                        <!-- Container-fluid starts-->
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card card-body">
+                                        <div class="card-header">
+                                            <center>
+                                                <h4 style="color:#7a70ba"> Cash Book PL And Balance Sheet</h4>
+                                            </center>
                                         </div>
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="row">
+                                        <form>
+                                            <div class="row mt-2">
+                                                <!-- Left Side -->
+                                                <div class="col-lg-5 col-md-5 firstblock">
+                                                    <div style="">
 
-                                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <label class="form-label">Schedule</label>
-                                                        <select id="schedule" name="schedule"
-                                                            class="input-field shakir_side" required">
-                                                            <option></option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <label class="form-label">Group</label>
-                                                        <select id="group" name="group" class="input-field shakir_side">
-                                                            <option value="deposite">Deposite</option>
-                                                            <option value="loan">Loan</option>
-                                                            <option value="bank">Bank</option>
-                                                            <option value="genral">Genral</option>
-                                                            <option value="fund">Fund</option>
-                                                            <option value="share">Share</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <label class="form-label">Type
-                                                        </label>
-                                                        <select id="type" name="type" class="input-field shakir_side">
-                                                            <option value="Select">--- Select ---</option>
-                                                            <option value="saving deposits">SAVING DEPOSITS</option>
-                                                            <option value="pigmy deposits">PIGMY DEPOSITS</option>
-                                                            <option value="recurring deposits">RECURRING DEPOSITS
-                                                            </option>
-                                                            <option value="fixed deposits">FIXED DEPOSITS</option>
-                                                            <option value="current deposits">CURRENT DEPOSITS</option>
-                                                            <option value="call deposits">CALL DEPOSITS</option>
-                                                            <option value="locker type">LOCKER TYPE</option>
-                                                            <option value="sukanya yojana">SUKANYA YOJANA</option>
+                                                        <!--2nd-->
+                                                        <div class="row">
+                                                            <div class="col-lg-6 col-md-12 col-6">
+                                                                <div class="form-group shakir_flex">
 
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <label class="form-label">Int. Type</label>
-                                                        <select id="int_type" name="int_type"
-                                                            class="input-field shakir_side">
-                                                            <option value="Select">--- Select ---</option>
-                                                            <option value="saving deposit monthly">Saving Deposit
-                                                                Monthly</option>
-                                                            <option value="saving deposit">Saving Deposit</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <label class="form-label">Item Of</label>
-                                                        <select id="item_of" name="item_of"
-                                                            class="input-field shakir_side">
-                                                            <option value="asset">Asset</option>
-                                                            <option value="liabilities">Liabilities</option>
-                                                            <option value="tncome">Income</option>
-                                                            <option value="expenditure">Expenditure</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <label class="form-label" style="width:max-content">Add Int. to
-                                                            Balance</label>
-                                                        <select id="add_int_to_balance" name="add_int_to_balance"
-                                                            class="input-field shakir_side">
-                                                            <option value="yes">Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
 
-                                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <label class="form-label" style="width:max-content">Agent wise
-                                                            Ac No.</label>
-                                                        <select id="agent_wise_account_no" name="agent_wise_account_no"
-                                                            class="input-field shakir_side">
-                                                            <option value="yes">Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
+                                                                    <label class="form-label">Date</label>
+                                                                    <input type="date" id="date" value="2024-10-31">
+                                                                </div>
+                                                            </div>
+
+                                                            <div
+                                                                class="col-lg-6 col-md-6 col-6 radiobutton  firstblock">
+                                                                <div class="row sss">
+                                                                    <!--<div class="col-md-1"></div>-->
+                                                                    <div class="col-lg-6 col-md-5  col-12 shakir_flex">
+                                                                        <div class="form-check"
+                                                                            style="float: inline-end;">
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="flexRadioDefault"
+                                                                                id="flexRadioDefault1"
+                                                                                style="border-color:black">
+                                                                            <label class="form-check-label"
+                                                                                for="flexRadioDefault1">English</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6 col-md-5  col-12 shakir_flex">
+                                                                        <div class="form-check"
+                                                                            style="float: inline-end;">
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="flexRadioDefault"
+                                                                                id="flexRadioDefault1"
+                                                                                style="border-color:black">
+                                                                            <label class="form-check-label"
+                                                                                for="flexRadioDefault1">Marathi</label>
+                                                                        </div>
+                                                                    </div>
+
+
+                                                                </div>
+                                                                <!--  -->
+
+                                                            </div>
+                                                            <!--  <div class="col-lg-4 col-md-6 col-6">-->
+                                                            <!--</div>-->
+                                                        </div>
+
                                                     </div>
                                                 </div>
+                                                <!-- Right Side -->
+                                                <div class="col-lg-7 col-md-7 firstblock firstblock-adj"
+                                                    style="padding-left: 0px !important;">
+                                                    <div class="row">
+                                                        <!-- <div class="col-lg-1"></div> -->
+                                                        <div class="col-lg-2 col-md-4 col-4 shakir_flex">
+                                                            <input type="submit"
+                                                                class="btn btn-success px-4 py-2 mb-3 mt-2" value="Ok"
+                                                                style="background-color: #0DA759; border-color: #0DA759; transform: translateZ(0);"
+                                                                class="ok">
+                                                        </div>
+                                                        <div class="col-lg-2 col-md-4 col-4 shakir_flex">
+                                                            <input type="submit"
+                                                                class="btn btn-warning px-4 py-2 mb-3 mt-2"
+                                                                value="Print"
+                                                                style="background-color: #D77748; border-color: #D77748; transform: translateZ(0);"
+                                                                class="print">
+                                                        </div>
+                                                        <div class="col-lg-2 col-md-4 col-4 shakir_flex">
+                                                            <input type="submit"
+                                                                class="btn btn-primary px-4 py-2 mb-3 mt-2"
+                                                                value="Excel"
+                                                                style="background-color: #7A70BA; border-color: #7A70BA; transform: translateZ(0);"
+                                                                class="">
+                                                        </div>
+                                                        <div class="col-lg-2 col-md-4 col-4 shakir_flex">
+                                                            <input type="submit"
+                                                                class="btn btn-dark px-4 py-2 mb-3 mt-2" value="PDF"
+                                                                style="background-color: #2c323f; border-color: #2c323f; transform: translateZ(0);"
+                                                                class="">
+                                                        </div>
+                                                        <div class="col-lg-2 col-md-4 col-4 shakir_flex">
+                                                            <input type="submit"
+                                                                class="btn btn-secondary px-4 py-2 mb-3 mt-2"
+                                                                value="Exit"
+                                                                style="background-color: #48A3D7; border-color: #48A3D7; transform: translateZ(0);"
+                                                                class="">
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <!--Last-->
+
+
 
                                             </div>
                                             <hr>
-                                            <div class="row">
-                                                <div class="col-lg-12 col-md-12 col-sm-12">
-                                                   <div class="form-group" style="display:flex !important;">
-                                                      <div class="row">
-                                                         <div class="col-lg-4 col-md-4">
-                                                            <label class="form-label Paid-paypainal" for="party-id" style="width:160px;">Paid / Received</label>
-                                                         </div>
-                                                         <div class="col-lg-3 col-md-3 col-5">
-                                                            <input type="number" id="paid_or_received_id" name="paid_or_received_id" class="input-field" style="width: max-content;">
-                                                         </div>
-                                                         <div class="col-lg-5 col-md-5 col-7">
-                                                            <input type="text" id="paid_or_received_text" name="paid_or_received_text" class="input-field">
-                                                         </div>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                
-                                                <div class="col-lg-12 col-md-12 col-12">
-                                                   <div class="form-group" style="display:flex !important;">
-                                                      <div class="row">
-                                                         <div class="col-lg-4 col-md-4">
-                                                            <label class="form-label Paid-paypainal" for="party-id" style="width:-webkit-fill-available;">Payable / Receivable</label>
-                                                         </div>
-                                                         <div class="col-lg-3 col-md-3 col-5">
-                                                            <input type="number" id="payable_or_receivable_id" name="payable_or_receivable_id" class="input-field" style="width: max-content;">
-                                                         </div>
-                                                         <div class="col-lg-5 col-md-5 col-7">
-                                                            <input type="text" id="payable_or_receivable_text" name="payable_or_receivable_text" class="input-field">
-                                                         </div>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <div class="col-lg-12 col-md-12 col-12">
-                                                   <div class="form-group" style="display:flex !important;">
-                                                      <div class="row">
-                                                         <div class="col-lg-4 col-md-4">
-                                                            <label class="form-label Paid-paypainal" for="party-id" style="width: -webkit-fill-available;">Penal Paid/ Received</label>
-                                                         </div>
-                                                         <div class="col-lg-3 col-md-3 col-5">
-                                                            <input type="number" id="penal_paid_or_received_id" name="penal_paid_or_received_id" class="input-field" style="width: max-content;">
-                                                         </div>
-                                                         <div class="col-lg-5 col-md-5 col-7">
-                                                            <input type="text" id="penal_paid_or_received_text" name="penal_paid_or_received_text" class="input-field">
-                                                         </div>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
+                                        </form>
+                                        <div class="row mt-3">
+                                            <div class="table-responsive theme-scrollbar">
+                                                <table class="display" id="row_create" style="width:100%">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>
+                                                                Sr. No.
+                                                                <i class="fa-solid fa-arrow-up"></i>
+                                                                <i class="fa-solid fa-arrow-down"></i>
+                                                            </th>
+                                                            <th>
+                                                                Cr Cash
+                                                                <i class="fa-solid fa-arrow-up"></i>
+                                                                <i class="fa-solid fa-arrow-down"></i>
+                                                            </th>
+                                                            <th>
+                                                                Cr Transfer
+                                                                <i class="fa-solid fa-arrow-up"></i>
+                                                                <i class="fa-solid fa-arrow-down"></i>
+                                                            </th>
+                                                            <th>
+                                                                Cr Total
+                                                                <i class="fa-solid fa-arrow-up"></i>
+                                                                <i class="fa-solid fa-arrow-down"></i>
+                                                            </th>
+                                                            <th>
+                                                                GLID
+                                                                <i class="fa-solid fa-arrow-up"></i>
+                                                                <i class="fa-solid fa-arrow-down"></i>
+                                                            </th>
+                                                            <th>
+                                                                Leger Name
+                                                                <i class="fa-solid fa-arrow-up"></i>
+                                                                <i class="fa-solid fa-arrow-down"></i>
+                                                            </th>
+                                                            <th>
+                                                                Db Cash
+                                                                <i class="fa-solid fa-arrow-up"></i>
+                                                                <i class="fa-solid fa-arrow-down"></i>
+                                                            </th>
+                                                            <th>
+                                                                Db Transfer
+                                                                <i class="fa-solid fa-arrow-up"></i>
+                                                                <i class="fa-solid fa-arrow-down"></i>
+                                                            </th>
+                                                            <th>
+                                                                Db Total
+                                                                <i class="fa-solid fa-arrow-up"></i>
+                                                                <i class="fa-solid fa-arrow-down"></i>
+                                                            </th>
 
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1 </td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <!-- <tr>
+                                                            <td>3 </td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>4</td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>5</td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>6</td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>7</td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>8</td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>9</td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>10</td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>11</td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>12</td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td> </td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr> -->
+
+                                                    </tbody>
+                                                    <!--<tfoot>-->
+                                                    <!--  <tr>-->
+                                                    <!--    <th>Employee Name</th>-->
+                                                    <!--    <th>Email</th>-->
+                                                    <!--    <th>Experience</th>-->
+                                                    <!--    <th>Sex</th>-->
+                                                    <!--    <th>Contact No.</th>-->
+                                                    <!--    <th>Salary</th>-->
+                                                    <!--  </tr>-->
+                                                    <!--</tfoot>-->
+                                                </table>
+                                            </div>
                                         </div>
-
+                                        <!--</div>-->
                                     </div>
-                                    <hr>
-
-                                    <!--button-->
-                                    <div class="row mt-4 mb-4 btn-adj"
-                                        style=" background: aliceblue;padding: 2% 0 2% 0;">
-                                        <div class="col-lg-2 col-md-2 "></div>
-
-                                        <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
-                                            <input type="submit" class="btn btn-success px-4 py-2" value="Save"
-                                                style="width:max-content;margin: 0 14px;">
-                                        </div>
-                                        <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
-                                            <input type="reset" class="btn btn-danger px-4 py-2" value="Reset"
-                                                style="width: max-content;margin: 0 14px;">
-                                        </div>
-                                        <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
-                                            <a id="listButton" data-bs-toggle="modal" data-bs-target="#label-pill-modal"
-                                                href="#">
-                                                <input type="submit" class="btn btn-warning px-4 py-2" value="List"
-                                                    style="width: max-content;margin: 0 14px;"></a>
-                                        </div>
-                                        <div class="col-lg-2 col-md-2 col-6" style="margin-bottom:6px">
-                                            <input type="submit" class="btn btn-info px-4 py-2" value="Delete"
-                                                style="width: max-content;margin: 0 14px;">
-                                        </div>
-
-                                    </div>
-                                </form>
+                                </div>
                             </div>
-                            <!--  -->
                         </div>
-                        <!--  -->
-
+                        <!-- Container-fluid Ends-->
                     </div>
-                </div>
-
-            </main>
-
+                </main>
+            </div>
         </div>
     </div>
 
-    <!--  -->
+
     <!--  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"

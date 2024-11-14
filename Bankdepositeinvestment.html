@@ -383,32 +383,27 @@
                         <span>Account Opening</span>
                     </a>
                     <ul id="auth" class="sidebar-dropdown list-unstyled collapse dropditem-o1"
-                    data-bs-parent="#sidebar">
-                    <li class="sidebar-item">
-                        <a href="./newcustomer.html" class="sidebar-link">New Customer</a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./share-opening.html" class="sidebar-link">Share Account Opening </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./deposite.html" class="sidebar-link">Deposite Account Opening </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./Loanaccountopening.html" class="sidebar-link">Deposite Account Opening </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./GeneralAccountOpening.html" class="sidebar-link">General Account Opening </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="./smallsavingpigmyap.html" class="sidebar-link">Small Saving/Pigmy </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">Nominal Member</a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">Investment & Security</a>
-                    </li>
-                </ul>
+                        data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="./newcustomer.html" class="sidebar-link">New Customer</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./share-opening.html" class="sidebar-link">Share Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="./deposite.html" class="sidebar-link">Deposite Account Opening </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Small Saving/Pigmy </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nominal Member</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Investment & Security</a>
+                        </li>
+
+                    </ul>
                 </li>
 
 
@@ -691,72 +686,44 @@
                         <div class="card ">
                             <div class="card-header">
                                 <center>
-                                    <h4 style="color:#7a70ba">Share Account Opening </h4>
+                                    <h4 style="color:#7a70ba">Bank Deposite Investment
+                                    </h4>
                                 </center>
                             </div>
                             <div class="card-body">
-                                <form method="POST" action="" enctype="multipart/form-data">
+                                <form class="card-loan" method="POST" action="" enctype="multipart/form-data">
 
-                                    <div class="row" style="margin-bottom: -11px;">
+                                    <div class="row loan-ac-s1" style="margin-bottom: -11px;">
                                         <div class="col-lg-6 col-md-6"
                                             style="border-right: 1px solid #ccc;border-right-style: dashed;">
                                             <div class="form-group">
                                                 <label class="form-label">Ledger No </label>
                                                 <input type="text" class="input-field input-field01" name="balence"
-                                                    id="balence" required="">
-                                                <input type="text" class="input-field" name="balence" id="balence"
-                                                    required="">
+                                                    id="balence-ledg-ln" required="">
+                                                <input type="text" class="input-field" name="balence"
+                                                    id="balence-ledg-ln" required="">
                                             </div>
 
-                                            <div class="form-group">
-                                                <label class="form-label">Party Id </label>
-                                                <input type="text" class="input-field input-field01" name="Party-Id"
-                                                    id="balence" required="">
-                                                <input type="text" class="input-field" name="Party-Id" id="Party-Id"
-                                                    required="">
-                                            </div>
+
                                             <div class="form-group">
                                                 <label class="form-label">Account No </label>
-                                                <input type="text" class="input-field" name="Account-No" id="Account-No"
-                                                    required="">
+                                                <input type="text" class="input-field" name="Account-No"
+                                                    id="Account-No-acc" required="">
                                             </div>
                                         </div>
 
                                         <div class="col-lg-6 col-md-6">
                                             <div class="row">
                                                 <div class="col-lg-1 col-md-1"></div>
-                                                <div class="col-lg-5 col-md-5 col-6 lables-2ndl">
-                                                    <div class="form-group" style="display: block;">
-                                                        <center>
-                                                            <label class="form-label">Photo</label>
-                                                        </center>
-                                                        <input type="file" class="input-field-add-proof"
-                                                            name="upload_photo1" id="fileInputAdd"
-                                                            style="display:none;">
-                                                        <div class="preview-container-add-proof"
-                                                            id="previewContainerAddProof" style="cursor: pointer;">
-                                                            <span class="preview-text-id-proof"
-                                                                id="previewTextIDProof">Click to upload</span>
-
-                                                        </div>
-                                                    </div>
+                                                <div class="form-group">
+                                                    <label class="form-label">Party Id </label>
+                                                    <input type="text" class="input-field input-field01" name="Party-Id"
+                                                        id="balence-pty" required="">
+                                                    <input type="text" class="input-field" name="Party-Id"
+                                                        id="Party-Id-ln" required="">
                                                 </div>
-                                                <div class="col-lg-5 col-md-5 col-6 lables-2ndl">
-                                                    <div class="form-group" style="display: block;">
-                                                        <center>
-                                                            <label class="form-label">Sign</label>
-                                                        </center>
-                                                        <input type="file" class="input-field-add-proof"
-                                                            name="upload_photo1" id="fileInputAddsign"
-                                                            style="display:none;">
-                                                        <div class="preview-container-add-proof"
-                                                            id="previewContainerAddProofsign" style="cursor: pointer;">
-                                                            <span class="preview-text-id-proof"
-                                                                id="previewTextIDProof">Click to upload</span>
 
-                                                        </div>
-                                                    </div>
-                                                </div>
+
                                                 <div class="col-lg-1 col-md-1"></div>
                                             </div>
 
@@ -765,7 +732,7 @@
                                     <hr>
 
 
-                                    <div>
+                                    <div class="loan-ac-s1">
                                         <h4 style="font-size: 20px;font-weight: 600;letter-spacing: 0.6px;color:black;">
                                             Personal Details </h4>
                                         <br>
@@ -776,7 +743,9 @@
                                                     <div class="col-lg-12 col-md-12 col-sm-12">
                                                         <div class="form-group">
                                                             <label class="form-label">Name</label>
-                                                            <input type="text" class="input-field" name="Name" id="name_en"  oninput="translateField('name_en', 'name_mar')"
+                                                            <input type="text" class="input-field" name="Name"
+                                                                id="name_en_ln"
+                                                                oninput="translateField('name_en_ln', 'name_mar_ln')"
                                                                 required="">
                                                             <div data-lastpass-icon-root=""
                                                                 style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
@@ -786,8 +755,8 @@
                                                     <div class="col-lg-12 col-md-12 col-sm-12">
                                                         <div class="form-group">
                                                             <label class="form-label">नाव</label>
-                                                            <input type="text" class="input-field" name="name_mar"
-                                                                id="name_mar" required="">
+                                                            <input type="text" class="input-field" name="name_mar_ln"
+                                                                id="name_mar_ln" required="">
                                                             <div data-lastpass-icon-root=""
                                                                 style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
                                                             </div>
@@ -797,23 +766,23 @@
                                                     <div class="col-lg-4 col-md-6 col-sm-12">
                                                         <div class="form-group">
                                                             <label class="form-label">Age</label>
-                                                            <input type="number" id="age" class="input-field"
+                                                            <input type="number" id="age-ln" class="input-field"
                                                                 name="age">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-6 col-sm-12">
                                                         <div class="form-group">
                                                             <label class="form-label">Caste</label>
-                                                            <input type="text" id="category" class="input-field"
+                                                            <input type="text" id="category-ln" class="input-field"
                                                                 name="cast">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-6 col-sm-12">
                                                         <div class="form-group">
                                                             <label class="form-label">Gender</label>
-                                                            <input type="text" id="gender" class="input-field"
+                                                            <input type="text" id="gender-ln" class="input-field"
                                                                 name="gender">
-                                                            <!--<select id="gender" name="gender" class="input-field" >-->
+                                                            <!--<select id="gender-ln" name="gender" class="input-field" >-->
                                                             <!--    <option value="">---Select---</option>-->
                                                             <!--    <option value="Male">Male</option>-->
                                                             <!--    <option value="Female">Female</option>-->
@@ -824,24 +793,62 @@
                                                     <div class="col-lg-4 col-md-6 col-sm-12">
                                                         <div class="form-group">
                                                             <label class="form-label">Occupation</label>
-                                                            <input type="text" id="occupation" class="input-field"
+                                                            <input type="text" id="occupation-ln" class="input-field"
                                                                 name="occupation">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-6 col-sm-12">
                                                         <div class="form-group">
                                                             <label class="form-label">Phone No</label>
-                                                            <input type="number" id="phone_no" name="phone_number"
+                                                            <input type="number" id="phone_no_ln" name="phone_number"
                                                                 class="input-field">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-6 col-sm-12">
                                                         <div class="form-group">
                                                             <label class="form-label">Mobile No</label>
-                                                            <input type="number" id="mobile_no" name="mobile_number"
+                                                            <input type="number" id="mobile_no_ln" name="mobile_number"
                                                                 class="input-field">
                                                         </div>
                                                     </div>
+
+                                                </div>
+                                                <hr>
+
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Custom
+                                                                Ref</label>
+                                                            <input type="text" class="input-field input-field01"
+                                                                name="balence" id="balence" required="">
+                                                            <input type="text" class="input-field" name="balence"
+                                                                id="Custom_re_ln" required="">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="form-label">Dir
+                                                                Code </label>
+                                                            <input type="text" class="input-field input-field01"
+                                                                name="balence" id="diecode-ln" required="">
+                                                            <input type="text" class="input-field" name="balence"
+                                                                id="dircode-02" required="">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="form-label">Agent
+                                                                Code </label>
+                                                            <input type="text" class="input-field input-field01"
+                                                                name="balence" id="agentcode-ln" required="">
+                                                            <input type="text" class="input-field" name="balence"
+                                                                id="agentcode-02-ln" required="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 ch-cox">
+                                                        <input type="checkbox">
+                                                        <label for="checkbox">Close Flag</label>
+                                                        <input type="checkbox">
+                                                        <label for="checkbox"> Loss Asset Flag</label>
+                                                    </div>
+
 
                                                 </div>
 
@@ -855,18 +862,16 @@
                                                     <div class="col-lg-12 col-md-12 col-sm-12">
                                                         <div class="form-group">
                                                             <label class="form-label">Address</label>
-                                                            <input type="text" class="input-field"
-                                                             name="address_eng"
-                                                             oninput="translateField('address', 'address_hi')"
-
-                                                                id="address">
+                                                            <input type="text" class="input-field" name="address_eng"
+                                                                oninput="translateField('address_ln', 'address_hi_ln')"
+                                                                id="address_ln">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12 col-md-12 col-sm-12">
                                                         <div class="form-group">
                                                             <label class="form-label">पत्ता </label>
-                                                            <input type="text" class="input-field" name="address_mar"
-                                                                id="address_hi">
+                                                            <input type="text" class="input-field" name="address_mar_ln"
+                                                                id="address_hi_ln">
                                                             <div data-lastpass-icon-root=""
                                                                 style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
                                                             </div>
@@ -875,19 +880,45 @@
                                                     <div class="col-lg-6 col-md-12 col-sm-12">
                                                         <div class="form-group">
                                                             <label class="form-label">City </label>
-                                                            <input type="text" id="city" class="input-field"
+                                                            <input type="text" id="city-ln" class="input-field"
                                                                 name="city">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6 col-md-12 col-sm-12">
                                                         <div class="form-group">
                                                             <label class="form-label">State </label>
-                                                            <input type="text" id="state" class="input-field"
+                                                            <input type="text" id="state-ln" class="input-field"
                                                                 name="state">
                                                         </div>
                                                     </div>
-
                                                 </div>
+                                                <div class="row">
+                                                    <div class="col-lg-1 col-md-1"></div>
+                                                    <div class="col-lg-5 col-md-5 col-sm-12 photo-up-res">
+                                                        <label class="form-label">Photo</label>
+                                                        <input type="file" class="input-field1" name="photo"
+                                                            id="fileInput-ln01" style="display: none;">
+                                                        <div class="preview-container-ln" id="previewContainer-ln-01">
+                                                            <img id="imagePreview1" alt="Image Preview"
+                                                                style="display: none;">
+                                                            <span class="remove-btn" id="removeBtn1-ln01"
+                                                                style="display: none;">X</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-5 col-md-5 col-sm-12 photo-up-res">
+                                                        <label class="form-label">Sign</label>
+                                                        <input type="file" class="input-field1" name="sign"
+                                                            id="fileInput2-ln02" style="display: none;">
+                                                        <div class="preview-container-ln" id="previewContainer-ln02">
+                                                            <img id="imagePreview2" alt="Image Preview"
+                                                                style="display: none;">
+                                                            <span class="remove-btn" id="removeBtn-ln02"
+                                                                style="display: none;">X</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-1 col-md-1"></div>
+                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -931,199 +962,213 @@
 
                                                                 <div>
                                                                     <!--<h4 style="font-size: 20px;font-weight: 600;letter-spacing: 0.6px;color:black;">Personal Details </h4><br>-->
+
                                                                     <div class="row">
-                                                                        <div class="col-lg-6 col-md-7"
-                                                                            style="border-right: 1px solid #ccc;border-right-style: dashed;">
-                                                                            <div class="row">
-
-
-                                                                                <div
-                                                                                    class="col-lg-6 col-md-12 col-sm-6">
-                                                                                    <div class="form-group">
-                                                                                        <label class="form-label">Start
-                                                                                            Date</label>
-                                                                                        <input type="date"
-                                                                                            class="input-field"
-                                                                                            name="start_date"
-                                                                                            id="start_date"
-                                                                                            value="2024-09-23">
-                                                                                    </div>
+                                                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                                                                    <div class="row">
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label">Guarantor1</label>
+                                                                                            <select id="guarantor1" name="guarantor1" class="input-field" tabindex="Guarantor1" fdprocessedid="Guarantor1">
+                                                                                                <option value="">---Select---</option>
+                                                                                                <option value="Regular">Regular</option>
+                                                                                                <option value="Irregular">Irregular</option>
+                                                                                                <option value="Frequent">Frequent</option>
+                                                                                                <option value="Occasional">Occasional</option>
+                                                                                                <option value="New">New</option>
+                                                                                                <option value="None">None</option>
+                                                                                             </select>
+                                                                                             <input type="text" class="input-field" id="guarantor01-ln">
+                                                                                             <input type="text" class="input-field" id="guarantor02-ln">
+                                                                                        </div>
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label">Guarantor2`</label>
+                                                                                            <select id="guarantor1" name="guarantor1" class="input-field" tabindex="Guarantor1" fdprocessedid="Guarantor1">
+                                                                                                <option value="">---Select---</option>
+                                                                                                <option value="Regular">Regular</option>
+                                                                                                <option value="Irregular">Irregular</option>
+                                                                                                <option value="Frequent">Frequent</option>
+                                                                                                <option value="Occasional">Occasional</option>
+                                                                                                <option value="New">New</option>
+                                                                                                <option value="None">None</option>
+                                                                                             </select>
+                                                                                             <input type="text" class="input-field" id="guarantor01-ln">
+                                                                                             <input type="text" class="input-field" id="guarantor02-ln">
+                                                                                        </div>
+                                                                                        <div class="form-group">
+                                                                                            <label class="form-label">Guarantor3</label>
+                                                                                            <select id="guarantor1" name="guarantor1" class="input-field" tabindex="Guarantor1" fdprocessedid="Guarantor1">
+                                                                                                <option value="">---Select---</option>
+                                                                                                <option value="Regular">Regular</option>
+                                                                                                <option value="Irregular">Irregular</option>
+                                                                                                <option value="Frequent">Frequent</option>
+                                                                                                <option value="Occasional">Occasional</option>
+                                                                                                <option value="New">New</option>
+                                                                                                <option value="None">None</option>
+                                                                                             </select>
+                                                                                             <input type="text" class="input-field" id="guarantor01-ln">
+                                                                                             <input type="text" class="input-field" id="guarantor02-ln">
+                                                                                        </div>
                                                                                 </div>
-
-                                                                                <div
-                                                                                    class="col-lg-6 col-md-12 col-sm-6">
-                                                                                    <div class="form-group ">
-                                                                                        <label class="form-label">Open
-                                                                                            Balance</label>
-                                                                                        <input type="text"
-                                                                                            class="input-field"
-                                                                                            name="open_bal"
-                                                                                            id="open_bal" required="">
+                                                                               
+                                                                                <div class="row px-2">
+                                                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                                       <div class="row">
+                                                                                          <div class="form-group form-group-loan">
+                                                                                             <div class="col-lg-4 col-md-4 col-sm-3">
+                                                                                                <label class="form-label" style="width: max-content;">Sanction Amt. </label>
+                                                                                             </div>
+                                                                                             <div class="col-lg-8 col-md-8 col-sm-9">
+                                                                                                <input type="number" id="sanction_amt_ln" name="sanction_amt_ln" class="input-field" tabindex="10" fdprocessedid="65xuab_ln">
+                                                                                             </div>
+                                                                                          </div>
+                                                                                          <div class="form-group form-group-loan">
+                                                                                             <div class="col-lg-4 col-md-4 col-sm-3">
+                                                                                                <label class="form-label" style="width: max-content;">Interest Rate</label>
+                                                                                             </div>
+                                                                                             <div class="col-lg-8 col-md-8 col-sm-9">
+                                                                                                <input type="text" id="interest_rate_ln" name="interest_rate_ln" class="input-field" tabindex="13" fdprocessedid="c9z9w_ln">
+                                                                                             </div>
+                                                                                          </div>
+                                                                                          <div class="form-group form-group-loan">
+                                                                                             <div class="col-lg-4 col-md-4 col-sm-3">
+                                                                                                <label class="form-label" style="width: max-content;">Account Type </label>
+                                                                                             </div>
+                                                                                             <div class="col-lg-8 col-md-8 col-sm-9">
+                                                                                                <select id="account_type" name="account_type_ln" class="input-field" tabindex="16" fdprocessedid="8mro4_ln">
+                                                                                                   <option value="">---Select---</option>
+                                                                                                   <option value="Savings">Savings</option>
+                                                                                                   <option value="Current">Current</option>
+                                                                                                   <option value="Fixed deposit">Fixed Deposit</option>
+                                                                                                   <option value="Recurring deposit">Recurring Deposit</option>
+                                                                                                   <option value="Loan">Loan</option>
+                                                                                                   <option value="Demat">Demat</option>
+                                                                                                </select>
+                                                                                             </div>
+                                                                                          </div>
+                                                                                          
+                                                                                          <div class="form-group form-group-loan" style="">
+                                                                                             <div class="col-lg-12 col-md-12 col-sm-3">
+                                                                                                <label class="form-label">Installment Type</label>
+                                                                                             </div>
+                                                                                             <div class="col-lg-12 col-md-12 col-sm-9">
+                                                                                                <select id="intallment_type" name="intallment_type_ln" class="input-field" tabindex="19" fdprocessedid="hg10r9_ln">
+                                                                                                   <option value="">---Select---</option>
+                                                                                                   <option value="monthly">Monthly</option>
+                                                                                                   <option value="quarterly">Quarterly</option>
+                                                                                                   <option value="semi annual">Semi-Annual</option>
+                                                                                                   <option value="annual">Annual</option>
+                                                                                                   <option value="bi weekly">Bi-Weekly</option>
+                                                                                                   <option value="weekly">Weekly</option>
+                                                                                                   <option value="lump sum">Lump Sum</option>
+                                                                                                </select>
+                                                                                             </div>
+                                                                                          </div>
+                                                                                          
+                                                                                       </div>
                                                                                     </div>
-                                                                                </div>
-
-                                                                                <div
-                                                                                    class="col-lg-12 col-md-12 col-sm-6 ">
-                                                                                    <div class="form-group">
-                                                                                        <label
-                                                                                            class="form-label">Balance
-                                                                                        </label>
-                                                                                        <input type="text"
-                                                                                            class="input-field"
-                                                                                            name="balence" id="balence"
-                                                                                            required="">
+                                                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                                       <div class="row">
+                                                                                          <div class="form-group form-group-loan">
+                                                                                             <div class="col-lg-4 col-md-4 col-sm-3">
+                                                                                                <label class="form-label" style="width: max-content;">Open Date</label>
+                                                                                             </div>
+                                                                                             <div class="col-lg-8 col-md-8 col-sm-9">
+                                                                                                <input type="date" id="open_date_ln" name="open_date_ln" class="input-field" tabindex="11">
+                                                                                             </div>
+                                                                                          </div>
+                                                                                          
+                                                                                          <div class="form-group form-group-loan">
+                                                                                             <div class="col-lg-4 col-md-4 col-sm-3">
+                                                                                                <label class="form-label" style="width: max-content;">Open Bal</label>
+                                                                                             </div>
+                                                                                             <div class="col-lg-8 col-md-8 col-sm-9">
+                                                                                                <input type="number" id="open_bal_ln" name="open_bal" class="input-field" tabindex="14" fdprocessedid="so51qg_ln">
+                                                                                             </div>
+                                                                                          </div>
+                                                                                          <div class="form-group form-group-loan">
+                                                                                             <div class="col-lg-4 col-md-4 col-sm-3">
+                                                                                                <label class="form-label" style="width: max-content;">Purpose</label>
+                                                                                             </div>
+                                                                                             <div class="col-lg-8 col-md-8 col-sm-9">
+                                                                                                <select id="purpose_ln" name="purpose_ln" class="input-field" tabindex="17" fdprocessedid="9y4zy_ln">
+                                                                                                   <option value="">---Select---</option>
+                                                                                                   <option value="home loan">Home Loan</option>
+                                                                                                   <option value="auto loan">Auto Loan</option>
+                                                                                                   <option value="personal loan">Personal Loan</option>
+                                                                                                   <option value="education loan">Education Loan</option>
+                                                                                                   <option value="business loan">Business Loan</option>
+                                                                                                   <option value="debt consolidation">Debt Consolidation</option>
+                                                                                                   <option value="vacation loan">Vacation Loan</option>
+                                                                                                   <option value="medical loan">Medical Loan</option>
+                                                                                                   <option value="renovation loan">Renovation Loan</option>
+                                                                                                   <option value="wedding loan">Wedding Loan</option>
+                                                                                                   <option value="emergency loan">Emergency Loan</option>
+                                                                                                   <option value="investment loan">Investment Loan</option>
+                                                                                                   <option value="other">Other</option>
+                                                                                                </select>
+                                                                                             </div>
+                                                                                          </div>
+                                                                                          <div class="form-group form-group-loan">
+                                                                                                   <div class="col-lg-12 col-md-12 col-sm-3">
+                                                                                                      <label class="form-label">No. Of. Installment</label>
+                                                                                                   </div>
+                                                                                                   <div class="col-lg-12 col-md-12 col-sm-9">
+                                                                                                      <input id="no_of_installment_ln" name="no_of_installment_ln" class="input-field" fdprocessedid="bwwxsz_ln">
+                                                                                                                 
+                                                                                                   </div>
+                                                                                                </div>
+                                                                                          
+                                                                                       </div>
                                                                                     </div>
-                                                                                </div>
-
-                                                                            </div>
-
-                                                                            <div class="row">
-                                                                                <div
-                                                                                    class="col-lg-12 col-md-12 col-sm-12">
-                                                                                    <div class="form-group">
-                                                                                        <label class="form-label">Custom
-                                                                                            Ref</label>
-                                                                                        <input type="text"
-                                                                                            class="input-field input-field01"
-                                                                                            name="balence" id="balence"
-                                                                                            required="">
-                                                                                        <input type="text"
-                                                                                            class="input-field"
-                                                                                            name="balence" id="balence"
-                                                                                            required="">
+                                                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                                                                       <div class="row">   <div class="form-group form-group-loan">
+                                                                                             <div class="col-lg-4 col-md-4 col-sm-3">
+                                                                                                <label class="form-label" style="width: max-content;">Expiry Date</label>
+                                                                                             </div>
+                                                                                             <div class="col-lg-8 col-md-8 col-sm-9">
+                                                                                                <input type="date" id="expiry_date_ln" name="expiry_date_ln" class="input-field" tabindex="12_ln">
+                                                                                             </div>
+                                                                                          </div>
+                                                                                           
+                                                                                          <div class="form-group form-group-loan">
+                                                                                             <div class="col-lg-4 col-md-4 col-sm-3">
+                                                                                                <label class="form-label" style="width: max-content;">Send SMS</label>
+                                                                                             </div>
+                                                                                             <div class="col-lg-8 col-md-8 col-sm-9">
+                                                                                               <select id="is-joint-party_ln" name="sms_ln" class="input-field" tabindex="15" fdprocessedid="pust9_ln">
+                                                                                               <option value="No">No</option>
+                                                                                               <option value="Yes">Yes</option>
+                                                                                            </select>
+                                                                                             </div>
+                                                                                          </div>
+                                                                                          
+                                                                                          <div class="form-group form-group-loan">
+                                                                                             <div class="col-lg-4 col-md-4 col-sm-3">
+                                                                                                <label class="form-label" style="width: max-content;">Balance</label>
+                                                                                             </div>
+                                                                                             <div class="col-lg-8 col-md-8 col-sm-9">
+                                                                                                <input type="text" id="balance_ln2" name="balance_ln02" class="input-field" tabindex="18" fdprocessedid="ygh3sk_ln">
+                                                                                             </div>
+                                                                                          </div>
+                                                                                          <div class="form-group form-group-loan">
+                                                                                             <div class="col-lg-4 col-md-4 col-sm-3">
+                                                                                                <label class="form-label" style="width: max-content;">Priority</label>
+                                                                                             </div>
+                                                                                             <div class="col-lg-8 col-md-8 col-sm-9">
+                                                                                                <select id="priority_ln" name="priority_ln" class="input-field" tabindex="22" fdprocessedid="x1z0sn_ln">
+                                                                                                   <option value="">---Select---</option>
+                                                                                                   <option value="high">High</option>
+                                                                                                   <option value="medium">Medium</option>
+                                                                                                   <option value="low">Low</option>
+                                                                                                   <option value="urgent">Urgent</option>
+                                                                                                   <option value="non urgent">Non-Urgent</option>
+                                                                                                </select>
+                                                                                             </div>
+                                                                                          </div>
+                                                                                       </div>
                                                                                     </div>
-                                                                                    <div class="form-group">
-                                                                                        <label class="form-label">Dir
-                                                                                            Code </label>
-                                                                                        <input type="text"
-                                                                                            class="input-field input-field01"
-                                                                                            name="balence" id="balence"
-                                                                                            required="">
-                                                                                        <input type="text"
-                                                                                            class="input-field"
-                                                                                            name="balence" id="balence"
-                                                                                            required="">
-                                                                                    </div>
-                                                                                    <div class="form-group">
-                                                                                        <label class="form-label">Agent
-                                                                                            Code </label>
-                                                                                        <input type="text"
-                                                                                            class="input-field input-field01"
-                                                                                            name="balence" id="balence"
-                                                                                            required="">
-                                                                                        <input type="text"
-                                                                                            class="input-field"
-                                                                                            name="balence" id="balence"
-                                                                                            required="">
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="col-lg-6 col-md-5">
-                                                                            <div class="row">
-                                                                                <div
-                                                                                    class="col-lg-6 col-md-12 col-sm-6">
-                                                                                    <div class="form-group">
-                                                                                        <label class="form-label"
-                                                                                            style="width:max-content;">SMS</label>
-                                                                                        <select id="sms" name="sms"
-                                                                                            class="sms">--&gt;
-                                                                                            <option value="No">No
-                                                                                            </option>
-                                                                                            <option value="YES">Yes
-                                                                                            </option>
-                                                                                            <option value="No">No
-                                                                                            </option>
-
-                                                                                        </select>
-                                                                                    </div>
-                                                                                </div>
-
-                                                                                <!--<div class="col-lg-1 col-md-2"></div>-->
-                                                                                <div
-                                                                                    class="col-lg-6 col-md-12 col-sm-6  Close-lag-sec">
-                                                                                    <input type="hidden"
-                                                                                        name="close_flag" value="off">
-                                                                                    <input class="checkbox_animated"
-                                                                                        id="close_flag"
-                                                                                        name="close_flag"
-                                                                                        type="checkbox">
-                                                                                    <label class="form-label"
-                                                                                        for="closeFlag">Close Flag
-                                                                                    </label><br>
-                                                                                    <input type="hidden"
-                                                                                        name="stop_flag" value="off">
-                                                                                    <input class="checkbox_animated"
-                                                                                        name="stop_flag" id="stop_flag"
-                                                                                        type="checkbox">
-                                                                                    <label class="form-label"
-                                                                                        for="closeFlag">Stop Flag
-                                                                                    </label>
-                                                                                </div>
-                                                                                <div
-                                                                                    class="col-lg-6 col-md-12 col-sm-12">
-                                                                                    <div class="form-group">
-                                                                                        <label class="form-label"
-                                                                                            style="width: max-content;">Guarantor
-                                                                                            Limit Amt.</label>
-                                                                                        <input type="text"
-                                                                                            class="input-field"
-                                                                                            name="guarantor_limit_amt"
-                                                                                            id="guarantor_limit_amt">
-                                                                                    </div>
-                                                                                </div>
-
-
-                                                                                <!--<div class="col-lg-6 col-md-12 col-6">-->
-
-                                                                                <!--    <input class="checkbox_animated" id="closeFlag" type="checkbox">-->
-                                                                                <!--    <label class="form-label" for="closeFlag">Stop Flag </label>-->
-                                                                                <!--</div>-->
-                                                                                <div class="col-lg-6 col-md-12 col-12">
-                                                                                    <div class="form-group">
-                                                                                        <label class="form-label"
-                                                                                            style="width:fit-content;">No.of
-                                                                                            Guarantor Limit Amt.</label>
-                                                                                        <input type="text"
-                                                                                            class="input-field"
-                                                                                            name="no_of_guarantor_limit_amt"
-                                                                                            id="no_of_guarantor_limit_amt">
-                                                                                    </div>
-                                                                                </div>
-
-
-
-
-                                                                                <div
-                                                                                    class="col-lg-6 col-md-12 col-sm-6">
-                                                                                    <div class="form-group">
-                                                                                        <label class="form-label"
-                                                                                            style="width:max-content;">Dividend
-                                                                                            Date</label>
-                                                                                        <input type="date"
-                                                                                            class="input-field"
-                                                                                            id="divident_date"
-                                                                                            name="divident_date"
-                                                                                            value="2024-09-23">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div
-                                                                                    class="col-lg-6 col-md-12 col-sm-6">
-                                                                                    <div class="form-group">
-                                                                                        <label class="form-label"
-                                                                                            style="width: max-content;">Dividend
-                                                                                            Amount</label>
-                                                                                        <input type="text"
-                                                                                            class="input-field"
-                                                                                            id="divident_amount"
-                                                                                            name="divident_amount">
-                                                                                    </div>
-                                                                                </div>
-
-
-                                                                            </div>
-                                                                        </div>
+                                                                                 </div>
+                                                                         </div> 
                                                                     </div>
                                                                 </div>
 
@@ -1143,8 +1188,8 @@
                                                                                             Name</label>
                                                                                         <input type="text"
                                                                                             class="input-field form-control"
-                                                                                            id="nominee_name"
-                                                                                            name="nominee_name[]">
+                                                                                            id="nominee_name_ln"
+                                                                                            name="nominee_name_ln[]">
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="col-lg-2 col-md-2 col-sm-6">
@@ -1154,8 +1199,8 @@
                                                                                             style="width:max-content;">Age</label>
                                                                                         <input type="number"
                                                                                             class="input-field form-control"
-                                                                                            id="nominee_age"
-                                                                                            name="nominee_age[]"
+                                                                                            id="nominee_age_ln"
+                                                                                            name="nominee_age_ln[]"
                                                                                             style="font-size:14px">
                                                                                     </div>
                                                                                 </div>
@@ -1166,8 +1211,8 @@
                                                                                             style="width:max-content;">Address</label>
                                                                                         <input type="text"
                                                                                             class="input-field form-control"
-                                                                                            id="nominee_address"
-                                                                                            name="nominee_address[]">
+                                                                                            id="nominee_address_ln"
+                                                                                            name="nominee_address_ln[]">
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="col-lg-2 col-md-2 col-sm-6">
@@ -1175,8 +1220,8 @@
                                                                                         style="display:block;">
                                                                                         <label class="form-label"
                                                                                             style="width:max-content;">Gender</label>
-                                                                                        <select id="nominee_gender"
-                                                                                            name="nominee_gender[]"
+                                                                                        <select id="nominee_gender_ln"
+                                                                                            name="nominee_gender_ln[]"
                                                                                             class="input-field">
                                                                                             <option value="">
                                                                                                 ---Select---</option>
@@ -1194,8 +1239,8 @@
                                                                                         style="display:block;">
                                                                                         <label class="form-label"
                                                                                             style="width:max-content;">Relation</label>
-                                                                                        <select id="nominee_relation"
-                                                                                            name="nominee_relation[]"
+                                                                                        <select id="nominee_relation_ln"
+                                                                                            name="nominee_relation_ln[]"
                                                                                             class="input-field">
                                                                                             <option value="">
                                                                                                 ---Select---</option>
@@ -1223,11 +1268,14 @@
                                                                             <div id="nominee-container">
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-lg-1 col-md-1 col-12 d-flex align-items-center share-cst-buttons">
+                                                                        <div
+                                                                            class="col-lg-1 col-md-1 col-12 d-flex align-items-center share-cst-buttons">
                                                                             <!-- Plus button -->
-                                                                            <span class="btn btn-primary add-row" style="color:white; margin: 2px;">+</span>
+                                                                            <span class="btn btn-primary add-row"
+                                                                                style="color:white; margin: 2px;">+</span>
                                                                             <!-- Minus button -->
-                                                                            <span class="btn btn-danger remove-row" style="color:white; margin: 2px;">-</span>
+                                                                            <span class="btn btn-danger remove-row"
+                                                                                style="color:white; margin: 2px;">-</span>
                                                                         </div>
 
                                                                     </div>
@@ -1239,22 +1287,24 @@
                                                                 aria-labelledby="kyc">
 
                                                                 <div class="row">
-                                                                    <div class="col-lg-4 col-md-4 col-sm-12 kyc-detail-padding">
+                                                                    <div
+                                                                        class="col-lg-4 col-md-4 col-sm-12 kyc-detail-padding">
                                                                         <div class="row">
-                                                                            <div class="col-lg-6 col-md-6 col-sm-6" id="unique">
+                                                                            <div class="col-lg-6 col-md-6 col-sm-6"
+                                                                                id="unique">
 
                                                                                 <input type="file"
                                                                                     class="input-field-add-proof"
-                                                                                    id="fileInputProof1"
+                                                                                    id="fileInputProof1-ln"
                                                                                     name="nominee_upload_photo">
                                                                                 <input type="file"
                                                                                     class="input-field-add-proof"
                                                                                     id="fileInputAdd1"
-                                                                                    name="nominee_upload_photo1">
-                                                                                <div class="preview-container-proof1"
-                                                                                    id="previewContainerProof4"> 
+                                                                                    name="nominee_upload_photo1-ln">
+                                                                                <div class="preview-container-proof1-ln"
+                                                                                    id="previewContainerProof4-ln">
                                                                                     <span class="preview-text-proof1"
-                                                                                        id="previewTextProof1">Click to
+                                                                                        id="previewTextProof1-ln">Click to
                                                                                         upload</span>
 
                                                                                 </div>
@@ -1265,16 +1315,16 @@
 
                                                                                 <input type="file"
                                                                                     class="input-field-add-proof"
-                                                                                    id="fileInputProof2"
+                                                                                    id="fileInputProof2-ln"
                                                                                     name="nominee_upload_sign">
                                                                                 <input type="hidden"
                                                                                     class="input-field-add-proof"
-                                                                                    id="fileInputID2"
+                                                                                    id="fileInputID2-ln"
                                                                                     name="nominee_upload_sign1">
                                                                                 <div class="preview-container-proof2"
-                                                                                    id="previewContainerProof2">
+                                                                                    id="previewContainerProof2-ln">
                                                                                     <span class="preview-text-proof1"
-                                                                                        id="previewTextProof1">Click to
+                                                                                        id="previewTextProof1-ln">Click to
                                                                                         upload</span>
                                                                                 </div>
                                                                                 <center><label class="form-label">Upload
@@ -1290,7 +1340,8 @@
                                                                                         class="col-lg-12 col-md-12 col-sm-12">
                                                                                         <div class="form-group"
                                                                                             style="display: block !important;text-align: center;">
-                                                                                            <label class="form-label form-label-ms"
+                                                                                            <label
+                                                                                                class="form-label form-label-ms"
                                                                                                 style="margin-right: unset;width: -webkit-fill-available; text-align: center;">Select
                                                                                                 Address Proof</label>
                                                                                             <br>
@@ -1409,7 +1460,8 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="col-lg-4 col-md-4 col-sm-12 kyc-detail-padding ">
+                                                                    <div
+                                                                        class="col-lg-4 col-md-4 col-sm-12 kyc-detail-padding ">
                                                                         <div class="row">
                                                                             <div class="col-lg-6 col-md-6 col-sm-6">
                                                                                 <input type="file"
@@ -1462,40 +1514,46 @@
 
 
 
+
                                     <!--button-->
                                     <div class="row mt-4 mb-4 btn-adj "
                                         style=" background: aliceblue;padding: 2% 0 2% 0;">
                                         <!--<div class="col-lg-2 col-md-2"></div>-->
 
-                                        <div class="col-lg-2 col-md-2 col-sm-6 share-ac-buttons" style="margin-bottom:6px;">
+                                        <div class="col-lg-2 col-md-2 col-sm-3 share-ac-buttons"
+                                            style="margin-bottom:6px;">
                                             <input type="submit" class="btn btn-success px-4 py-2" value="Save"
                                                 style="margin: 0 14px;">
                                         </div>
-                                        <div class="col-lg-2 col-md-2 col-sm-6 share-ac-buttons" style="margin-bottom:6px">
+                                        <div class="col-lg-2 col-md-2 col-sm-3 share-ac-buttons"
+                                            style="margin-bottom:6px">
                                             <input type="reset" class="btn btn-danger px-4 py-2" value="Reset"
                                                 style="margin: 0 14px;">
                                         </div>
-                                        <div class="col-lg-2 col-md-2 col-sm-6 share-ac-buttons" style="margin-bottom:6px">
+                                        <div class="col-lg-2 col-md-2 col-sm-3 share-ac-buttons"
+                                            style="margin-bottom:6px">
                                             <input type="submit" class="btn btn-primary px-4 py-2" value="Print"
                                                 style="margin: 0 14px;">
                                         </div>
-                                        <div class="col-lg-2 col-md-2 col-sm-6 share-ac-buttons" style="margin-bottom:6px">
+                                        <div class="col-lg-2 col-md-2 col-sm-3 share-ac-buttons"
+                                            style="margin-bottom:6px">
                                             <input type="submit" class="btn btn-dark px-4 py-2" value="PDF"
                                                 style="margin: 0 14px;">
                                         </div>
-                                        <div class="col-lg-2 col-md-2 col-sm-6 share-ac-buttons" style="margin-bottom:6px">
+                                        <div class="col-lg-2 col-md-2 col-sm-3 share-ac-buttons"
+                                            style="margin-bottom:6px">
                                             <a class="btn btn-warning px-4 py-2" id="listButton" data-bs-toggle="modal"
                                                 data-bs-target="#label-pill-modal" href="#"
                                                 style="margin: 0 14px;">List</a>
                                             <!--<input type="submit" class="btn btn-warning px-4 py-2" value="List" style="margin: 0 14px;">-->
                                         </div>
-                                        <div class="col-lg-2 col-md-2 col-sm-6 share-ac-buttons" style="margin-bottom:6px">
-                                            <input type="submit" class="btn btn-info px-4 py-2" value="Delete"
-                                                style="margin: 0 14px;">
+                                        <div class="col-lg-2 col-md-2 col-sm-3 share-ac-buttons"
+                                            style="margin-bottom:6px">
+                                            <input type="submit" class="btn btn-info px-4 py-2" value="Delete">
                                         </div>
 
                                     </div>
-                                    <div id="error-message" style="color: red; margin-top: 10px;"></div>
+                                    <div id="error-message_ln" style="color: red; margin-top: 10px;"></div>
 
                                 </form>
                             </div>
